@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zumaline Consumer Goods — Commercial Performance Dashboard</title>
+<meta name="description" content="FY2026 YTD commercial performance dashboard — revenue, margin, volume and budget attainment by zone, product line and channel.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2300754F'/%3E%3Ctext x='16' y='23' font-family='Segoe UI,Arial' font-size='19' font-weight='800' fill='%23fff' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<script src="js/d3.min.js"></script>
+<style>
+html,body { margin:0; padding:0; background:#EDF0F3; }
+.dash-skeleton { position:relative; color:transparent !important; }
+.dash-skeleton::after { content:""; position:absolute; inset:2px 0; border-radius:4px; background:linear-gradient(90deg,#E6EAEF 25%,#F3F5F8 50%,#E6EAEF 75%); background-size:200% 100%; animation:zxsh 1.2s infinite linear; }
+@keyframes zxsh { to { background-position:-200% 0; } }
+.zx-tile[id] .zx-chart.dash-skeleton::after { inset:8px 0; }
+</style>
+<script>
+// Minimal runtime: loads the CSV, runs the calculations and redraws on filter / resize.
+window.dash = (function () {
+  const calcs = {}, draws = [], ons = [];
+  let params = { zone: '', line: '', channel: '' }, raw = [], status = 'loading', cache = {};
+  const api = {
+    calc(id, def) { calcs[id] = def; },
+    data(id) {
+      if (id === 'sales') return { status, data: raw };
+      const c = calcs[id];
+      if (!c) return { status: 'missing', data: null };
+      if (status !== 'ok') return { status, data: null };
+      if (!(id in cache)) cache[id] = c.fn(...c.inputs.map((i) => api.data(i).data));
+      return { status: 'ok', data: cache[id] };
+    },
+    draw(name, fn) { draws.push([name, fn]); },
+    onData(fn) { ons.push(fn); try { fn(); } catch (e) { console.error(e); } },
+    params() { return { ...params }; },
+    setParams(p) { Object.assign(params, p); render(); },
+    resetParams() { params = { zone: '', line: '', channel: '' }; render(); }
+  };
+  function render() {
+    cache = {};
+    ons.forEach((f) => { try { f(); } catch (e) { console.error(e); } });
+    draws.forEach(([name, fn]) => document.querySelectorAll(`[data-draw="${name}"]`).forEach((el) => { try { fn(el); } catch (e) { console.error(name, e); } }));
+  }
+  api._start = function () {
+    render();
+    d3.csv('data/zumaline_sales_2025_2026.csv').then((rows) => { raw = rows; status = 'ok'; render(); })
+      .catch((e) => { console.error(e); status = 'error'; render(); });
+    let w = window.innerWidth, t;
+    window.addEventListener('resize', () => { if (window.innerWidth === w) return; w = window.innerWidth; clearTimeout(t); t = setTimeout(render, 120); });
+  };
+  return api;
+})();
+</script>
+</head>
+<body>
+<div id="dash-root">
+<style>
+#dash-root { --dash-gutter: 0; }
+.zx { --bg:#EDF0F3; --tile:#FFFFFF; --ink:#14213D; --sub:#5B6474; --line:#E1E5EB;
+  --em:#00754F; --em2:#00A36C; --navy:#0B2545; --gold:#D4A017; --coral:#E4572E; --teal:#2A9D8F; --plum:#5E3C99;
+  --good:#0F8A4F; --bad:#C8342B;
+  font-family:"Segoe UI","Segoe UI Web",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif; color:var(--ink); background:var(--bg); min-height:100%; }
+.zx * { box-sizing:border-box; }
+.zx-bar { position:relative; overflow:hidden; background:linear-gradient(115deg,#04362A 0%,#00563D 45%,#0B2545 100%); color:#fff; padding:20px 28px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.zx-bar::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4px; background:linear-gradient(90deg,var(--gold),#F1C75B 50%,var(--gold)); }
+.zx-bar::before { content:""; position:absolute; right:-60px; top:-80px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle,rgba(212,160,23,.18),rgba(212,160,23,0) 70%); }
+.zx-logo { width:46px; height:46px; border-radius:10px; background:#fff; display:grid; place-items:center; flex:none; box-shadow:0 2px 8px rgba(0,0,0,.25); position:relative; }
+.zx-logo b { font-size:22px; font-weight:800; color:var(--em); letter-spacing:-.04em; }
+.zx-logo i { position:absolute; right:6px; bottom:6px; width:8px; height:8px; border-radius:50%; background:var(--gold); }
+.zx-titles { flex:1 1 280px; min-width:0; position:relative; }
+.zx-eyebrow { font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#BFE3D4; font-weight:600; }
+.zx-title { font-size:25px; font-weight:600; margin:3px 0 2px; letter-spacing:-.01em; color:#fff; }
+.zx-hq { font-size:12px; color:#CFE0F5; }
+.zx-meta { position:relative; display:flex; gap:10px; flex-wrap:wrap; }
+.zx-badge { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18); border-radius:6px; padding:6px 10px; font-size:11px; color:#D6E4F5; line-height:1.35; }
+.zx-badge b { display:block; color:#fff; font-size:13px; font-weight:600; }
+.zx-body { padding:18px 24px 26px; }
+.zx-take { font-size:15px; line-height:1.6; margin:0 0 16px; color:var(--ink); max-width:1180px; border-left:4px solid var(--gold); background:var(--tile); padding:12px 16px; border-radius:0 6px 6px 0; box-shadow:0 1px 2px rgba(16,24,40,.05); }
+.zx-take b { font-weight:600; }
+.zx-take .up { color:var(--good); font-weight:600; } .zx-take .down { color:var(--bad); font-weight:600; }
+.zx-slicers { display:flex; flex-wrap:wrap; gap:14px 26px; align-items:flex-end; background:var(--tile); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin-bottom:14px; box-shadow:0 1px 2px rgba(16,24,40,.05); }
+.zx-slabel { font-size:10.5px; font-weight:700; color:var(--sub); text-transform:uppercase; letter-spacing:.1em; margin-bottom:6px; }
+.zx-chips { display:flex; flex-wrap:wrap; gap:6px; }
+.zx-chip { font:inherit; font-size:12.5px; border:1px solid #CBD2DC; background:#fff; color:var(--ink); padding:5px 11px; border-radius:4px; cursor:pointer; transition:background .15s,border-color .15s,color .15s; }
+.zx-chip:hover { border-color:var(--em); color:var(--em); }
+.zx-chip.on { background:var(--em); color:#fff; border-color:var(--em); }
+.zx-reset { margin-left:auto; font:inherit; font-size:12.5px; font-weight:600; background:none; border:1px solid transparent; border-radius:4px; color:var(--em); cursor:pointer; padding:5px 8px; }
+.zx-reset:hover { border-color:var(--em); }
+.zx-kpis { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px; margin-bottom:14px; }
+@media (max-width:1100px){ .zx-kpis { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:700px){ .zx-kpis { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:440px){ .zx-kpis { grid-template-columns:minmax(0,1fr); } }
+.zx-grid { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:14px; }
+.zx-tile { background:var(--tile); border:1px solid var(--line); border-radius:8px; padding:14px 16px 12px; box-shadow:0 1px 2px rgba(16,24,40,.05),0 2px 6px rgba(16,24,40,.03); min-width:0; position:relative; }
+.s4 { grid-column:span 4; } .s5 { grid-column:span 5; } .s7 { grid-column:span 7; } .s8 { grid-column:span 8; } .s12 { grid-column:span 12; }
+@media (max-width:1100px){ .s4 { grid-column:span 6; } .s5,.s7,.s8 { grid-column:span 12; } }
+@media (max-width:760px){ .s4 { grid-column:span 12; } }
+@media (max-width:560px){ .zx-bar { padding:16px; } .zx-body { padding:14px 12px 22px; } }
+.zx-h { font-size:14px; font-weight:600; margin:0 0 2px; color:var(--ink); }
+.zx-sub { font-size:11.5px; color:var(--sub); margin:0 0 8px; }
+.zx-kpi { padding:14px 16px 10px; overflow:hidden; }
+.zx-kpi::before { content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--em); border-radius:8px 0 0 8px; }
+.zx-kpi.k2::before { background:var(--navy); } .zx-kpi.k3::before { background:var(--gold); } .zx-kpi.k4::before { background:var(--teal); } .zx-kpi.k5::before { background:var(--plum); }
+.zx-klabel { font-size:11px; font-weight:700; color:var(--sub); text-transform:uppercase; letter-spacing:.08em; }
+.zx-kval { font-size:30px; font-weight:600; letter-spacing:-.02em; margin:6px 0 2px; font-variant-numeric:tabular-nums; line-height:1.1; min-height:34px; white-space:nowrap; }
+.zx-kdelta { font-size:12px; color:var(--sub); font-variant-numeric:tabular-nums; min-height:17px; }
+.zx-kdelta b { font-weight:600; }
+.zx-kdelta .up { color:var(--good); } .zx-kdelta .down { color:var(--bad); }
+.zx-spark { height:38px; margin-top:6px; }
+.zx-spark svg { display:block; width:100%; }
+.zx-legend { display:flex; flex-wrap:wrap; gap:4px 16px; font-size:11.5px; color:var(--sub); margin:0 0 4px; }
+.zx-legend span { display:inline-flex; align-items:center; gap:6px; }
+.zx-sw { width:10px; height:10px; border-radius:2px; display:inline-block; flex:none; }
+.zx-sw.line { height:3px; }
+.zx-sw.dash { height:0; border-top:2px dashed var(--gold); width:14px; background:none; }
+.zx-chart { position:relative; min-height:290px; }
+.zx-chart.short { min-height:250px; }
+.zx-chart svg { display:block; width:100%; overflow:visible; }
+.zx-chart text { font-family:inherit; }
+.zx-chart .tick text { fill:#5B6474; font-size:11px; }
+.zx-chart .tick line { stroke:#E9ECF1; }
+.zx-chart .domain { display:none; }
+.zx-tip { position:absolute; pointer-events:none; background:#fff; border:1px solid #D5DBE3; box-shadow:0 8px 22px rgba(16,24,40,.16); border-radius:6px; padding:8px 11px; font-size:12px; line-height:1.55; color:var(--ink); white-space:nowrap; opacity:0; transition:opacity .1s; z-index:5; }
+.zx-tip b { font-weight:600; }
+.zx-tip .row { display:flex; justify-content:space-between; gap:18px; font-variant-numeric:tabular-nums; }
+.zx-err { color:var(--bad); font-size:13px; padding:20px 0; }
+.zx-donut-wrap { display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:center; }
+.zx-dlegend { list-style:none; margin:0; padding:0; flex:1 1 170px; font-size:12.5px; }
+.zx-dlegend li { display:grid; grid-template-columns:12px 1fr auto auto; gap:8px; align-items:center; padding:6px 4px; border-bottom:1px solid #F0F2F5; cursor:pointer; }
+.zx-dlegend li:hover { background:#F3F8F6; }
+.zx-dlegend .v { font-variant-numeric:tabular-nums; font-weight:600; }
+.zx-dlegend .p { font-variant-numeric:tabular-nums; color:var(--sub); min-width:42px; text-align:right; }
+.zx-gfoot { display:flex; justify-content:space-between; gap:10px; font-size:12px; color:var(--sub); font-variant-numeric:tabular-nums; border-top:1px solid #F0F2F5; padding-top:8px; }
+.zx-gfoot b { color:var(--ink); font-weight:600; }
+.zx-tablewrap { overflow-x:auto; }
+.zx-table { width:100%; border-collapse:collapse; font-size:13px; font-variant-numeric:tabular-nums; min-width:560px; }
+.zx-table th { text-align:right; font-size:11px; font-weight:600; letter-spacing:.03em; color:#fff; background:var(--navy); padding:9px 12px; white-space:nowrap; }
+.zx-table th:first-child { border-radius:6px 0 0 0; } .zx-table th:last-child { border-radius:0 6px 0 0; }
+.zx-table th:first-child, .zx-table td:first-child { text-align:left; }
+.zx-table td { text-align:right; padding:9px 12px; border-bottom:1px solid #EDF0F4; white-space:nowrap; }
+.zx-table tbody tr:nth-child(even) td { background:#F8FAFB; }
+.zx-table tbody tr { cursor:pointer; }
+.zx-table tbody tr:hover td { background:#E8F4EF; }
+.zx-table .up { color:var(--good); font-weight:600; } .zx-table .down { color:var(--bad); font-weight:600; }
+.zx-pill { display:inline-block; min-width:60px; text-align:center; padding:2px 8px; border-radius:10px; font-weight:600; font-size:12px; }
+.zx-foot { font-size:11.5px; color:var(--sub); margin-top:14px; line-height:1.5; }
+@media print { .zx-reset { display:none; } }
+</style>
+
+
+<div class="zx">
+  <header class="zx-bar" id="header">
+    <div class="zx-logo" aria-hidden="true"><b>Z</b><i></i></div>
+    <div class="zx-titles">
+      <div class="zx-eyebrow">Zumaline Consumer Goods Ltd · Board Briefing</div>
+      <h1 class="zx-title">Commercial Performance Dashboard — FY2026 YTD</h1>
+      <div class="zx-hq">Head office: Central Business District, Abuja, FCT · Nationwide FMCG distribution</div>
+    </div>
+    <div class="zx-meta">
+      <div class="zx-badge">Period<b>Jan – Oct 2026</b></div>
+      <div class="zx-badge">Compared with<b>Jan – Oct 2025</b></div>
+      <div class="zx-badge">Currency<b>Nigerian naira (₦)</b></div>
+    </div>
+  </header>
+
+  <div class="zx-body">
+    <p class="zx-take" id="takeaway">Revenue reached <b data-draw="t-rev" data-source="kpi" data-field="revenue" data-row="0" class="dash-skeleton">—</b> year to date, <span data-draw="t-yoy" data-source="kpi" data-field="revenue_yoy" data-row="0" class="dash-skeleton">—</span> on last year, and stands at <b data-draw="t-att" data-source="kpi" data-field="attainment" data-row="0" class="dash-skeleton">—</b> of budget. Volumes grew <b data-draw="t-vol" data-source="kpi" data-field="cartons_yoy" data-row="0" class="dash-skeleton">—</b>, so price and mix delivered <b data-draw="t-price" data-source="kpi" data-field="price_share" data-row="0" class="dash-skeleton">—</b> of the gain, while gross margin moved <b data-draw="t-gm" data-source="kpi" data-field="margin_change_pts" data-row="0" class="dash-skeleton">—</b> points. <b data-draw="t-lead" data-source="zones" data-field="zone" data-row="0" class="dash-skeleton">—</b> is the largest zone in this view.</p>
+
+    <div class="zx-slicers" id="slicers">
+      <div>
+        <div class="zx-slabel">Sales zone</div>
+        <div class="zx-chips">
+          <button type="button" class="zx-chip on" data-param="zone" data-value="" aria-pressed="true">All</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="FCT Abuja" aria-pressed="false">FCT Abuja</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="North Central" aria-pressed="false">North Central</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="North West" aria-pressed="false">North West</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="North East" aria-pressed="false">North East</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="South West" aria-pressed="false">South West</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="South South" aria-pressed="false">South South</button>
+          <button type="button" class="zx-chip" data-param="zone" data-value="South East" aria-pressed="false">South East</button>
+        </div>
+      </div>
+      <div>
+        <div class="zx-slabel">Product line</div>
+        <div class="zx-chips">
+          <button type="button" class="zx-chip on" data-param="line" data-value="" aria-pressed="true">All</button>
+          <button type="button" class="zx-chip" data-param="line" data-value="Beverages" aria-pressed="false">Beverages</button>
+          <button type="button" class="zx-chip" data-param="line" data-value="Packaged Foods" aria-pressed="false">Packaged Foods</button>
+          <button type="button" class="zx-chip" data-param="line" data-value="Personal Care" aria-pressed="false">Personal Care</button>
+          <button type="button" class="zx-chip" data-param="line" data-value="Home Care" aria-pressed="false">Home Care</button>
+        </div>
+      </div>
+      <div>
+        <div class="zx-slabel">Channel</div>
+        <div class="zx-chips">
+          <button type="button" class="zx-chip on" data-param="channel" data-value="" aria-pressed="true">All</button>
+          <button type="button" class="zx-chip" data-param="channel" data-value="Open Market" aria-pressed="false">Open Market</button>
+          <button type="button" class="zx-chip" data-param="channel" data-value="Key Distributors" aria-pressed="false">Key Distributors</button>
+          <button type="button" class="zx-chip" data-param="channel" data-value="Modern Retail" aria-pressed="false">Modern Retail</button>
+          <button type="button" class="zx-chip" data-param="channel" data-value="E-commerce &amp; B2B Apps" aria-pressed="false">E-commerce &amp; B2B Apps</button>
+        </div>
+      </div>
+      <button type="button" class="zx-reset" id="reset">Clear filters</button>
+    </div>
+
+    <div class="zx-kpis">
+      <section class="zx-tile zx-kpi" id="kpi-revenue">
+        <div class="zx-klabel">Net revenue</div>
+        <div class="zx-kval dash-skeleton" data-draw="k-rev" data-source="kpi" data-field="revenue" data-row="0">—</div>
+        <div class="zx-kdelta"><b data-draw="k-rev-d" data-source="kpi" data-field="revenue_yoy" data-row="0">—</b> vs last year</div>
+        <div class="zx-spark" data-draw="sp-rev" data-source="monthly"></div>
+      </section>
+      <section class="zx-tile zx-kpi k2" id="kpi-profit">
+        <div class="zx-klabel">Gross profit</div>
+        <div class="zx-kval dash-skeleton" data-draw="k-gp" data-source="kpi" data-field="profit" data-row="0">—</div>
+        <div class="zx-kdelta"><b data-draw="k-gp-d" data-source="kpi" data-field="profit_yoy" data-row="0">—</b> vs last year</div>
+        <div class="zx-spark" data-draw="sp-gp" data-source="monthly"></div>
+      </section>
+      <section class="zx-tile zx-kpi k3" id="kpi-margin">
+        <div class="zx-klabel">Gross margin</div>
+        <div class="zx-kval dash-skeleton" data-draw="k-gm" data-source="kpi" data-field="margin" data-row="0">—</div>
+        <div class="zx-kdelta"><b data-draw="k-gm-d" data-source="kpi" data-field="margin_change_pts" data-row="0">—</b> pts vs last year</div>
+        <div class="zx-spark" data-draw="sp-gm" data-source="monthly"></div>
+      </section>
+      <section class="zx-tile zx-kpi k4" id="kpi-volume">
+        <div class="zx-klabel">Volume (cartons)</div>
+        <div class="zx-kval dash-skeleton" data-draw="k-vol" data-source="kpi" data-field="cartons" data-row="0">—</div>
+        <div class="zx-kdelta"><b data-draw="k-vol-d" data-source="kpi" data-field="cartons_yoy" data-row="0">—</b> vs last year</div>
+        <div class="zx-spark" data-draw="sp-vol" data-source="monthly"></div>
+      </section>
+      <section class="zx-tile zx-kpi k5" id="kpi-price">
+        <div class="zx-klabel">Avg price / carton</div>
+        <div class="zx-kval dash-skeleton" data-draw="k-ppc" data-source="kpi" data-field="price_per_carton" data-row="0">—</div>
+        <div class="zx-kdelta"><b data-draw="k-ppc-d" data-source="kpi" data-field="price_yoy" data-row="0">—</b> vs last year</div>
+        <div class="zx-spark" data-draw="sp-ppc" data-source="monthly"></div>
+      </section>
+    </div>
+
+    <div class="zx-grid">
+      <section class="zx-tile s8" id="trend">
+        <h2 class="zx-h">Monthly revenue against last year and budget</h2>
+        <p class="zx-sub">₦, by month · Ramadan fell in March 2025 and mid-February to March 2026</p>
+        <div class="zx-legend">
+          <span><i class="zx-sw" style="background:#00754F"></i>FY2026 revenue</span>
+          <span><i class="zx-sw line" style="background:#0B2545"></i>FY2025 revenue</span>
+          <span><i class="zx-sw dash"></i>FY2026 budget</span>
+        </div>
+        <div class="zx-chart dash-skeleton" data-draw="trend" data-source="monthly"></div>
+      </section>
+
+      <section class="zx-tile s4" id="attainment">
+        <h2 class="zx-h">Budget attainment</h2>
+        <p class="zx-sub">YTD revenue as a share of YTD budget · marker = 100%</p>
+        <div class="zx-chart short dash-skeleton" data-draw="gauge" data-source="kpi"></div>
+        <div class="zx-gfoot"><span>Actual <b data-draw="g-rev" data-source="kpi" data-field="revenue" data-row="0">—</b></span><span>Budget <b data-draw="g-tgt" data-source="kpi" data-field="target" data-row="0">—</b></span><span>Gap <b data-draw="g-gap" data-source="kpi" data-field="gap" data-row="0">—</b></span></div>
+      </section>
+
+      <section class="zx-tile s4" id="bridge">
+        <h2 class="zx-h">What drove revenue growth</h2>
+        <p class="zx-sub">Jan–Oct 2025 to Jan–Oct 2026, split into volume and price &amp; mix</p>
+        <div class="zx-chart short dash-skeleton" data-draw="bridge" data-source="bridge"></div>
+      </section>
+
+      <section class="zx-tile s4" id="by-zone">
+        <h2 class="zx-h">Revenue by sales zone</h2>
+        <p class="zx-sub">FY2026 YTD · growth vs last year · tap a bar to filter</p>
+        <div class="zx-chart short dash-skeleton" data-draw="zones" data-source="zones"></div>
+      </section>
+
+      <section class="zx-tile s4" id="by-line">
+        <h2 class="zx-h">Revenue mix by product line</h2>
+        <p class="zx-sub">Share of FY2026 YTD revenue · tap to filter</p>
+        <div class="zx-donut-wrap">
+          <div class="zx-chart short dash-skeleton" data-draw="donut" data-source="lines" style="flex:0 0 200px;width:200px;min-height:200px"></div>
+          <ul class="zx-dlegend" data-draw="dlegend" data-source="lines"></ul>
+        </div>
+      </section>
+
+      <section class="zx-tile s5" id="by-channel">
+        <h2 class="zx-h">Route to market</h2>
+        <p class="zx-sub">FY2026 YTD revenue by channel · growth vs last year · tap to filter</p>
+        <div class="zx-chart short dash-skeleton" data-draw="channels" data-source="channels"></div>
+      </section>
+
+      <section class="zx-tile s7" id="scorecard">
+        <h2 class="zx-h">Zone scorecard</h2>
+        <p class="zx-sub">FY2026 YTD vs Jan – Oct 2025 · tap a row to filter</p>
+        <div class="zx-tablewrap">
+          <table class="zx-table" data-source="zones" data-row-key="zone">
+            <thead><tr>
+              <th data-field="zone">Zone</th>
+              <th data-field="revenue">Revenue</th>
+              <th data-field="yoy">Revenue growth</th>
+              <th data-field="vol_yoy">Volume growth</th>
+              <th data-field="margin">Gross margin</th>
+              <th data-field="attainment">vs budget</th>
+            </tr></thead>
+            <tbody data-draw="matrix"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <p class="zx-foot">Illustrative dataset: 2,464 monthly records by zone, product line and channel, modelled on Nigerian FMCG conditions, with 2026 price growth in line with NBS inflation of about 14–16%.</p>
+  </div>
+</div>
+
+<script>
+window.ZX = (function () {
+  const C = { em:'#00754F', em2:'#00A36C', navy:'#0B2545', gold:'#D4A017', coral:'#E4572E', teal:'#2A9D8F', plum:'#5E3C99', good:'#0F8A4F', bad:'#C8342B', faint:'#A7D8C4' };
+  const naira = (v) => {
+    if (v == null || isNaN(v)) return '—';
+    const a = Math.abs(v), s = v < 0 ? '−₦' : '₦';
+    if (a >= 1e9) return s + d3.format('.3~')(a / 1e9) + 'bn';
+    if (a >= 1e6) return s + d3.format('.3~')(a / 1e6) + 'm';
+    if (a >= 1e3) return s + d3.format('.3~')(a / 1e3) + 'k';
+    return s + d3.format(',.0f')(a);
+  };
+  const nairaLong = (v) => v == null || isNaN(v) ? '—' : (v < 0 ? '−₦' : '₦') + d3.format(',.0f')(Math.abs(v));
+  const pct = (v, d = 1) => v == null || isNaN(v) ? '—' : d3.format('.' + d + '%')(v);
+  const signed = (v) => v == null || isNaN(v) ? '—' : (v >= 0 ? '▲ +' : '▼ −') + d3.format('.1%')(Math.abs(v));
+  const count = (v) => v == null || isNaN(v) ? '—' : d3.format('.3~s')(v);
+  const motion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+  function settle(el, st) { if (st !== 'loading') el.classList.remove('dash-skeleton'); }
+  function fail(el, what) { el.replaceChildren(); const p = document.createElement('p'); p.className = 'zx-err'; p.textContent = 'This ' + (what || 'chart') + ' could not load.'; el.appendChild(p); }
+  function tip(el) {
+    const t = document.createElement('div');
+    t.className = 'zx-tip';
+    el.appendChild(t);
+    return {
+      show(lines, x, y) {
+        t.replaceChildren();
+        lines.forEach(([k, v, bold]) => {
+          const r = document.createElement('div');
+          if (v === undefined) { const b = document.createElement('b'); b.textContent = k; r.appendChild(b); }
+          else { r.className = 'row'; const a = document.createElement('span'); a.textContent = k; const b = document.createElement(bold ? 'b' : 'span'); b.textContent = v; r.append(a, b); }
+          t.appendChild(r);
+        });
+        t.style.opacity = 1;
+        const w = el.clientWidth, tw = t.offsetWidth;
+        t.style.left = Math.max(0, Math.min(w - tw, x + 14)) + 'px';
+        t.style.top = Math.max(0, y - 12) + 'px';
+      },
+      hide() { t.style.opacity = 0; }
+    };
+  }
+  function toggle(param, value) {
+    const cur = dash.params()[param] || '';
+    dash.setParams({ [param]: cur === value ? '' : value });
+  }
+  // Horizontal bar list with value and growth labels
+  function hbars(el, rows, opt) {
+    const W = el.clientWidth || 360, rowH = 34, H = rows.length * rowH + 6;
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', opt.label);
+    const meas = svg.append('text').style('font-size', '12px');
+    const widest = (arr) => d3.max(arr, (s) => { meas.text(s); return meas.node().getComputedTextLength(); }) || 0;
+    const labelW = widest(rows.map((r) => r[opt.key]));
+    const valW = widest(rows.map((r) => naira(r.revenue))) + 10 + widest(rows.map((r) => '▲' + d3.format('.1%')(Math.abs(r.yoy || 0)))) + 14;
+    meas.remove();
+    const l = Math.ceil(labelW) + 10;
+    const x = d3.scaleLinear().domain([0, d3.max(rows, (r) => r.revenue) || 1]).range([0, Math.max(30, W - l - valW)]);
+    const first = !ZX.played[opt.id] && motion(); ZX.played[opt.id] = true;
+    const sel = dash.params()[opt.param] || '';
+    const g = svg.selectAll('g.r').data(rows).join('g').attr('class', 'r').attr('transform', (r, i) => `translate(0,${i * rowH + 3})`).style('cursor', 'pointer')
+      .on('click', (ev, r) => toggle(opt.param, r[opt.key]));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH - 2).style('fill', 'transparent');
+    g.append('text').attr('x', l - 10).attr('y', 19).attr('text-anchor', 'end').style('font-size', '12px').style('fill', '#14213D').text((r) => r[opt.key]);
+    const b = g.append('rect').attr('x', l).attr('y', 6).attr('height', 20).attr('rx', 3)
+      .style('fill', (r) => sel && sel !== r[opt.key] ? C.faint : opt.color)
+      .attr('width', (r) => first ? 0 : x(r.revenue));
+    if (first) b.transition().duration(750).delay((r, i) => i * 55).ease(d3.easeCubicOut).attr('width', (r) => x(r.revenue));
+    const vt = g.append('text').attr('x', (r) => l + x(r.revenue) + 7).attr('y', 20).style('font-size', '12px').style('font-weight', 600).style('fill', '#14213D').text((r) => naira(r.revenue));
+    g.append('text').attr('y', 20).style('font-size', '11.5px').style('font-weight', 600)
+      .attr('x', function (r, i) { return l + x(r.revenue) + 7 + vt.nodes()[i].getComputedTextLength() + 8; })
+      .style('fill', (r) => r.yoy >= 0 ? C.good : C.bad).text((r) => r.yoy == null ? '' : (r.yoy >= 0 ? '▲' : '▼') + d3.format('.1%')(Math.abs(r.yoy)));
+    const t = tip(el);
+    g.on('mousemove', (ev, r) => { const [px, py] = d3.pointer(ev, el); t.show(opt.tip(r), px, py); }).on('mouseleave', () => t.hide());
+  }
+  return { C, naira, nairaLong, pct, signed, count, motion, settle, fail, tip, toggle, hbars, played: {} };
+})();
+</script>
+
+<script>
+// ---- Calculations: every one respects the Zone, Product line and Channel slicers ----
+dash.calc('kpi', {
+  inputs: ['sales'],
+  title: 'Headline KPIs',
+  description: 'Jan–Oct 2026 totals against the same months of 2025 and the 2026 budget, for the selected zone, product line and channel.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel));
+    const cy = rows.filter((r) => r.month >= '2026-01' && r.month <= '2026-10');
+    const py = rows.filter((r) => r.month >= '2025-01' && r.month <= '2025-10');
+    const sum = (a, f) => a.reduce((s, r) => s + (+r[f] || 0), 0);
+    const revenue = sum(cy, 'revenue_ngn'), revenue_py = sum(py, 'revenue_ngn');
+    const profit = revenue - sum(cy, 'cogs_ngn'), profit_py = revenue_py - sum(py, 'cogs_ngn');
+    const cartons = sum(cy, 'volume_cartons'), cartons_py = sum(py, 'volume_cartons');
+    const target = sum(cy, 'target_ngn');
+    const margin = revenue ? profit / revenue : null, margin_py = revenue_py ? profit_py / revenue_py : null;
+    const price_per_carton = cartons ? revenue / cartons : null, price_py = cartons_py ? revenue_py / cartons_py : null;
+    const volume_effect = cartons_py ? revenue_py * (cartons / cartons_py - 1) : null;
+    const change = revenue - revenue_py;
+    return [{
+      revenue, revenue_py, revenue_yoy: revenue_py ? revenue / revenue_py - 1 : null,
+      profit, profit_py, profit_yoy: profit_py ? profit / profit_py - 1 : null,
+      margin, margin_py, margin_change_pts: margin != null && margin_py != null ? Math.round((margin - margin_py) * 1000) / 10 : null,
+      cartons, cartons_py, cartons_yoy: cartons_py ? cartons / cartons_py - 1 : null,
+      price_per_carton, price_yoy: price_py ? price_per_carton / price_py - 1 : null,
+      price_share: change > 0 && volume_effect != null ? (change - volume_effect) / change : null,
+      target, attainment: target ? revenue / target : null, gap: revenue - target
+    }];
+  }
+});
+
+dash.calc('monthly', {
+  inputs: ['sales'],
+  title: 'Revenue, profit and volume by month',
+  description: 'Monthly totals for 2026 and 2025 and the 2026 budget, for the selected zone, product line and channel.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel));
+    const names = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const s = (a, f) => a.reduce((t, r) => t + (+r[f] || 0), 0);
+    return names.map((name, i) => {
+      const m = String(i + 1).padStart(2, '0');
+      const cy = rows.filter((r) => r.month === '2026-' + m), py = rows.filter((r) => r.month === '2025-' + m);
+      const rev = cy.length ? s(cy, 'revenue_ngn') : null, gp = cy.length ? rev - s(cy, 'cogs_ngn') : null, vol = cy.length ? s(cy, 'volume_cartons') : null;
+      return { month: name, revenue: rev, revenue_py: py.length ? s(py, 'revenue_ngn') : null, target: cy.length ? s(cy, 'target_ngn') : null,
+        profit: gp, margin: rev ? gp / rev : null, cartons: vol, price_per_carton: vol ? rev / vol : null };
+    });
+  }
+});
+
+dash.calc('bridge', {
+  inputs: ['sales'],
+  title: 'Revenue bridge: volume vs price & mix',
+  description: 'Last year’s Jan–Oct revenue, the change from carton volume at last year’s average price, the rest from price and mix, and this year’s revenue.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel));
+    const s = (a, f) => a.reduce((t, r) => t + (+r[f] || 0), 0);
+    const cy = rows.filter((r) => r.month >= '2026-01' && r.month <= '2026-10');
+    const py = rows.filter((r) => r.month >= '2025-01' && r.month <= '2025-10');
+    const r0 = s(py, 'revenue_ngn'), r1 = s(cy, 'revenue_ngn'), v0 = s(py, 'volume_cartons'), v1 = s(cy, 'volume_cartons');
+    const vol = v0 ? r0 * (v1 / v0 - 1) : 0;
+    return [
+      { step: 'Jan–Oct 2025', value: r0, kind: 'total' },
+      { step: 'Volume', value: vol, kind: 'delta' },
+      { step: 'Price & mix', value: r1 - r0 - vol, kind: 'delta' },
+      { step: 'Jan–Oct 2026', value: r1, kind: 'total' }
+    ];
+  }
+});
+
+dash.calc('zones', {
+  inputs: ['sales'],
+  title: 'Performance by sales zone',
+  description: 'Jan–Oct 2026 revenue, growth in revenue and cartons on Jan–Oct 2025, gross margin and budget attainment per zone, for the selected filters.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel));
+    const s = (x, f) => x.reduce((t, r) => t + (+r[f] || 0), 0);
+    return d3.rollups(rows, (a) => {
+      const cy = a.filter((r) => r.month >= '2026-01' && r.month <= '2026-10');
+      const py = a.filter((r) => r.month >= '2025-01' && r.month <= '2025-10');
+      const revenue = s(cy, 'revenue_ngn'), revenue_py = s(py, 'revenue_ngn'), target = s(cy, 'target_ngn');
+      const v1 = s(cy, 'volume_cartons'), v0 = s(py, 'volume_cartons');
+      return { revenue, revenue_py, yoy: revenue_py ? revenue / revenue_py - 1 : null, vol_yoy: v0 ? v1 / v0 - 1 : null,
+        margin: revenue ? (revenue - s(cy, 'cogs_ngn')) / revenue : null, target, attainment: target ? revenue / target : null };
+    }, (r) => r.zone).map(([zone, v]) => ({ zone, ...v })).sort((a, b) => b.revenue - a.revenue);
+  }
+});
+
+dash.calc('channels', {
+  inputs: ['sales'],
+  title: 'Revenue by channel',
+  description: 'Jan–Oct 2026 revenue per route to market, its share and growth on Jan–Oct 2025, for the selected filters.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel));
+    const s = (x, f) => x.reduce((t, r) => t + (+r[f] || 0), 0);
+    const total = s(rows.filter((r) => r.month >= '2026-01'), 'revenue_ngn');
+    return d3.rollups(rows, (a) => {
+      const revenue = s(a.filter((r) => r.month >= '2026-01' && r.month <= '2026-10'), 'revenue_ngn');
+      const revenue_py = s(a.filter((r) => r.month >= '2025-01' && r.month <= '2025-10'), 'revenue_ngn');
+      return { revenue, revenue_py, yoy: revenue_py ? revenue / revenue_py - 1 : null, share: total ? revenue / total : null };
+    }, (r) => r.channel).map(([channel, v]) => ({ channel, ...v })).sort((a, b) => b.revenue - a.revenue);
+  }
+});
+
+dash.calc('lines', {
+  inputs: ['sales'],
+  title: 'Revenue mix by product line',
+  description: 'Jan–Oct 2026 revenue per product line and its share of the total, for the selected filters.',
+  fn: (sales) => {
+    const p = dash.params();
+    const rows = sales.filter((r) => (!p.zone || r.zone === p.zone) && (!p.line || r.product_line === p.line) && (!p.channel || r.channel === p.channel) && r.month >= '2026-01' && r.month <= '2026-10');
+    const total = rows.reduce((t, r) => t + (+r.revenue_ngn || 0), 0);
+    return d3.rollups(rows, (a) => a.reduce((t, r) => t + (+r.revenue_ngn || 0), 0), (r) => r.product_line)
+      .map(([product_line, revenue]) => ({ product_line, revenue, share: total ? revenue / total : null }))
+      .sort((a, b) => b.revenue - a.revenue);
+  }
+});
+</script>
+
+<script>
+// ---- Slicers ----
+document.querySelectorAll('.zx-chip').forEach((b) => {
+  b.addEventListener('click', () => dash.setParams({ [b.dataset.param]: b.dataset.value }));
+});
+document.querySelectorAll('#reset').forEach((b) => b.addEventListener('click', () => dash.setParams({ zone: '', line: '', channel: '' })));
+dash.onData(() => {
+  const p = dash.params();
+  document.querySelectorAll('.zx-chip').forEach((b) => {
+    const on = (p[b.dataset.param] || '') === b.dataset.value;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+});
+</script>
+
+<script>
+// ---- Headline text, KPI values and sparklines ----
+(function () {
+  const { C, naira, pct, signed, count, settle } = window.ZX;
+  function kpiText(name, fmt, field, colored) {
+    dash.draw(name, (el) => {
+      const k = dash.data('kpi');
+      settle(el, k.status);
+      if (k.status !== 'ok' || !k.data[0]) { el.textContent = '—'; return; }
+      const v = k.data[0][field];
+      el.textContent = fmt(v);
+      if (colored) { el.classList.toggle('up', v != null && v >= 0); el.classList.toggle('down', v != null && v < 0); }
+    });
+  }
+  const pts = (v) => v == null ? '—' : (v >= 0 ? '▲ +' : '▼ −') + Math.abs(v).toFixed(1);
+  kpiText('k-rev', naira, 'revenue');
+  kpiText('k-gp', naira, 'profit');
+  kpiText('k-gm', (v) => pct(v), 'margin');
+  kpiText('k-vol', count, 'cartons');
+  kpiText('k-ppc', (v) => v == null ? '—' : '₦' + d3.format(',.0f')(v), 'price_per_carton');
+  kpiText('k-rev-d', signed, 'revenue_yoy', true);
+  kpiText('k-gp-d', signed, 'profit_yoy', true);
+  kpiText('k-gm-d', pts, 'margin_change_pts', true);
+  kpiText('k-vol-d', signed, 'cartons_yoy', true);
+  kpiText('k-ppc-d', signed, 'price_yoy', true);
+  kpiText('t-rev', naira, 'revenue');
+  kpiText('t-att', (v) => pct(v), 'attainment');
+  kpiText('t-vol', (v) => pct(v), 'cartons_yoy');
+  kpiText('t-price', (v) => pct(v, 0), 'price_share');
+  kpiText('t-gm', (v) => v == null ? '—' : (v >= 0 ? '+' : '−') + Math.abs(v).toFixed(1), 'margin_change_pts', true);
+  kpiText('g-rev', naira, 'revenue');
+  kpiText('g-tgt', naira, 'target');
+  kpiText('g-gap', naira, 'gap', true);
+  dash.draw('t-yoy', (el) => {
+    const k = dash.data('kpi');
+    settle(el, k.status);
+    if (k.status !== 'ok' || !k.data[0] || k.data[0].revenue_yoy == null) { el.textContent = '—'; return; }
+    const v = k.data[0].revenue_yoy;
+    el.textContent = (v >= 0 ? 'up ' : 'down ') + d3.format('.1%')(Math.abs(v));
+    el.classList.toggle('up', v >= 0); el.classList.toggle('down', v < 0);
+  });
+  dash.draw('t-lead', (el) => {
+    const r = dash.data('zones');
+    settle(el, r.status);
+    el.textContent = r.status === 'ok' && r.data[0] ? r.data[0].zone : '—';
+  });
+  function spark(name, field, color) {
+    dash.draw(name, (el) => {
+      const d = dash.data('monthly');
+      el.replaceChildren();
+      if (d.status !== 'ok' || !d.data) return;
+      const rows = d.data.filter((r) => r[field] != null);
+      if (rows.length < 2) return;
+      const W = el.clientWidth || 200, H = 38;
+      const x = d3.scaleLinear().domain([0, rows.length - 1]).range([2, W - 4]);
+      const ext = d3.extent(rows, (r) => r[field]);
+      const pad = (ext[1] - ext[0]) * 0.15 || 1;
+      const y = d3.scaleLinear().domain([ext[0] - pad, ext[1] + pad]).range([H - 3, 3]);
+      const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', 'Monthly trend, January to October 2026').attr('preserveAspectRatio', 'none').attr('width', '100%');
+      const gid = 'g-' + name;
+      const grad = svg.append('defs').append('linearGradient').attr('id', gid).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+      grad.append('stop').attr('offset', '0%').attr('stop-color', color).attr('stop-opacity', 0.22);
+      grad.append('stop').attr('offset', '100%').attr('stop-color', color).attr('stop-opacity', 0);
+      svg.append('path').datum(rows).attr('d', d3.area().x((r, i) => x(i)).y0(H).y1((r) => y(r[field]))).style('fill', `url(#${gid})`);
+      svg.append('path').datum(rows).attr('d', d3.line().x((r, i) => x(i)).y((r) => y(r[field]))).style('fill', 'none').style('stroke', color).style('stroke-width', 1.8);
+      const last = rows.length - 1;
+      svg.append('circle').attr('cx', x(last)).attr('cy', y(rows[last][field])).attr('r', 3).style('fill', color);
+    });
+  }
+  spark('sp-rev', 'revenue', C.em);
+  spark('sp-gp', 'profit', C.navy);
+  spark('sp-gm', 'margin', C.gold);
+  spark('sp-vol', 'cartons', C.teal);
+  spark('sp-ppc', 'price_per_carton', C.plum);
+})();
+</script>
+
+<script>
+// ---- Monthly combo chart ----
+dash.draw('trend', (el) => {
+  const { C, naira, nairaLong, settle, tip, motion, played, fail } = window.ZX;
+  const d = dash.data('monthly');
+  settle(el, d.status);
+  if (d.status === 'error') return fail(el);
+  el.replaceChildren();
+  if (d.status !== 'ok' || !d.data) return;
+  const rows = d.data, W = el.clientWidth || 600, H = 290, m = { t: 14, r: 10, b: 26, l: 58 };
+  const x = d3.scaleBand().domain(rows.map((r) => r.month)).range([m.l, W - m.r]).padding(0.3);
+  const ymax = d3.max(rows, (r) => Math.max(r.revenue || 0, r.revenue_py || 0, r.target || 0)) || 1;
+  const y = d3.scaleLinear().domain([0, ymax * 1.1]).nice().range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', 'Monthly FY2026 revenue as columns, with FY2025 revenue and the FY2026 budget as lines');
+  const grad = svg.append('defs').append('linearGradient').attr('id', 'zx-col').attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+  grad.append('stop').attr('offset', '0%').attr('stop-color', C.em2);
+  grad.append('stop').attr('offset', '100%').attr('stop-color', C.em);
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(W - m.l - m.r)).tickFormat((v) => naira(v)));
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickSize(0).tickPadding(9));
+  const first = !played.trend && motion(); played.trend = true;
+  const cyRows = rows.filter((r) => r.revenue != null);
+  const bars = svg.append('g').selectAll('rect').data(cyRows).join('rect')
+    .attr('x', (r) => x(r.month)).attr('width', x.bandwidth()).attr('rx', 3).style('fill', 'url(#zx-col)')
+    .attr('y', (r) => first ? y(0) : y(r.revenue)).attr('height', (r) => first ? 0 : y(0) - y(r.revenue));
+  if (first) bars.transition().duration(800).delay((r, i) => i * 45).ease(d3.easeCubicOut).attr('y', (r) => y(r.revenue)).attr('height', (r) => y(0) - y(r.revenue));
+  const cx = (r) => x(r.month) + x.bandwidth() / 2;
+  const pyRows = rows.filter((r) => r.revenue_py != null);
+  svg.append('path').datum(pyRows).attr('d', d3.line().x(cx).y((r) => y(r.revenue_py))).style('fill', 'none').style('stroke', C.navy).style('stroke-width', 2.4);
+  svg.append('g').selectAll('circle').data(pyRows).join('circle').attr('cx', cx).attr('cy', (r) => y(r.revenue_py)).attr('r', 3.4).style('fill', '#fff').style('stroke', C.navy).style('stroke-width', 2);
+  const tRows = rows.filter((r) => r.target != null);
+  svg.append('path').datum(tRows).attr('d', d3.line().x(cx).y((r) => y(r.target))).style('fill', 'none').style('stroke', C.gold).style('stroke-width', 2.2).style('stroke-dasharray', '6 4');
+  const t = tip(el);
+  const step = x.step(), off = step * x.paddingInner() / 2;
+  const hl = svg.insert('rect', ':first-child').attr('y', m.t).attr('height', H - m.b - m.t).attr('width', step).style('fill', 'rgba(0,117,79,.07)').style('opacity', 0);
+  svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', (r) => x(r.month) - off).attr('width', step).attr('y', m.t).attr('height', H - m.b - m.t).style('fill', 'transparent')
+    .on('mousemove', (ev, r) => {
+      hl.attr('x', x(r.month) - off).style('opacity', 1);
+      const [px, py] = d3.pointer(ev, el);
+      const vs = r.revenue != null && r.target ? [['vs budget', d3.format('.1%')(r.revenue / r.target)]] : [];
+      t.show([[r.month + (r.revenue == null ? ' (2025 only)' : '')], ['FY2026', nairaLong(r.revenue), true], ['FY2025', nairaLong(r.revenue_py)], ['Budget', nairaLong(r.target)], ...vs], px, py);
+    })
+    .on('mouseleave', () => { hl.style('opacity', 0); t.hide(); });
+});
+</script>
+
+<script>
+// ---- Gauge ----
+dash.draw('gauge', (el) => {
+  const { C, pct, settle, fail } = window.ZX;
+  const k = dash.data('kpi');
+  settle(el, k.status);
+  if (k.status === 'error') return fail(el);
+  el.replaceChildren();
+  if (k.status !== 'ok' || !k.data[0]) return;
+  const v = k.data[0].attainment || 0, max = 1.25;
+  const W = el.clientWidth || 300, H = 210;
+  const r = Math.min(W / 2 - 22, H - 46), cx = W / 2, cy = H - 34;
+  const a = d3.scaleLinear().domain([0, max]).range([-Math.PI / 2, Math.PI / 2]).clamp(true);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', `Gauge: ${pct(v)} of budget reached`);
+  const g = svg.append('g').attr('transform', `translate(${cx},${cy})`);
+  const arc = d3.arc().innerRadius(r * 0.72).outerRadius(r).cornerRadius(3);
+  [[0, 0.9, '#F6E3DF'], [0.9, 1, '#FBF1D6'], [1, max, '#DDF1E8']].forEach(([s, e, c]) => g.append('path').attr('d', arc({ startAngle: a(s), endAngle: a(e) })).style('fill', c));
+  const col = v >= 1 ? C.em : v >= 0.95 ? C.gold : C.coral;
+  g.append('path').attr('d', d3.arc().innerRadius(r * 0.76).outerRadius(r * 0.96).cornerRadius(3)({ startAngle: a(0), endAngle: a(v) })).style('fill', col);
+  const ta = a(1);
+  g.append('line').attr('x1', Math.sin(ta) * r * 0.66).attr('y1', -Math.cos(ta) * r * 0.66).attr('x2', Math.sin(ta) * r * 1.05).attr('y2', -Math.cos(ta) * r * 1.05).style('stroke', '#14213D').style('stroke-width', 3).style('stroke-linecap', 'round');
+  g.append('text').attr('y', -r * 0.16).attr('text-anchor', 'middle').style('font-size', Math.max(24, Math.min(40, r * 0.3)) + 'px').style('font-weight', 600).style('fill', '#14213D').text(pct(v));
+  g.append('text').attr('y', 6).attr('text-anchor', 'middle').style('font-size', '11.5px').style('fill', '#5B6474').text(v >= 1 ? 'ahead of budget' : 'of budget');
+  g.append('text').attr('x', -r * 0.86).attr('y', 20).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', '#5B6474').text('0%');
+  g.append('text').attr('x', r * 0.86).attr('y', 20).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', '#5B6474').text(pct(max, 0));
+});
+</script>
+
+<script>
+// ---- Revenue bridge (waterfall) ----
+dash.draw('bridge', (el) => {
+  const { C, naira, nairaLong, settle, tip, fail, motion, played } = window.ZX;
+  const d = dash.data('bridge');
+  settle(el, d.status);
+  if (d.status === 'error') return fail(el);
+  el.replaceChildren();
+  if (d.status !== 'ok' || !d.data) return;
+  let run = 0;
+  const bars = d.data.map((r) => {
+    if (r.kind === 'total') { run = r.value; return { ...r, y0: 0, y1: r.value }; }
+    const b = { ...r, y0: run, y1: run + r.value }; run += r.value; return b;
+  });
+  const W = el.clientWidth || 360, H = 250, m = { t: 22, r: 6, b: 34, l: 6 };
+  const lo = d3.min(bars, (b) => Math.min(b.y0, b.y1)), hi = d3.max(bars, (b) => Math.max(b.y0, b.y1));
+  const floor = Math.max(0, lo - (hi - lo) * 0.9);
+  const x = d3.scaleBand().domain(bars.map((b) => b.step)).range([m.l, W - m.r]).padding(0.28);
+  const y = d3.scaleLinear().domain([floor, hi * 1.04]).range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', 'Waterfall from last year’s revenue through volume and price and mix effects to this year’s revenue');
+  const first = !played.bridge && motion(); played.bridge = true;
+  const fill = (b) => b.kind === 'total' ? (b.step.includes('2026') ? C.em : C.navy) : (b.value >= 0 ? C.em2 : C.coral);
+  const top = (b) => y(Math.max(b.y0, b.y1)), hgt = (b) => Math.max(1, Math.abs(y(b.y0) - y(b.y1)));
+  const rects = svg.append('g').selectAll('rect').data(bars).join('rect').attr('x', (b) => x(b.step)).attr('width', x.bandwidth()).attr('rx', 3).style('fill', fill)
+    .attr('y', (b) => first ? y(b.y0) : top(b)).attr('height', (b) => first ? 0 : hgt(b));
+  if (first) rects.transition().duration(700).delay((b, i) => i * 160).ease(d3.easeCubicOut).attr('y', top).attr('height', hgt);
+  svg.append('g').selectAll('line').data(bars.slice(0, -1)).join('line')
+    .attr('x1', (b) => x(b.step) + x.bandwidth()).attr('x2', (b, i) => x(bars[i + 1].step)).attr('y1', (b) => y(b.y1)).attr('y2', (b) => y(b.y1))
+    .style('stroke', '#9AA3B2').style('stroke-dasharray', '3 3');
+  svg.append('g').selectAll('text').data(bars).join('text').attr('x', (b) => x(b.step) + x.bandwidth() / 2).attr('y', (b) => top(b) - 6).attr('text-anchor', 'middle')
+    .style('font-size', '12px').style('font-weight', 600).style('fill', (b) => b.kind === 'delta' ? (b.value >= 0 ? C.good : C.bad) : '#14213D')
+    .text((b) => (b.kind === 'delta' && b.value >= 0 ? '+' : '') + naira(b.value));
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickSize(0).tickPadding(9));
+  const t = tip(el);
+  rects.on('mousemove', (ev, b) => { const [px, py] = d3.pointer(ev, el); t.show([[b.step], [b.kind === 'total' ? 'Revenue' : 'Change', nairaLong(b.value), true]], px, py); }).on('mouseleave', () => t.hide());
+});
+</script>
+
+<script>
+// ---- Zone and channel bars ----
+dash.draw('zones', (el) => {
+  const { C, nairaLong, settle, fail, hbars } = window.ZX;
+  const d = dash.data('zones');
+  settle(el, d.status);
+  if (d.status === 'error') return fail(el);
+  el.replaceChildren();
+  if (d.status !== 'ok') return;
+  hbars(el, d.data, { id: 'zones', key: 'zone', param: 'zone', color: C.em, label: 'Bars of FY2026 YTD revenue by sales zone with growth versus last year',
+    tip: (r) => [[r.zone], ['Revenue', nairaLong(r.revenue), true], ['Last year', nairaLong(r.revenue_py)], ['Growth', d3.format('+.1%')(r.yoy)], ['vs budget', d3.format('.1%')(r.attainment)]] });
+});
+dash.draw('channels', (el) => {
+  const { C, nairaLong, pct, settle, fail, hbars } = window.ZX;
+  const d = dash.data('channels');
+  settle(el, d.status);
+  if (d.status === 'error') return fail(el);
+  el.replaceChildren();
+  if (d.status !== 'ok') return;
+  hbars(el, d.data, { id: 'channels', key: 'channel', param: 'channel', color: C.navy, label: 'Bars of FY2026 YTD revenue by channel with growth versus last year',
+    tip: (r) => [[r.channel], ['Revenue', nairaLong(r.revenue), true], ['Share', pct(r.share)], ['Last year', nairaLong(r.revenue_py)], ['Growth', d3.format('+.1%')(r.yoy)]] });
+});
+</script>
+
+<script>
+// ---- Donut + legend ----
+(function () {
+  const COLORS = { 'Beverages': '#00754F', 'Packaged Foods': '#D4A017', 'Personal Care': '#0B2545', 'Home Care': '#2A9D8F' };
+  dash.draw('donut', (el) => {
+    const { naira, nairaLong, pct, settle, tip, toggle, fail } = window.ZX;
+    const d = dash.data('lines');
+    settle(el, d.status);
+    if (d.status === 'error') return fail(el);
+    el.replaceChildren();
+    if (d.status !== 'ok') return;
+    const S = 200, R = S / 2 - 4;
+    const total = d3.sum(d.data, (r) => r.revenue);
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${S} ${S}`).attr('height', S).attr('role', 'img').attr('aria-label', 'Donut of FY2026 YTD revenue share by product line');
+    const g = svg.append('g').attr('transform', `translate(${S / 2},${S / 2})`);
+    const pie = d3.pie().value((r) => r.revenue).sort(null).padAngle(0.014);
+    const arc = d3.arc().innerRadius(R * 0.64).outerRadius(R).cornerRadius(2);
+    const sel = dash.params().line || '';
+    const t = tip(el);
+    g.selectAll('path').data(pie(d.data)).join('path').attr('d', arc).style('fill', (a) => COLORS[a.data.product_line] || '#999').style('cursor', 'pointer')
+      .style('opacity', (a) => sel && sel !== a.data.product_line ? 0.35 : 1)
+      .on('click', (ev, a) => toggle('line', a.data.product_line))
+      .on('mousemove', (ev, a) => { const [px, py] = d3.pointer(ev, el); t.show([[a.data.product_line], ['Revenue', nairaLong(a.data.revenue), true], ['Share', pct(a.data.share)]], px, py); })
+      .on('mouseleave', () => t.hide());
+    g.append('text').attr('y', -2).attr('text-anchor', 'middle').style('font-size', '21px').style('font-weight', 600).style('fill', '#14213D').text(naira(total));
+    g.append('text').attr('y', 17).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', '#5B6474').text('YTD revenue');
+  });
+  dash.draw('dlegend', (ul) => {
+    const { naira, pct, toggle } = window.ZX;
+    const d = dash.data('lines');
+    ul.replaceChildren();
+    if (d.status !== 'ok') return;
+    d.data.forEach((r) => {
+      const li = document.createElement('li');
+      const sw = document.createElement('i'); sw.className = 'zx-sw'; sw.style.background = COLORS[r.product_line] || '#999';
+      const n = document.createElement('span'); n.textContent = r.product_line;
+      const v = document.createElement('span'); v.className = 'v'; v.textContent = naira(r.revenue);
+      const p = document.createElement('span'); p.className = 'p'; p.textContent = pct(r.share);
+      li.append(sw, n, v, p);
+      li.addEventListener('click', () => toggle('line', r.product_line));
+      ul.appendChild(li);
+    });
+  });
+})();
+</script>
+
+<script>
+// ---- Zone scorecard ----
+dash.draw('matrix', (tb) => {
+  const { naira, pct, toggle } = window.ZX;
+  const d = dash.data('zones');
+  tb.replaceChildren();
+  if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 6; td.className = 'zx-err'; td.textContent = 'This table could not load.'; return; }
+  if (d.status !== 'ok') return;
+  const max = d3.max(d.data, (r) => r.revenue) || 1;
+  const arrow = (v) => v == null ? '—' : (v >= 0 ? '▲ ' : '▼ ') + d3.format('.1%')(Math.abs(v));
+  d.data.forEach((r) => {
+    const tr = tb.insertRow();
+    tr.dataset.key = r.zone;
+    tr.addEventListener('click', () => toggle('zone', r.zone));
+    const c = (txt, cls) => { const td = tr.insertCell(); td.textContent = txt; if (cls) td.className = cls; return td; };
+    const nm = c(r.zone); nm.style.fontWeight = 600;
+    const rev = c(naira(r.revenue));
+    rev.style.background = `linear-gradient(90deg, rgba(0,163,108,.20) ${(r.revenue / max * 100).toFixed(1)}%, transparent 0)`;
+    c(arrow(r.yoy), r.yoy >= 0 ? 'up' : 'down');
+    c(arrow(r.vol_yoy), r.vol_yoy >= 0 ? 'up' : 'down');
+    c(pct(r.margin));
+    const at = tr.insertCell(); const pill = document.createElement('span'); pill.className = 'zx-pill'; pill.textContent = pct(r.attainment);
+    const good = r.attainment >= 1, near = r.attainment >= 0.95;
+    pill.style.background = good ? '#DDF1E8' : near ? '#FBF1D6' : '#F9E1DD';
+    pill.style.color = good ? '#0F8A4F' : near ? '#8A6A00' : '#C8342B';
+    at.appendChild(pill);
+  });
+});
+</script>
+
+</div>
+<script>dash._start();</script>
+</body>
+</html>

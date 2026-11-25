@@ -1,0 +1,2465 @@
+month,zone,product_line,channel,revenue_ngn,cogs_ngn,volume_cartons,target_ngn
+2025-01,FCT Abuja,Beverages,E-commerce & B2B Apps,16963149,11396263,1806,16899825
+2025-01,FCT Abuja,Beverages,Key Distributors,56420619,39819267,5793,56339199
+2025-01,FCT Abuja,Beverages,Modern Retail,38152753,25902881,4129,39446056
+2025-01,FCT Abuja,Beverages,Open Market,88565924,62856676,9321,91754303
+2025-01,FCT Abuja,Home Care,E-commerce & B2B Apps,6418261,4198440,525,6132750
+2025-01,FCT Abuja,Home Care,Key Distributors,22887810,15550602,1865,22088440
+2025-01,FCT Abuja,Home Care,Modern Retail,15476632,10158437,1314,16055169
+2025-01,FCT Abuja,Home Care,Open Market,40607691,28177545,3336,39869546
+2025-01,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,14329433,10407521,1006,13929551
+2025-01,FCT Abuja,Packaged Foods,Key Distributors,49160328,37068799,3461,51161672
+2025-01,FCT Abuja,Packaged Foods,Modern Retail,31061740,22310902,2157,32578792
+2025-01,FCT Abuja,Packaged Foods,Open Market,79406177,61008503,5549,82533174
+2025-01,FCT Abuja,Personal Care,E-commerce & B2B Apps,7193001,4348630,397,6989689
+2025-01,FCT Abuja,Personal Care,Key Distributors,28184462,18032809,1558,28612494
+2025-01,FCT Abuja,Personal Care,Modern Retail,16130612,9995985,863,16666063
+2025-01,FCT Abuja,Personal Care,Open Market,44164457,28111063,2391,44495587
+2025-01,North Central,Beverages,E-commerce & B2B Apps,10581000,7001105,1100,10796100
+2025-01,North Central,Beverages,Key Distributors,37164818,25640412,3976,37830998
+2025-01,North Central,Beverages,Modern Retail,22605536,15314625,2328,22243989
+2025-01,North Central,Beverages,Open Market,63212601,44177635,6540,66073626
+2025-01,North Central,Home Care,E-commerce & B2B Apps,4257477,2707036,354,4198031
+2025-01,North Central,Home Care,Key Distributors,16088560,11054159,1332,16714592
+2025-01,North Central,Home Care,Modern Retail,10298711,6871550,854,10453355
+2025-01,North Central,Home Care,Open Market,24589907,17025126,2010,24300226
+2025-01,North Central,Packaged Foods,E-commerce & B2B Apps,9368812,6755590,680,9786619
+2025-01,North Central,Packaged Foods,Key Distributors,30688118,22992054,2203,31027023
+2025-01,North Central,Packaged Foods,Modern Retail,21236763,15283925,1499,22137498
+2025-01,North Central,Packaged Foods,Open Market,54789287,41590873,3764,53707760
+2025-01,North Central,Personal Care,E-commerce & B2B Apps,4993975,3028959,262,5049495
+2025-01,North Central,Personal Care,Key Distributors,17087899,10624579,936,16939008
+2025-01,North Central,Personal Care,Modern Retail,11731643,7175357,633,11935837
+2025-01,North Central,Personal Care,Open Market,27162074,17674703,1441,26980051
+2025-01,North East,Beverages,E-commerce & B2B Apps,5581636,3714967,583,5544607
+2025-01,North East,Beverages,Key Distributors,19335800,13535939,2084,19570910
+2025-01,North East,Beverages,Modern Retail,12956648,8869497,1361,13567202
+2025-01,North East,Beverages,Open Market,33635858,23729852,3549,33965115
+2025-01,North East,Home Care,E-commerce & B2B Apps,2438913,1553987,205,2521614
+2025-01,North East,Home Care,Key Distributors,7945286,5485540,642,8090217
+2025-01,North East,Home Care,Modern Retail,5160881,3358830,425,5384536
+2025-01,North East,Home Care,Open Market,13232777,9223565,1106,13697969
+2025-01,North East,Packaged Foods,E-commerce & B2B Apps,5229733,3711809,359,5153986
+2025-01,North East,Packaged Foods,Key Distributors,16951348,12904355,1229,17363378
+2025-01,North East,Packaged Foods,Modern Retail,11401180,8341386,811,11430912
+2025-01,North East,Packaged Foods,Open Market,30219323,23079314,2132,28760762
+2025-01,North East,Personal Care,E-commerce & B2B Apps,2713124,1645658,144,2649703
+2025-01,North East,Personal Care,Key Distributors,9704092,6125174,508,10146809
+2025-01,North East,Personal Care,Modern Retail,6147683,3759491,339,6092249
+2025-01,North East,Personal Care,Open Market,15024613,9710622,792,14292821
+2025-01,North West,Beverages,E-commerce & B2B Apps,14434413,9551578,1557,14119478
+2025-01,North West,Beverages,Key Distributors,53451085,37691013,5503,51490658
+2025-01,North West,Beverages,Modern Retail,32719521,22065431,3503,32353829
+2025-01,North West,Beverages,Open Market,85196985,61285357,8746,81280595
+2025-01,North West,Home Care,E-commerce & B2B Apps,6197597,4015860,513,6029667
+2025-01,North West,Home Care,Key Distributors,21152407,14210487,1798,20325129
+2025-01,North West,Home Care,Modern Retail,13684121,9093479,1156,13233512
+2025-01,North West,Home Care,Open Market,36269585,25060221,3057,35714635
+2025-01,North West,Packaged Foods,E-commerce & B2B Apps,12706378,9190715,875,13265099
+2025-01,North West,Packaged Foods,Key Distributors,46981080,35138851,3256,46632026
+2025-01,North West,Packaged Foods,Modern Retail,31343036,23085737,2231,29899700
+2025-01,North West,Packaged Foods,Open Market,76376918,58467187,5227,78742466
+2025-01,North West,Personal Care,E-commerce & B2B Apps,7475798,4490716,392,7604037
+2025-01,North West,Personal Care,Key Distributors,24602688,15245810,1321,25069477
+2025-01,North West,Personal Care,Modern Retail,16853831,10473299,930,17575473
+2025-01,North West,Personal Care,Open Market,43390926,28224667,2387,45434198
+2025-01,South East,Beverages,E-commerce & B2B Apps,9149316,6168818,975,9332176
+2025-01,South East,Beverages,Key Distributors,32503456,22503602,3341,32479639
+2025-01,South East,Beverages,Modern Retail,21619793,14729114,2292,22667036
+2025-01,South East,Beverages,Open Market,53166155,37497793,5510,52384154
+2025-01,South East,Home Care,E-commerce & B2B Apps,4054381,2582268,338,4122039
+2025-01,South East,Home Care,Key Distributors,13062716,8990866,1098,12713929
+2025-01,South East,Home Care,Modern Retail,8380388,5502222,675,8774293
+2025-01,South East,Home Care,Open Market,23935671,16609023,2026,24472965
+2025-01,South East,Packaged Foods,E-commerce & B2B Apps,7950746,5745990,567,8235329
+2025-01,South East,Packaged Foods,Key Distributors,30612932,22642762,2203,29711870
+2025-01,South East,Packaged Foods,Modern Retail,18678743,13468813,1347,18923222
+2025-01,South East,Packaged Foods,Open Market,50437887,38616674,3598,51363085
+2025-01,South East,Personal Care,E-commerce & B2B Apps,4588712,2720752,247,4470841
+2025-01,South East,Personal Care,Key Distributors,15036036,9603784,791,15462550
+2025-01,South East,Personal Care,Modern Retail,9514589,5877622,516,9802503
+2025-01,South East,Personal Care,Open Market,24785321,15810853,1300,24192377
+2025-01,South South,Beverages,E-commerce & B2B Apps,12804877,8583262,1362,13265877
+2025-01,South South,Beverages,Key Distributors,43359862,30528623,4672,42773485
+2025-01,South South,Beverages,Modern Retail,28263712,19084161,2904,27708856
+2025-01,South South,Beverages,Open Market,70047207,49793901,7353,72020004
+2025-01,South South,Home Care,E-commerce & B2B Apps,4963392,3224205,420,5050900
+2025-01,South South,Home Care,Key Distributors,17443484,11933785,1433,17934991
+2025-01,South South,Home Care,Modern Retail,11950711,7987749,965,12391300
+2025-01,South South,Home Care,Open Market,28547120,19363269,2297,29905204
+2025-01,South South,Packaged Foods,E-commerce & B2B Apps,10687573,7579483,762,10462712
+2025-01,South South,Packaged Foods,Key Distributors,38700211,28575347,2764,39230816
+2025-01,South South,Packaged Foods,Modern Retail,26126043,19250152,1801,26448842
+2025-01,South South,Packaged Foods,Open Market,59489206,45225391,4106,59275780
+2025-01,South South,Personal Care,E-commerce & B2B Apps,5489061,3207014,291,5294184
+2025-01,South South,Personal Care,Key Distributors,19435227,12383785,1019,19477606
+2025-01,South South,Personal Care,Modern Retail,13262030,8069404,717,12857668
+2025-01,South South,Personal Care,Open Market,34658942,21879502,1812,34899620
+2025-01,South West,Beverages,E-commerce & B2B Apps,26617528,17492124,2733,26322035
+2025-01,South West,Beverages,Key Distributors,90669059,64532469,9513,87243048
+2025-01,South West,Beverages,Modern Retail,57898461,39160124,6230,59757748
+2025-01,South West,Beverages,Open Market,152394780,106875293,15780,151621451
+2025-01,South West,Home Care,E-commerce & B2B Apps,10998663,7198683,933,11092349
+2025-01,South West,Home Care,Key Distributors,35409540,24275888,2949,36926336
+2025-01,South West,Home Care,Modern Retail,25448953,16950890,2057,26190680
+2025-01,South West,Home Care,Open Market,64307052,43874985,5168,65751761
+2025-01,South West,Packaged Foods,E-commerce & B2B Apps,22843315,16383863,1568,22337229
+2025-01,South West,Packaged Foods,Key Distributors,82072814,61294372,5869,79068394
+2025-01,South West,Packaged Foods,Modern Retail,53088376,39295953,3695,52722217
+2025-01,South West,Packaged Foods,Open Market,129389488,98055809,9158,135563353
+2025-01,South West,Personal Care,E-commerce & B2B Apps,11501279,6772518,628,11330153
+2025-01,South West,Personal Care,Key Distributors,41605906,25811124,2223,40855101
+2025-01,South West,Personal Care,Modern Retail,28023447,17043045,1503,27166937
+2025-01,South West,Personal Care,Open Market,68218755,43051009,3673,70999918
+2025-02,FCT Abuja,Beverages,E-commerce & B2B Apps,17258895,11523123,1772,18030478
+2025-02,FCT Abuja,Beverages,Key Distributors,62008470,43678781,6400,64593056
+2025-02,FCT Abuja,Beverages,Modern Retail,39728281,26986687,4277,40862162
+2025-02,FCT Abuja,Beverages,Open Market,100427096,70747582,10541,103119701
+2025-02,FCT Abuja,Home Care,E-commerce & B2B Apps,6883938,4421280,578,6725742
+2025-02,FCT Abuja,Home Care,Key Distributors,23459650,16190691,1943,23203737
+2025-02,FCT Abuja,Home Care,Modern Retail,16401031,10721107,1352,16624862
+2025-02,FCT Abuja,Home Care,Open Market,40100911,27788645,3322,38522958
+2025-02,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,14392836,10216674,1024,13731159
+2025-02,FCT Abuja,Packaged Foods,Key Distributors,54482432,40614481,3902,53657277
+2025-02,FCT Abuja,Packaged Foods,Modern Retail,34214570,24661922,2445,35374310
+2025-02,FCT Abuja,Packaged Foods,Open Market,89392777,68830563,6243,88255646
+2025-02,FCT Abuja,Personal Care,E-commerce & B2B Apps,8097244,4852608,438,8419094
+2025-02,FCT Abuja,Personal Care,Key Distributors,29340492,18343180,1619,29477008
+2025-02,FCT Abuja,Personal Care,Modern Retail,18526926,11154315,983,18065446
+2025-02,FCT Abuja,Personal Care,Open Market,43851704,28494635,2415,44004165
+2025-02,North Central,Beverages,E-commerce & B2B Apps,11355185,7456856,1168,11510260
+2025-02,North Central,Beverages,Key Distributors,37730555,26092802,4033,39360446
+2025-02,North Central,Beverages,Modern Retail,23989533,16397878,2545,24934978
+2025-02,North Central,Beverages,Open Market,59590853,42364635,6248,62232338
+2025-02,North Central,Home Care,E-commerce & B2B Apps,4701424,3057719,390,4875970
+2025-02,North Central,Home Care,Key Distributors,16416577,11319425,1397,16463295
+2025-02,North Central,Home Care,Modern Retail,10076727,6639088,824,9755108
+2025-02,North Central,Home Care,Open Market,26158558,18179970,2214,27179790
+2025-02,North Central,Packaged Foods,E-commerce & B2B Apps,9478947,6758137,674,9081873
+2025-02,North Central,Packaged Foods,Key Distributors,32568118,24589310,2309,32696798
+2025-02,North Central,Packaged Foods,Modern Retail,20987694,15328567,1494,21174936
+2025-02,North Central,Packaged Foods,Open Market,56852912,42725846,4065,57644435
+2025-02,North Central,Personal Care,E-commerce & B2B Apps,4858746,2850925,258,4799460
+2025-02,North Central,Personal Care,Key Distributors,18824096,11897273,1029,19060236
+2025-02,North Central,Personal Care,Modern Retail,11468403,7008504,610,11161199
+2025-02,North Central,Personal Care,Open Market,30953997,19645068,1676,31949447
+2025-02,North East,Beverages,E-commerce & B2B Apps,6005665,4055961,625,6164941
+2025-02,North East,Beverages,Key Distributors,21346854,14982740,2215,21147526
+2025-02,North East,Beverages,Modern Retail,14218332,9692413,1508,13584847
+2025-02,North East,Beverages,Open Market,33811038,23775070,3581,35224150
+2025-02,North East,Home Care,E-commerce & B2B Apps,2463622,1593697,202,2431070
+2025-02,North East,Home Care,Key Distributors,8843716,5949075,712,8560042
+2025-02,North East,Home Care,Modern Retail,5634716,3737732,466,5752571
+2025-02,North East,Home Care,Open Market,14979681,10420308,1254,14817595
+2025-02,North East,Packaged Foods,E-commerce & B2B Apps,5590268,4045889,390,5579028
+2025-02,North East,Packaged Foods,Key Distributors,19655870,14612505,1417,18967370
+2025-02,North East,Packaged Foods,Modern Retail,12308841,9106649,869,11725803
+2025-02,North East,Packaged Foods,Open Market,28667129,21630700,1960,29255840
+2025-02,North East,Personal Care,E-commerce & B2B Apps,2883715,1733237,151,2839361
+2025-02,North East,Personal Care,Key Distributors,10332139,6508590,548,10168644
+2025-02,North East,Personal Care,Modern Retail,6534582,4060640,348,6521965
+2025-02,North East,Personal Care,Open Market,16464609,10359749,879,15925365
+2025-02,North West,Beverages,E-commerce & B2B Apps,14959612,10113547,1607,14841220
+2025-02,North West,Beverages,Key Distributors,56885620,40156490,5892,56406499
+2025-02,North West,Beverages,Modern Retail,36733102,24776997,3772,37532121
+2025-02,North West,Beverages,Open Market,94923395,67702301,10099,96654414
+2025-02,North West,Home Care,E-commerce & B2B Apps,6304726,4085068,510,6564486
+2025-02,North West,Home Care,Key Distributors,21925222,14946240,1762,22833863
+2025-02,North West,Home Care,Modern Retail,15569045,10106341,1279,15027703
+2025-02,North West,Home Care,Open Market,39648276,26992234,3293,38130109
+2025-02,North West,Packaged Foods,E-commerce & B2B Apps,13454340,9731116,929,13245476
+2025-02,North West,Packaged Foods,Key Distributors,51347216,38815274,3562,52754645
+2025-02,North West,Packaged Foods,Modern Retail,32485192,24069221,2296,32633982
+2025-02,North West,Packaged Foods,Open Market,84475075,64383982,5951,84481288
+2025-02,North West,Personal Care,E-commerce & B2B Apps,7748698,4538036,413,7906702
+2025-02,North West,Personal Care,Key Distributors,26901837,16954280,1471,27357645
+2025-02,North West,Personal Care,Modern Retail,16556000,10029514,888,17075202
+2025-02,North West,Personal Care,Open Market,44596385,28745796,2369,45765325
+2025-02,South East,Beverages,E-commerce & B2B Apps,9957386,6587515,1034,10439268
+2025-02,South East,Beverages,Key Distributors,33442724,23183268,3484,32862689
+2025-02,South East,Beverages,Modern Retail,21610512,14820526,2232,21985702
+2025-02,South East,Beverages,Open Market,54103492,38830745,5583,56245623
+2025-02,South East,Home Care,E-commerce & B2B Apps,4069688,2618229,338,4147587
+2025-02,South East,Home Care,Key Distributors,14934616,10000408,1215,14669609
+2025-02,South East,Home Care,Modern Retail,8756508,5725042,715,9011253
+2025-02,South East,Home Care,Open Market,24732488,16774398,2031,24646777
+2025-02,South East,Packaged Foods,E-commerce & B2B Apps,8675162,6289405,624,8441431
+2025-02,South East,Packaged Foods,Key Distributors,30879347,22824070,2197,29972765
+2025-02,South East,Packaged Foods,Modern Retail,20735225,14979084,1423,21107693
+2025-02,South East,Packaged Foods,Open Market,48259535,36186441,3340,48089386
+2025-02,South East,Personal Care,E-commerce & B2B Apps,4471266,2607463,234,4579080
+2025-02,South East,Personal Care,Key Distributors,15799737,9945766,845,15655266
+2025-02,South East,Personal Care,Modern Retail,10914424,6649338,594,10408028
+2025-02,South East,Personal Care,Open Market,25586929,16617257,1399,25073849
+2025-02,South South,Beverages,E-commerce & B2B Apps,12905602,8657962,1386,12904375
+2025-02,South South,Beverages,Key Distributors,45028492,31121018,4873,47208707
+2025-02,South South,Beverages,Modern Retail,28038785,19300298,2999,28247289
+2025-02,South South,Beverages,Open Market,75222641,53530865,7702,74850469
+2025-02,South South,Home Care,E-commerce & B2B Apps,5382186,3486402,443,5268026
+2025-02,South South,Home Care,Key Distributors,19422830,13084719,1616,18700553
+2025-02,South South,Home Care,Modern Retail,11506245,7470698,933,10999366
+2025-02,South South,Home Care,Open Market,31835463,22320692,2687,33193596
+2025-02,South South,Packaged Foods,E-commerce & B2B Apps,11383696,8262892,785,11848267
+2025-02,South South,Packaged Foods,Key Distributors,38370933,28845340,2773,39796647
+2025-02,South South,Packaged Foods,Modern Retail,24304430,17627048,1694,24507691
+2025-02,South South,Packaged Foods,Open Market,62863224,48129472,4336,62758577
+2025-02,South South,Personal Care,E-commerce & B2B Apps,5858464,3509859,322,5674442
+2025-02,South South,Personal Care,Key Distributors,20442983,13111416,1096,20785357
+2025-02,South South,Personal Care,Modern Retail,14527208,8972577,761,14447527
+2025-02,South South,Personal Care,Open Market,35568265,22753363,1898,35168786
+2025-02,South West,Beverages,E-commerce & B2B Apps,28254512,18850929,3000,27695206
+2025-02,South West,Beverages,Key Distributors,90864558,63947744,9493,87938966
+2025-02,South West,Beverages,Modern Retail,62976031,43255747,6778,63033357
+2025-02,South West,Beverages,Open Market,155821907,111741332,16286,161247643
+2025-02,South West,Home Care,E-commerce & B2B Apps,11043514,7255000,925,10714169
+2025-02,South West,Home Care,Key Distributors,40441081,27174881,3412,40576787
+2025-02,South West,Home Care,Modern Retail,26487498,17279039,2183,27534919
+2025-02,South West,Home Care,Open Market,64851891,44606254,5298,64184237
+2025-02,South West,Packaged Foods,E-commerce & B2B Apps,22904525,16621556,1649,23515951
+2025-02,South West,Packaged Foods,Key Distributors,85925724,64216815,5925,88820399
+2025-02,South West,Packaged Foods,Modern Retail,50730562,37123361,3486,51413333
+2025-02,South West,Packaged Foods,Open Market,141554781,107359474,10169,145000211
+2025-02,South West,Personal Care,E-commerce & B2B Apps,12476741,7356011,666,12700907
+2025-02,South West,Personal Care,Key Distributors,45594089,28618501,2400,47627919
+2025-02,South West,Personal Care,Modern Retail,30024299,18240721,1617,29194997
+2025-02,South West,Personal Care,Open Market,69952734,45483918,3727,67408124
+2025-03,FCT Abuja,Beverages,E-commerce & B2B Apps,20552398,13441292,2191,21168647
+2025-03,FCT Abuja,Beverages,Key Distributors,69889077,48138588,7157,72282357
+2025-03,FCT Abuja,Beverages,Modern Retail,44587377,30411352,4715,42708727
+2025-03,FCT Abuja,Beverages,Open Market,110076324,78287194,11371,113541116
+2025-03,FCT Abuja,Home Care,E-commerce & B2B Apps,8348389,5381147,692,8530332
+2025-03,FCT Abuja,Home Care,Key Distributors,28500276,19489504,2396,27339839
+2025-03,FCT Abuja,Home Care,Modern Retail,17815232,11769849,1464,18470131
+2025-03,FCT Abuja,Home Care,Open Market,48599551,33699012,4000,49866188
+2025-03,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,18521893,13129019,1324,17899206
+2025-03,FCT Abuja,Packaged Foods,Key Distributors,59885397,44688628,4157,57655169
+2025-03,FCT Abuja,Packaged Foods,Modern Retail,38977183,28735164,2704,38094876
+2025-03,FCT Abuja,Packaged Foods,Open Market,96707744,72688530,6928,97504502
+2025-03,FCT Abuja,Personal Care,E-commerce & B2B Apps,9627962,5819799,530,9934489
+2025-03,FCT Abuja,Personal Care,Key Distributors,31411227,19761361,1704,31298219
+2025-03,FCT Abuja,Personal Care,Modern Retail,20487199,12727974,1094,19899884
+2025-03,FCT Abuja,Personal Care,Open Market,55194695,34710112,3037,57430531
+2025-03,North Central,Beverages,E-commerce & B2B Apps,12784964,8562895,1362,12798880
+2025-03,North Central,Beverages,Key Distributors,44814817,31896882,4829,46705278
+2025-03,North Central,Beverages,Modern Retail,29409178,20259229,3118,28608448
+2025-03,North Central,Beverages,Open Market,71317792,50332792,7649,69809031
+2025-03,North Central,Home Care,E-commerce & B2B Apps,5142207,3372570,431,5215228
+2025-03,North Central,Home Care,Key Distributors,19719695,13282687,1642,18818240
+2025-03,North Central,Home Care,Modern Retail,12149049,7890454,984,12482566
+2025-03,North Central,Home Care,Open Market,29532195,20671997,2442,30290062
+2025-03,North Central,Packaged Foods,E-commerce & B2B Apps,12077100,8697398,838,12361829
+2025-03,North Central,Packaged Foods,Key Distributors,40933007,30628793,2950,39658807
+2025-03,North Central,Packaged Foods,Modern Retail,27211189,20188467,1940,28539813
+2025-03,North Central,Packaged Foods,Open Market,65542023,49464415,4489,66566761
+2025-03,North Central,Personal Care,E-commerce & B2B Apps,6348596,3753234,332,6357722
+2025-03,North Central,Personal Care,Key Distributors,21730916,13847437,1156,21683141
+2025-03,North Central,Personal Care,Modern Retail,13503022,8179623,722,13722265
+2025-03,North Central,Personal Care,Open Market,37393449,23766936,2064,37759370
+2025-03,North East,Beverages,E-commerce & B2B Apps,7049679,4625554,737,6748549
+2025-03,North East,Beverages,Key Distributors,23875888,16627277,2508,24074607
+2025-03,North East,Beverages,Modern Retail,15787255,10553743,1616,16480475
+2025-03,North East,Beverages,Open Market,38712423,27132957,3985,40421858
+2025-03,North East,Home Care,E-commerce & B2B Apps,2988253,1911103,254,2964029
+2025-03,North East,Home Care,Key Distributors,10436494,7140580,859,9987457
+2025-03,North East,Home Care,Modern Retail,6701741,4402896,561,6898815
+2025-03,North East,Home Care,Open Market,16335674,11409005,1388,16005229
+2025-03,North East,Packaged Foods,E-commerce & B2B Apps,6259568,4433511,434,6538767
+2025-03,North East,Packaged Foods,Key Distributors,21937133,16672153,1500,21909751
+2025-03,North East,Packaged Foods,Modern Retail,14169467,10320110,983,14509007
+2025-03,North East,Packaged Foods,Open Market,34812406,26716369,2516,34017962
+2025-03,North East,Personal Care,E-commerce & B2B Apps,3255913,1920531,176,3307216
+2025-03,North East,Personal Care,Key Distributors,12316439,7653824,663,12453326
+2025-03,North East,Personal Care,Modern Retail,7789136,4712039,419,7538998
+2025-03,North East,Personal Care,Open Market,19552885,12712423,1049,19472855
+2025-03,North West,Beverages,E-commerce & B2B Apps,18067740,11870786,1948,18027580
+2025-03,North West,Beverages,Key Distributors,69167485,48086411,7182,68365125
+2025-03,North West,Beverages,Modern Retail,41019751,27413338,4386,41276406
+2025-03,North West,Beverages,Open Market,114317560,81787892,12187,111106246
+2025-03,North West,Home Care,E-commerce & B2B Apps,8007795,5076019,644,8332651
+2025-03,North West,Home Care,Key Distributors,26524888,18255114,2198,25707670
+2025-03,North West,Home Care,Modern Retail,17663644,11465412,1465,17911908
+2025-03,North West,Home Care,Open Market,45127785,30684206,3661,45142551
+2025-03,North West,Packaged Foods,E-commerce & B2B Apps,16838137,11873369,1175,16642607
+2025-03,North West,Packaged Foods,Key Distributors,58728591,44631187,4248,57115392
+2025-03,North West,Packaged Foods,Modern Retail,38175567,27588728,2767,36645965
+2025-03,North West,Packaged Foods,Open Market,100576295,77444347,7083,97019161
+2025-03,North West,Personal Care,E-commerce & B2B Apps,9396166,5527303,519,9836153
+2025-03,North West,Personal Care,Key Distributors,30503372,18986081,1653,31762079
+2025-03,North West,Personal Care,Modern Retail,20979577,12709953,1141,20073279
+2025-03,North West,Personal Care,Open Market,50808593,32745345,2763,52238669
+2025-03,South East,Beverages,E-commerce & B2B Apps,11460708,7717063,1207,11151702
+2025-03,South East,Beverages,Key Distributors,40942341,29072511,4211,41465919
+2025-03,South East,Beverages,Modern Retail,26970415,18612274,2809,25817193
+2025-03,South East,Beverages,Open Market,70705231,49983503,7270,73583201
+2025-03,South East,Home Care,E-commerce & B2B Apps,5138016,3353377,415,4975989
+2025-03,South East,Home Care,Key Distributors,17683357,12075428,1496,18553344
+2025-03,South East,Home Care,Modern Retail,10594922,7036065,896,10254897
+2025-03,South East,Home Care,Open Market,26755851,18143773,2180,26492795
+2025-03,South East,Packaged Foods,E-commerce & B2B Apps,10423196,7555908,721,10492558
+2025-03,South East,Packaged Foods,Key Distributors,36733621,27961657,2635,35403245
+2025-03,South East,Packaged Foods,Modern Retail,22567622,16579370,1598,21497565
+2025-03,South East,Packaged Foods,Open Market,63120334,47322030,4376,62493511
+2025-03,South East,Personal Care,E-commerce & B2B Apps,5380534,3209008,291,5223819
+2025-03,South East,Personal Care,Key Distributors,19763632,12437188,1074,20385294
+2025-03,South East,Personal Care,Modern Retail,12256925,7616738,679,11820874
+2025-03,South East,Personal Care,Open Market,33393168,20982548,1790,33785330
+2025-03,South South,Beverages,E-commerce & B2B Apps,15418623,10172436,1615,15541287
+2025-03,South South,Beverages,Key Distributors,56765433,39140944,6063,55649107
+2025-03,South South,Beverages,Modern Retail,35348898,24245524,3689,36703925
+2025-03,South South,Beverages,Open Market,91246985,63944239,9829,94146061
+2025-03,South South,Home Care,E-commerce & B2B Apps,6627219,4235856,542,6411195
+2025-03,South South,Home Care,Key Distributors,23016004,15726915,1850,23570527
+2025-03,South South,Home Care,Modern Retail,14320515,9482097,1176,14153545
+2025-03,South South,Home Care,Open Market,38279257,26461092,3239,37699331
+2025-03,South South,Packaged Foods,E-commerce & B2B Apps,13512760,9808253,932,13770212
+2025-03,South South,Packaged Foods,Key Distributors,46567341,34539641,3255,45596655
+2025-03,South South,Packaged Foods,Modern Retail,29403252,21767990,2092,29837771
+2025-03,South South,Packaged Foods,Open Market,80085296,60459724,5531,82044599
+2025-03,South South,Personal Care,E-commerce & B2B Apps,7109309,4236647,391,7018124
+2025-03,South South,Personal Care,Key Distributors,25120548,15600093,1347,24947353
+2025-03,South South,Personal Care,Modern Retail,16836162,10366119,929,16684980
+2025-03,South South,Personal Care,Open Market,41182178,26116970,2262,41508522
+2025-03,South West,Beverages,E-commerce & B2B Apps,33386304,22465572,3499,32320258
+2025-03,South West,Beverages,Key Distributors,118159089,81460728,12460,121752104
+2025-03,South West,Beverages,Modern Retail,73761473,50811482,7580,71364050
+2025-03,South West,Beverages,Open Market,190870463,134673890,19518,183250063
+2025-03,South West,Home Care,E-commerce & B2B Apps,12969119,8379387,1074,12755564
+2025-03,South West,Home Care,Key Distributors,45214811,31019018,3659,47192409
+2025-03,South West,Home Care,Modern Retail,30230187,20226443,2445,30567129
+2025-03,South West,Home Care,Open Market,77027294,53247296,6517,78145765
+2025-03,South West,Packaged Foods,E-commerce & B2B Apps,28322297,19913011,1994,27862857
+2025-03,South West,Packaged Foods,Key Distributors,103104163,77863995,7159,104174016
+2025-03,South West,Packaged Foods,Modern Retail,64427226,47246458,4442,62982987
+2025-03,South West,Packaged Foods,Open Market,155720848,117899777,10805,150261791
+2025-03,South West,Personal Care,E-commerce & B2B Apps,14908232,8711155,824,14370764
+2025-03,South West,Personal Care,Key Distributors,52125406,32600775,2780,51829206
+2025-03,South West,Personal Care,Modern Retail,33435699,20319075,1840,34710387
+2025-03,South West,Personal Care,Open Market,88006663,55501601,4761,84293994
+2025-04,FCT Abuja,Beverages,E-commerce & B2B Apps,19428832,12891794,2065,19859527
+2025-04,FCT Abuja,Beverages,Key Distributors,64383928,45205794,6678,64058112
+2025-04,FCT Abuja,Beverages,Modern Retail,44957561,30605992,4756,44174352
+2025-04,FCT Abuja,Beverages,Open Market,117554751,82602989,12063,123428446
+2025-04,FCT Abuja,Home Care,E-commerce & B2B Apps,7955667,5042967,670,8049647
+2025-04,FCT Abuja,Home Care,Key Distributors,28069258,18895792,2341,27052260
+2025-04,FCT Abuja,Home Care,Modern Retail,19117666,12735599,1603,18592997
+2025-04,FCT Abuja,Home Care,Open Market,45536813,31307626,3771,47192867
+2025-04,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,17870002,12895142,1284,18706188
+2025-04,FCT Abuja,Packaged Foods,Key Distributors,59740107,44623169,4299,58152770
+2025-04,FCT Abuja,Packaged Foods,Modern Retail,38248513,27717568,2766,38864925
+2025-04,FCT Abuja,Packaged Foods,Open Market,98999861,76052381,6912,99086599
+2025-04,FCT Abuja,Personal Care,E-commerce & B2B Apps,8717340,5260169,473,8687928
+2025-04,FCT Abuja,Personal Care,Key Distributors,32620357,20756814,1788,32813384
+2025-04,FCT Abuja,Personal Care,Modern Retail,21445330,13253620,1142,20590748
+2025-04,FCT Abuja,Personal Care,Open Market,54987533,35323940,2923,55064997
+2025-04,North Central,Beverages,E-commerce & B2B Apps,11981417,8007968,1250,12266209
+2025-04,North Central,Beverages,Key Distributors,43061804,29782346,4543,43512878
+2025-04,North Central,Beverages,Modern Retail,29592773,20100270,3128,29102952
+2025-04,North Central,Beverages,Open Market,70551435,49555288,7257,67698665
+2025-04,North Central,Home Care,E-commerce & B2B Apps,5423174,3485061,441,5435341
+2025-04,North Central,Home Care,Key Distributors,18906770,13002905,1589,18673609
+2025-04,North Central,Home Care,Modern Retail,11192788,7403220,908,11260997
+2025-04,North Central,Home Care,Open Market,28287940,19472359,2360,28726593
+2025-04,North Central,Packaged Foods,E-commerce & B2B Apps,10787568,7665428,779,10659647
+2025-04,North Central,Packaged Foods,Key Distributors,40869671,31079845,2917,41133251
+2025-04,North Central,Packaged Foods,Modern Retail,25605668,18499573,1815,26643657
+2025-04,North Central,Packaged Foods,Open Market,65646305,50025259,4565,64976344
+2025-04,North Central,Personal Care,E-commerce & B2B Apps,5556271,3292192,297,5811133
+2025-04,North Central,Personal Care,Key Distributors,20549121,13072618,1129,19619932
+2025-04,North Central,Personal Care,Modern Retail,13591960,8255149,741,13969629
+2025-04,North Central,Personal Care,Open Market,33141994,21476015,1834,32085783
+2025-04,North East,Beverages,E-commerce & B2B Apps,6831178,4563998,731,6760728
+2025-04,North East,Beverages,Key Distributors,24172478,16775994,2510,23853990
+2025-04,North East,Beverages,Modern Retail,14918156,10162399,1584,14252759
+2025-04,North East,Beverages,Open Market,37540595,26709975,4060,38093011
+2025-04,North East,Home Care,E-commerce & B2B Apps,2689980,1721239,225,2580411
+2025-04,North East,Home Care,Key Distributors,9573068,6607854,801,9386449
+2025-04,North East,Home Care,Modern Retail,6493983,4323992,529,6197691
+2025-04,North East,Home Care,Open Market,16243884,11346447,1353,16612477
+2025-04,North East,Packaged Foods,E-commerce & B2B Apps,6148280,4452679,433,5881188
+2025-04,North East,Packaged Foods,Key Distributors,20353801,15296176,1401,20790970
+2025-04,North East,Packaged Foods,Modern Retail,14131524,10171340,995,13484784
+2025-04,North East,Packaged Foods,Open Market,34006543,25766267,2367,34458923
+2025-04,North East,Personal Care,E-commerce & B2B Apps,3412326,2059840,181,3247479
+2025-04,North East,Personal Care,Key Distributors,11551654,7280244,608,11295421
+2025-04,North East,Personal Care,Modern Retail,7545208,4626613,418,7309713
+2025-04,North East,Personal Care,Open Market,17580103,11254018,931,18359142
+2025-04,North West,Beverages,E-commerce & B2B Apps,18579973,12243429,1955,17744190
+2025-04,North West,Beverages,Key Distributors,63570774,43913734,6536,61461576
+2025-04,North West,Beverages,Modern Retail,42113773,28592805,4379,40211981
+2025-04,North West,Beverages,Open Market,104500545,73073005,11036,102106323
+2025-04,North West,Home Care,E-commerce & B2B Apps,7530045,4781741,614,7572567
+2025-04,North West,Home Care,Key Distributors,26589150,18112251,2135,26018179
+2025-04,North West,Home Care,Modern Retail,17006564,11169103,1445,17851989
+2025-04,North West,Home Care,Open Market,42904260,29800323,3466,41290328
+2025-04,North West,Packaged Foods,E-commerce & B2B Apps,16604211,11890590,1165,16828104
+2025-04,North West,Packaged Foods,Key Distributors,58423104,44039635,4002,60853883
+2025-04,North West,Packaged Foods,Modern Retail,37324141,27683183,2561,37058004
+2025-04,North West,Packaged Foods,Open Market,89314740,67635564,6112,89488376
+2025-04,North West,Personal Care,E-commerce & B2B Apps,8180180,4899728,441,8346732
+2025-04,North West,Personal Care,Key Distributors,31387807,19576023,1720,32773483
+2025-04,North West,Personal Care,Modern Retail,19805040,11976852,1070,19272998
+2025-04,North West,Personal Care,Open Market,51146036,33101665,2698,50169887
+2025-04,South East,Beverages,E-commerce & B2B Apps,11632978,7792793,1215,11826725
+2025-04,South East,Beverages,Key Distributors,40499183,28234504,4297,39166232
+2025-04,South East,Beverages,Modern Retail,24750429,16818209,2639,25707282
+2025-04,South East,Beverages,Open Market,68001138,48481889,7042,68093680
+2025-04,South East,Home Care,E-commerce & B2B Apps,4753024,3009989,391,4518780
+2025-04,South East,Home Care,Key Distributors,16531751,11126339,1343,17080623
+2025-04,South East,Home Care,Modern Retail,10370862,6862150,856,10884186
+2025-04,South East,Home Care,Open Market,26622833,18274980,2164,27530373
+2025-04,South East,Packaged Foods,E-commerce & B2B Apps,10077678,7309872,731,10574338
+2025-04,South East,Packaged Foods,Key Distributors,33405836,25097998,2322,34085097
+2025-04,South East,Packaged Foods,Modern Retail,23097485,17132232,1632,23645062
+2025-04,South East,Packaged Foods,Open Market,57045192,43314325,4111,59085023
+2025-04,South East,Personal Care,E-commerce & B2B Apps,5540272,3249954,306,5383569
+2025-04,South East,Personal Care,Key Distributors,18566955,11860033,995,18083318
+2025-04,South East,Personal Care,Modern Retail,12558957,7580780,669,12611473
+2025-04,South East,Personal Care,Open Market,30477836,19145554,1620,30991247
+2025-04,South South,Beverages,E-commerce & B2B Apps,15022269,10016190,1537,14818032
+2025-04,South South,Beverages,Key Distributors,50723363,34928634,5192,48463227
+2025-04,South South,Beverages,Modern Retail,33925123,22965234,3633,33952887
+2025-04,South South,Beverages,Open Market,89495024,63597592,9216,93599793
+2025-04,South South,Home Care,E-commerce & B2B Apps,6363210,4071201,539,6125732
+2025-04,South South,Home Care,Key Distributors,21930082,14714180,1773,21003242
+2025-04,South South,Home Care,Modern Retail,13733482,8938171,1134,14054712
+2025-04,South South,Home Care,Open Market,34790075,24143593,2862,34638906
+2025-04,South South,Packaged Foods,E-commerce & B2B Apps,13378586,9474506,935,13139880
+2025-04,South South,Packaged Foods,Key Distributors,43586967,32657801,3063,44958376
+2025-04,South South,Packaged Foods,Modern Retail,29712632,21408814,2149,30316483
+2025-04,South South,Packaged Foods,Open Market,74150083,57137651,5206,72618297
+2025-04,South South,Personal Care,E-commerce & B2B Apps,6809892,4098967,362,7094870
+2025-04,South South,Personal Care,Key Distributors,25243311,15625348,1371,25017812
+2025-04,South South,Personal Care,Modern Retail,15525904,9629847,811,15677350
+2025-04,South South,Personal Care,Open Market,38016293,24332623,2001,38183819
+2025-04,South West,Beverages,E-commerce & B2B Apps,29774834,19644481,3059,29768254
+2025-04,South West,Beverages,Key Distributors,102241926,71807830,10538,98246277
+2025-04,South West,Beverages,Modern Retail,68064694,45631354,7169,70037476
+2025-04,South West,Beverages,Open Market,178316153,126180546,18355,185716194
+2025-04,South West,Home Care,E-commerce & B2B Apps,13112384,8301773,1113,12482474
+2025-04,South West,Home Care,Key Distributors,46187743,31752560,3734,45718081
+2025-04,South West,Home Care,Modern Retail,27551567,18081986,2330,28297469
+2025-04,South West,Home Care,Open Market,75681427,51596538,6227,76036223
+2025-04,South West,Packaged Foods,E-commerce & B2B Apps,28731568,20271625,2037,27809588
+2025-04,South West,Packaged Foods,Key Distributors,96964503,72996955,6947,97607045
+2025-04,South West,Packaged Foods,Modern Retail,64537675,47208125,4586,62040013
+2025-04,South West,Packaged Foods,Open Market,153555297,117846698,10769,147374964
+2025-04,South West,Personal Care,E-commerce & B2B Apps,14666911,8745561,803,14559614
+2025-04,South West,Personal Care,Key Distributors,50214865,31642503,2782,51529799
+2025-04,South West,Personal Care,Modern Retail,32437409,19787406,1743,32451229
+2025-04,South West,Personal Care,Open Market,87414572,54898122,4665,87774427
+2025-05,FCT Abuja,Beverages,E-commerce & B2B Apps,17701705,11705444,1847,16867590
+2025-05,FCT Abuja,Beverages,Key Distributors,59905430,42296342,6197,60630733
+2025-05,FCT Abuja,Beverages,Modern Retail,42076855,28883572,4339,43985772
+2025-05,FCT Abuja,Beverages,Open Market,101015035,70807964,10660,103075495
+2025-05,FCT Abuja,Home Care,E-commerce & B2B Apps,7119389,4509965,575,6793983
+2025-05,FCT Abuja,Home Care,Key Distributors,26552614,18252653,2198,27243147
+2025-05,FCT Abuja,Home Care,Modern Retail,16123511,10630868,1314,15883463
+2025-05,FCT Abuja,Home Care,Open Market,42290252,29383234,3546,43832850
+2025-05,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,15867719,11267334,1094,16611012
+2025-05,FCT Abuja,Packaged Foods,Key Distributors,55771679,42468946,3951,56978926
+2025-05,FCT Abuja,Packaged Foods,Modern Retail,34264766,24994823,2412,33665466
+2025-05,FCT Abuja,Packaged Foods,Open Market,87022600,65537255,6094,84083069
+2025-05,FCT Abuja,Personal Care,E-commerce & B2B Apps,8430141,5098651,441,8586733
+2025-05,FCT Abuja,Personal Care,Key Distributors,28595455,18121971,1576,29304136
+2025-05,FCT Abuja,Personal Care,Modern Retail,19410798,11820588,1056,20324619
+2025-05,FCT Abuja,Personal Care,Open Market,48561011,30976051,2569,49000740
+2025-05,North Central,Beverages,E-commerce & B2B Apps,11646011,7818465,1192,11727753
+2025-05,North Central,Beverages,Key Distributors,38912639,27112086,4028,38454189
+2025-05,North Central,Beverages,Modern Retail,25779972,17660393,2717,26637508
+2025-05,North Central,Beverages,Open Market,64740559,46104067,6916,62268179
+2025-05,North Central,Home Care,E-commerce & B2B Apps,5121715,3356073,434,5145743
+2025-05,North Central,Home Care,Key Distributors,17239999,11778901,1456,17426649
+2025-05,North Central,Home Care,Modern Retail,10357964,6767238,857,9936534
+2025-05,North Central,Home Care,Open Market,28818170,20165063,2448,29831498
+2025-05,North Central,Packaged Foods,E-commerce & B2B Apps,10140396,7217648,699,9896428
+2025-05,North Central,Packaged Foods,Key Distributors,35879244,27127820,2556,36646961
+2025-05,North Central,Packaged Foods,Modern Retail,22324272,16335494,1581,22115242
+2025-05,North Central,Packaged Foods,Open Market,62097895,46976014,4310,59455843
+2025-05,North Central,Personal Care,E-commerce & B2B Apps,5505815,3238484,297,5412490
+2025-05,North Central,Personal Care,Key Distributors,19912673,12322812,1067,20573622
+2025-05,North Central,Personal Care,Modern Retail,12505561,7543504,673,13084484
+2025-05,North Central,Personal Care,Open Market,31160168,19767569,1627,31018300
+2025-05,North East,Beverages,E-commerce & B2B Apps,6486022,4337984,684,6198202
+2025-05,North East,Beverages,Key Distributors,23296834,16526568,2514,22665048
+2025-05,North East,Beverages,Modern Retail,14307657,9797195,1466,14369213
+2025-05,North East,Beverages,Open Market,36868594,26114957,3987,36025868
+2025-05,North East,Home Care,E-commerce & B2B Apps,2553407,1663895,206,2525386
+2025-05,North East,Home Care,Key Distributors,8789617,5889647,724,8553115
+2025-05,North East,Home Care,Modern Retail,5933617,3977595,491,6113682
+2025-05,North East,Home Care,Open Market,14905077,10242775,1241,14455576
+2025-05,North East,Packaged Foods,E-commerce & B2B Apps,5643646,4059692,404,5490903
+2025-05,North East,Packaged Foods,Key Distributors,19170590,14283050,1384,19872134
+2025-05,North East,Packaged Foods,Modern Retail,13019980,9389903,903,12880718
+2025-05,North East,Packaged Foods,Open Market,31302213,23780997,2158,29867827
+2025-05,North East,Personal Care,E-commerce & B2B Apps,2964123,1747897,160,3028096
+2025-05,North East,Personal Care,Key Distributors,10027573,6396349,550,9847606
+2025-05,North East,Personal Care,Modern Retail,7073290,4323718,373,6877887
+2025-05,North East,Personal Care,Open Market,16278237,10587331,895,15761854
+2025-05,North West,Beverages,E-commerce & B2B Apps,16786785,10970703,1761,17021083
+2025-05,North West,Beverages,Key Distributors,58192353,40356611,6249,59932150
+2025-05,North West,Beverages,Modern Retail,38457053,26280910,4095,38035302
+2025-05,North West,Beverages,Open Market,92859423,66438564,9729,94724726
+2025-05,North West,Home Care,E-commerce & B2B Apps,6855183,4429229,555,6980205
+2025-05,North West,Home Care,Key Distributors,23782611,16137063,2011,23352819
+2025-05,North West,Home Care,Modern Retail,15315942,10110211,1279,14629563
+2025-05,North West,Home Care,Open Market,38414390,26847829,3126,40284835
+2025-05,North West,Packaged Foods,E-commerce & B2B Apps,15020751,10595429,1064,14382765
+2025-05,North West,Packaged Foods,Key Distributors,49776991,36927822,3411,51734480
+2025-05,North West,Packaged Foods,Modern Retail,33990108,24494456,2366,32597206
+2025-05,North West,Packaged Foods,Open Market,86347499,65018575,6179,84313429
+2025-05,North West,Personal Care,E-commerce & B2B Apps,8076584,4833262,443,8207830
+2025-05,North West,Personal Care,Key Distributors,27421566,16993164,1464,26202175
+2025-05,North West,Personal Care,Modern Retail,16963300,10233550,908,16443348
+2025-05,North West,Personal Care,Open Market,44225230,27862026,2435,45522234
+2025-05,South East,Beverages,E-commerce & B2B Apps,10229251,6725079,1109,10675645
+2025-05,South East,Beverages,Key Distributors,36838450,25458490,3931,37704070
+2025-05,South East,Beverages,Modern Retail,23338545,16094180,2422,23992982
+2025-05,South East,Beverages,Open Market,60301285,43155785,6434,62638933
+2025-05,South East,Home Care,E-commerce & B2B Apps,4347386,2841040,368,4281189
+2025-05,South East,Home Care,Key Distributors,15363738,10319985,1236,15249455
+2025-05,South East,Home Care,Modern Retail,10248097,6790709,846,10017575
+2025-05,South East,Home Care,Open Market,23895918,16741325,1951,24959294
+2025-05,South East,Packaged Foods,E-commerce & B2B Apps,9091654,6576118,639,8976468
+2025-05,South East,Packaged Foods,Key Distributors,31766110,23493224,2201,30658071
+2025-05,South East,Packaged Foods,Modern Retail,21003260,15090541,1513,21360885
+2025-05,South East,Packaged Foods,Open Market,53207543,40251930,3644,54878792
+2025-05,South East,Personal Care,E-commerce & B2B Apps,4950390,2985673,259,4850639
+2025-05,South East,Personal Care,Key Distributors,16612402,10289514,917,16630262
+2025-05,South East,Personal Care,Modern Retail,11031967,6678422,610,10519625
+2025-05,South East,Personal Care,Open Market,29173822,18562266,1558,30277809
+2025-05,South South,Beverages,E-commerce & B2B Apps,14224380,9594958,1472,14278964
+2025-05,South South,Beverages,Key Distributors,50934583,35639403,5474,49443804
+2025-05,South South,Beverages,Modern Retail,30783266,20821947,3316,30544825
+2025-05,South South,Beverages,Open Market,74704471,52465888,7865,78377989
+2025-05,South South,Home Care,E-commerce & B2B Apps,6037881,3871798,493,6203949
+2025-05,South South,Home Care,Key Distributors,19989244,13376786,1624,19581816
+2025-05,South South,Home Care,Modern Retail,12993693,8520785,1044,13140338
+2025-05,South South,Home Care,Open Market,31321223,21482798,2534,32332109
+2025-05,South South,Packaged Foods,E-commerce & B2B Apps,11639348,8203726,797,12011960
+2025-05,South South,Packaged Foods,Key Distributors,42361805,31600673,3018,42950662
+2025-05,South South,Packaged Foods,Modern Retail,26503476,19178672,1865,25807052
+2025-05,South South,Packaged Foods,Open Market,66856717,50449560,4789,65344916
+2025-05,South South,Personal Care,E-commerce & B2B Apps,6203250,3732530,334,6497829
+2025-05,South South,Personal Care,Key Distributors,23367463,14987990,1259,23573734
+2025-05,South South,Personal Care,Modern Retail,15241942,9288218,843,15791362
+2025-05,South South,Personal Care,Open Market,38878188,25201995,2080,39723447
+2025-05,South West,Beverages,E-commerce & B2B Apps,28614926,19352080,2982,29350656
+2025-05,South West,Beverages,Key Distributors,94648682,66905401,10166,93745700
+2025-05,South West,Beverages,Modern Retail,62878087,42239344,6752,63001396
+2025-05,South West,Beverages,Open Market,161396980,113026662,17238,154239505
+2025-05,South West,Home Care,E-commerce & B2B Apps,11224890,7371495,917,11766207
+2025-05,South West,Home Care,Key Distributors,40143978,27109925,3293,39676366
+2025-05,South West,Home Care,Modern Retail,27257842,18247319,2285,26768891
+2025-05,South West,Home Care,Open Market,67097192,45520617,5670,66040969
+2025-05,South West,Packaged Foods,E-commerce & B2B Apps,25271129,17843118,1732,24716509
+2025-05,South West,Packaged Foods,Key Distributors,87172703,66130282,5979,86837080
+2025-05,South West,Packaged Foods,Modern Retail,55830798,41229971,4011,58512038
+2025-05,South West,Packaged Foods,Open Market,151466324,113681241,10535,147811592
+2025-05,South West,Personal Care,E-commerce & B2B Apps,13766971,8333285,729,13453477
+2025-05,South West,Personal Care,Key Distributors,48122063,30029302,2632,48899163
+2025-05,South West,Personal Care,Modern Retail,30156026,18099781,1665,31308543
+2025-05,South West,Personal Care,Open Market,77442201,48641101,4273,76364725
+2025-06,FCT Abuja,Beverages,E-commerce & B2B Apps,18218246,12279007,1951,18296451
+2025-06,FCT Abuja,Beverages,Key Distributors,61707299,43072092,6569,63370483
+2025-06,FCT Abuja,Beverages,Modern Retail,43119029,28843665,4493,42480652
+2025-06,FCT Abuja,Beverages,Open Market,104770548,74171552,11096,104754362
+2025-06,FCT Abuja,Home Care,E-commerce & B2B Apps,7220048,4666689,581,6895776
+2025-06,FCT Abuja,Home Care,Key Distributors,27219180,18194554,2279,27312668
+2025-06,FCT Abuja,Home Care,Modern Retail,17659361,11736659,1477,17537155
+2025-06,FCT Abuja,Home Care,Open Market,42355307,28782826,3457,44307889
+2025-06,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,15548102,11027689,1069,14950826
+2025-06,FCT Abuja,Packaged Foods,Key Distributors,60026834,44367906,4141,61033053
+2025-06,FCT Abuja,Packaged Foods,Modern Retail,38389852,28248030,2757,40107693
+2025-06,FCT Abuja,Packaged Foods,Open Market,90495076,69841677,6280,91453881
+2025-06,FCT Abuja,Personal Care,E-commerce & B2B Apps,8659956,5049232,459,8579983
+2025-06,FCT Abuja,Personal Care,Key Distributors,31576356,19746511,1700,32165922
+2025-06,FCT Abuja,Personal Care,Modern Retail,19562513,11876233,1082,18966620
+2025-06,FCT Abuja,Personal Care,Open Market,47148670,30582187,2540,45927689
+2025-06,North Central,Beverages,E-commerce & B2B Apps,11436108,7570010,1210,11938139
+2025-06,North Central,Beverages,Key Distributors,42348577,29224625,4530,42517367
+2025-06,North Central,Beverages,Modern Retail,26279594,17996237,2709,26914156
+2025-06,North Central,Beverages,Open Market,70584760,50777988,7324,67738982
+2025-06,North Central,Home Care,E-commerce & B2B Apps,5126601,3321865,432,4947630
+2025-06,North Central,Home Care,Key Distributors,17210157,11580646,1393,17278632
+2025-06,North Central,Home Care,Modern Retail,10555964,6894844,884,10640472
+2025-06,North Central,Home Care,Open Market,28892318,19934547,2372,29276892
+2025-06,North Central,Packaged Foods,E-commerce & B2B Apps,10870249,7902515,775,11287168
+2025-06,North Central,Packaged Foods,Key Distributors,36785907,27849479,2561,34996878
+2025-06,North Central,Packaged Foods,Modern Retail,24121228,17370264,1702,23908485
+2025-06,North Central,Packaged Foods,Open Market,58387146,45068064,4102,56048437
+2025-06,North Central,Personal Care,E-commerce & B2B Apps,5485030,3291631,296,5302042
+2025-06,North Central,Personal Care,Key Distributors,18525072,11666168,977,19317053
+2025-06,North Central,Personal Care,Modern Retail,12786255,7685634,698,12590960
+2025-06,North Central,Personal Care,Open Market,30874433,19522557,1682,30565339
+2025-06,North East,Beverages,E-commerce & B2B Apps,6264570,4091486,669,6433563
+2025-06,North East,Beverages,Key Distributors,21925763,15348810,2361,20878965
+2025-06,North East,Beverages,Modern Retail,13975347,9583377,1464,13422507
+2025-06,North East,Beverages,Open Market,37330547,26490780,4051,37515270
+2025-06,North East,Home Care,E-commerce & B2B Apps,2681852,1719596,224,2560126
+2025-06,North East,Home Care,Key Distributors,9288808,6426406,748,9336286
+2025-06,North East,Home Care,Modern Retail,6184478,4089407,521,6132443
+2025-06,North East,Home Care,Open Market,15783142,10744801,1320,15642474
+2025-06,North East,Packaged Foods,E-commerce & B2B Apps,5723676,4064022,414,5966346
+2025-06,North East,Packaged Foods,Key Distributors,19863802,15127304,1401,20492593
+2025-06,North East,Packaged Foods,Modern Retail,13472537,9801376,975,13235959
+2025-06,North East,Packaged Foods,Open Market,32104127,24586058,2252,30650635
+2025-06,North East,Personal Care,E-commerce & B2B Apps,2981180,1766172,164,3089956
+2025-06,North East,Personal Care,Key Distributors,10292863,6543774,555,10171835
+2025-06,North East,Personal Care,Modern Retail,6535339,4036963,345,6822088
+2025-06,North East,Personal Care,Open Market,17049634,10746916,918,17067593
+2025-06,North West,Beverages,E-commerce & B2B Apps,17810574,12038714,1930,17750331
+2025-06,North West,Beverages,Key Distributors,61349615,42925443,6426,62071212
+2025-06,North West,Beverages,Modern Retail,37254263,25188473,3822,35670900
+2025-06,North West,Beverages,Open Market,99188074,71250613,10697,102970521
+2025-06,North West,Home Care,E-commerce & B2B Apps,7495546,4800287,638,7751400
+2025-06,North West,Home Care,Key Distributors,24182554,16192733,1987,23157811
+2025-06,North West,Home Care,Modern Retail,17032454,11440421,1450,17255813
+2025-06,North West,Home Care,Open Market,41004554,28083008,3308,40159665
+2025-06,North West,Packaged Foods,E-commerce & B2B Apps,15676388,11179278,1084,15086456
+2025-06,North West,Packaged Foods,Key Distributors,51893173,39205878,3564,53869860
+2025-06,North West,Packaged Foods,Modern Retail,32872713,24091867,2249,34260141
+2025-06,North West,Packaged Foods,Open Market,86085975,64441718,6050,87045703
+2025-06,North West,Personal Care,E-commerce & B2B Apps,8216607,4896285,449,8435353
+2025-06,North West,Personal Care,Key Distributors,27576960,17627875,1452,28563317
+2025-06,North West,Personal Care,Modern Retail,19180259,11650921,1054,20111755
+2025-06,North West,Personal Care,Open Market,47788378,30813756,2543,50030582
+2025-06,South East,Beverages,E-commerce & B2B Apps,10178533,6703065,1044,10525699
+2025-06,South East,Beverages,Key Distributors,38632155,26878166,3968,38232699
+2025-06,South East,Beverages,Modern Retail,23934470,16486060,2479,23896953
+2025-06,South East,Beverages,Open Market,61853859,44251114,6358,62572368
+2025-06,South East,Home Care,E-commerce & B2B Apps,4669048,2984724,396,4487040
+2025-06,South East,Home Care,Key Distributors,16254530,11186295,1356,16889477
+2025-06,South East,Home Care,Modern Retail,9674008,6326989,776,9212455
+2025-06,South East,Home Care,Open Market,26537433,18520525,2234,27343677
+2025-06,South East,Packaged Foods,E-commerce & B2B Apps,9869157,7015382,693,9900752
+2025-06,South East,Packaged Foods,Key Distributors,33552212,25512627,2410,33775645
+2025-06,South East,Packaged Foods,Modern Retail,20427596,14766971,1410,19810445
+2025-06,South East,Packaged Foods,Open Market,58551165,44989999,4162,59151463
+2025-06,South East,Personal Care,E-commerce & B2B Apps,5260618,3073577,277,5483303
+2025-06,South East,Personal Care,Key Distributors,18653237,11787730,1021,19219313
+2025-06,South East,Personal Care,Modern Retail,11316142,6998027,600,10822635
+2025-06,South East,Personal Care,Open Market,30601575,19705131,1637,31759676
+2025-06,South South,Beverages,E-commerce & B2B Apps,13707803,9143903,1420,14354538
+2025-06,South South,Beverages,Key Distributors,48466801,33778336,5072,48243887
+2025-06,South South,Beverages,Modern Retail,32465673,21837251,3483,32943337
+2025-06,South South,Beverages,Open Market,80224365,56766042,8227,82164992
+2025-06,South South,Home Care,E-commerce & B2B Apps,5615119,3653817,469,5607515
+2025-06,South South,Home Care,Key Distributors,19553889,13295388,1655,18800360
+2025-06,South South,Home Care,Modern Retail,13794687,9078339,1168,13822830
+2025-06,South South,Home Care,Open Market,33898526,23270270,2826,35091357
+2025-06,South South,Packaged Foods,E-commerce & B2B Apps,12643086,8934993,876,12125851
+2025-06,South South,Packaged Foods,Key Distributors,45931409,34534132,3263,47107570
+2025-06,South South,Packaged Foods,Modern Retail,27107373,19788390,1950,27602000
+2025-06,South South,Packaged Foods,Open Market,72444743,55033833,4978,73429543
+2025-06,South South,Personal Care,E-commerce & B2B Apps,6338363,3720137,344,6272027
+2025-06,South South,Personal Care,Key Distributors,23581337,14896604,1304,23592738
+2025-06,South South,Personal Care,Modern Retail,14726188,9012311,789,14324046
+2025-06,South South,Personal Care,Open Market,37850338,24638893,2052,38337485
+2025-06,South West,Beverages,E-commerce & B2B Apps,30762163,20232897,3213,32174731
+2025-06,South West,Beverages,Key Distributors,99298721,69996173,10692,98260362
+2025-06,South West,Beverages,Modern Retail,65178130,44993078,6726,66516068
+2025-06,South West,Beverages,Open Market,167934658,119160220,17379,176120250
+2025-06,South West,Home Care,E-commerce & B2B Apps,12735581,8228988,1084,13242841
+2025-06,South West,Home Care,Key Distributors,41758403,28122455,3438,40647899
+2025-06,South West,Home Care,Modern Retail,26105887,17118235,2113,27296905
+2025-06,South West,Home Care,Open Market,73453855,50819470,6043,70102413
+2025-06,South West,Packaged Foods,E-commerce & B2B Apps,24780061,17891266,1764,25114286
+2025-06,South West,Packaged Foods,Key Distributors,96163662,71585699,6772,94906765
+2025-06,South West,Packaged Foods,Modern Retail,55817875,40315841,3820,53150387
+2025-06,South West,Packaged Foods,Open Market,157379107,121373183,11227,163741536
+2025-06,South West,Personal Care,E-commerce & B2B Apps,14504028,8596101,774,14953962
+2025-06,South West,Personal Care,Key Distributors,50071981,31188037,2658,49937329
+2025-06,South West,Personal Care,Modern Retail,31793209,19442810,1757,31945961
+2025-06,South West,Personal Care,Open Market,78647310,51101900,4274,81149131
+2025-07,FCT Abuja,Beverages,E-commerce & B2B Apps,16758870,11336358,1802,16384865
+2025-07,FCT Abuja,Beverages,Key Distributors,58423644,40253969,6118,60620337
+2025-07,FCT Abuja,Beverages,Modern Retail,37030162,25130920,3848,37282121
+2025-07,FCT Abuja,Beverages,Open Market,99175861,70989343,10185,98382118
+2025-07,FCT Abuja,Home Care,E-commerce & B2B Apps,6796225,4432592,563,6668308
+2025-07,FCT Abuja,Home Care,Key Distributors,25101070,16817423,2023,24227172
+2025-07,FCT Abuja,Home Care,Modern Retail,15946347,10633611,1328,16015882
+2025-07,FCT Abuja,Home Care,Open Market,41950637,29340517,3511,41608188
+2025-07,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,14744178,10652032,1030,15404722
+2025-07,FCT Abuja,Packaged Foods,Key Distributors,56444218,42996249,3922,56776796
+2025-07,FCT Abuja,Packaged Foods,Modern Retail,34986284,25570376,2507,33970528
+2025-07,FCT Abuja,Packaged Foods,Open Market,93324234,71663563,6382,93475330
+2025-07,FCT Abuja,Personal Care,E-commerce & B2B Apps,8079890,4871743,438,8367983
+2025-07,FCT Abuja,Personal Care,Key Distributors,28125278,17720263,1471,27896421
+2025-07,FCT Abuja,Personal Care,Modern Retail,18070872,11214418,972,17722334
+2025-07,FCT Abuja,Personal Care,Open Market,44218448,28278574,2363,46222340
+2025-07,North Central,Beverages,E-commerce & B2B Apps,11597783,7840087,1208,11992662
+2025-07,North Central,Beverages,Key Distributors,38571259,27350102,3970,37462700
+2025-07,North Central,Beverages,Modern Retail,24510979,16754188,2631,25058931
+2025-07,North Central,Beverages,Open Market,61055236,42840465,6330,58966373
+2025-07,North Central,Home Care,E-commerce & B2B Apps,4400377,2786236,374,4578176
+2025-07,North Central,Home Care,Key Distributors,16513009,11043788,1330,16454570
+2025-07,North Central,Home Care,Modern Retail,11011192,7281528,933,11426869
+2025-07,North Central,Home Care,Open Market,27260884,18814321,2259,27804468
+2025-07,North Central,Packaged Foods,E-commerce & B2B Apps,9866513,7016953,714,9754051
+2025-07,North Central,Packaged Foods,Key Distributors,33832008,25350387,2345,34114368
+2025-07,North Central,Packaged Foods,Modern Retail,22718148,16739315,1621,21948471
+2025-07,North Central,Packaged Foods,Open Market,53938503,40687927,3744,55398464
+2025-07,North Central,Personal Care,E-commerce & B2B Apps,5088718,3061485,274,5239185
+2025-07,North Central,Personal Care,Key Distributors,19504118,12501756,1044,20185830
+2025-07,North Central,Personal Care,Modern Retail,12394014,7685309,663,12240511
+2025-07,North Central,Personal Care,Open Market,29723434,18757384,1574,29370922
+2025-07,North East,Beverages,E-commerce & B2B Apps,6363498,4196111,684,6166712
+2025-07,North East,Beverages,Key Distributors,20496071,14334879,2160,21262947
+2025-07,North East,Beverages,Modern Retail,13233991,8855425,1430,13355179
+2025-07,North East,Beverages,Open Market,36977255,25877625,3906,35872801
+2025-07,North East,Home Care,E-commerce & B2B Apps,2567166,1645612,208,2562806
+2025-07,North East,Home Care,Key Distributors,8479362,5756946,688,8110109
+2025-07,North East,Home Care,Modern Retail,5491203,3572070,459,5391849
+2025-07,North East,Home Care,Open Market,15230000,10373586,1237,14875565
+2025-07,North East,Packaged Foods,E-commerce & B2B Apps,5550936,4015289,382,5411028
+2025-07,North East,Packaged Foods,Key Distributors,19386697,14339401,1374,20027349
+2025-07,North East,Packaged Foods,Modern Retail,11625400,8403358,808,12178276
+2025-07,North East,Packaged Foods,Open Market,32577301,24419978,2245,33873639
+2025-07,North East,Personal Care,E-commerce & B2B Apps,3002731,1775545,158,2864533
+2025-07,North East,Personal Care,Key Distributors,10069148,6235407,557,9982880
+2025-07,North East,Personal Care,Modern Retail,6292809,3873762,349,6077669
+2025-07,North East,Personal Care,Open Market,16827750,10665276,909,17433371
+2025-07,North West,Beverages,E-commerce & B2B Apps,15455438,10331016,1675,15318932
+2025-07,North West,Beverages,Key Distributors,54930420,38661459,5942,55820005
+2025-07,North West,Beverages,Modern Retail,37406793,25642037,3845,35637973
+2025-07,North West,Beverages,Open Market,94887298,68369398,9916,98298582
+2025-07,North West,Home Care,E-commerce & B2B Apps,6795005,4374391,555,6596769
+2025-07,North West,Home Care,Key Distributors,23321216,15636770,1925,22781090
+2025-07,North West,Home Care,Modern Retail,14397443,9417779,1226,14034533
+2025-07,North West,Home Care,Open Market,38751476,26789670,3284,39313308
+2025-07,North West,Packaged Foods,E-commerce & B2B Apps,14060156,9992884,997,14265641
+2025-07,North West,Packaged Foods,Key Distributors,49382081,37517235,3515,51673798
+2025-07,North West,Packaged Foods,Modern Retail,31306499,22636982,2240,32090950
+2025-07,North West,Packaged Foods,Open Market,79814829,61341054,5517,80432347
+2025-07,North West,Personal Care,E-commerce & B2B Apps,7723804,4587484,407,8020645
+2025-07,North West,Personal Care,Key Distributors,26107852,16262380,1414,25233276
+2025-07,North West,Personal Care,Modern Retail,17391101,10466962,922,17288600
+2025-07,North West,Personal Care,Open Market,45551407,28761527,2409,47687925
+2025-07,South East,Beverages,E-commerce & B2B Apps,10423634,6952973,1120,10938821
+2025-07,South East,Beverages,Key Distributors,37078453,26374552,3945,38112757
+2025-07,South East,Beverages,Modern Retail,22554698,15090707,2348,23607028
+2025-07,South East,Beverages,Open Market,55344378,38842265,5861,53900141
+2025-07,South East,Home Care,E-commerce & B2B Apps,4244090,2783578,356,4265846
+2025-07,South East,Home Care,Key Distributors,15349046,10492552,1232,15430518
+2025-07,South East,Home Care,Modern Retail,9204803,6097312,752,9643783
+2025-07,South East,Home Care,Open Market,23929404,16379547,1957,23413117
+2025-07,South East,Packaged Foods,E-commerce & B2B Apps,9385570,6814450,671,8962523
+2025-07,South East,Packaged Foods,Key Distributors,31073611,23511871,2227,32057836
+2025-07,South East,Packaged Foods,Modern Retail,19922471,14309433,1391,20445808
+2025-07,South East,Packaged Foods,Open Market,50321010,38285349,3512,48585996
+2025-07,South East,Personal Care,E-commerce & B2B Apps,5071662,2982836,281,5317584
+2025-07,South East,Personal Care,Key Distributors,16077762,10197306,849,16713153
+2025-07,South East,Personal Care,Modern Retail,11374749,7009469,625,11721477
+2025-07,South East,Personal Care,Open Market,26661852,17285764,1403,27317247
+2025-07,South South,Beverages,E-commerce & B2B Apps,13413899,8904764,1406,13188371
+2025-07,South South,Beverages,Key Distributors,44124834,30472817,4777,45550909
+2025-07,South South,Beverages,Modern Retail,30789240,20600673,3218,31430972
+2025-07,South South,Beverages,Open Market,71951856,50284949,7517,69308125
+2025-07,South South,Home Care,E-commerce & B2B Apps,5536310,3505665,457,5279097
+2025-07,South South,Home Care,Key Distributors,19070281,12962459,1536,18309609
+2025-07,South South,Home Care,Modern Retail,11774493,7912326,957,11714576
+2025-07,South South,Home Care,Open Market,31715687,22217263,2697,30683591
+2025-07,South South,Packaged Foods,E-commerce & B2B Apps,11692175,8378755,837,12071336
+2025-07,South South,Packaged Foods,Key Distributors,39224411,29525622,2810,37678822
+2025-07,South South,Packaged Foods,Modern Retail,26426876,19175492,1869,26156285
+2025-07,South South,Packaged Foods,Open Market,66015196,50694748,4555,63590371
+2025-07,South South,Personal Care,E-commerce & B2B Apps,6033825,3530253,321,5739293
+2025-07,South South,Personal Care,Key Distributors,21385493,13567008,1172,20796051
+2025-07,South South,Personal Care,Modern Retail,14836457,8968998,778,15271222
+2025-07,South South,Personal Care,Open Market,34891733,21922392,1865,35649573
+2025-07,South West,Beverages,E-commerce & B2B Apps,27417646,18099842,2949,28060012
+2025-07,South West,Beverages,Key Distributors,98817050,68625185,10645,103568938
+2025-07,South West,Beverages,Modern Retail,59889332,40862851,6254,57131449
+2025-07,South West,Beverages,Open Market,149947097,106623702,16008,157216801
+2025-07,South West,Home Care,E-commerce & B2B Apps,11877176,7722506,964,12320620
+2025-07,South West,Home Care,Key Distributors,40819522,28159413,3317,40448891
+2025-07,South West,Home Care,Modern Retail,25042229,16452355,2089,25532008
+2025-07,South West,Home Care,Open Market,68021262,46862036,5654,68698423
+2025-07,South West,Packaged Foods,E-commerce & B2B Apps,24952135,18094901,1778,26130479
+2025-07,South West,Packaged Foods,Key Distributors,81608137,61141026,5807,80164871
+2025-07,South West,Packaged Foods,Modern Retail,56846469,42093330,4017,56768703
+2025-07,South West,Packaged Foods,Open Market,144189544,111217566,9906,146085039
+2025-07,South West,Personal Care,E-commerce & B2B Apps,12900393,7557181,689,12431012
+2025-07,South West,Personal Care,Key Distributors,42749873,27396220,2368,42254340
+2025-07,South West,Personal Care,Modern Retail,28540591,17426112,1555,27649097
+2025-07,South West,Personal Care,Open Market,74043111,47592087,4026,76770052
+2025-08,FCT Abuja,Beverages,E-commerce & B2B Apps,17081024,11337161,1762,17337604
+2025-08,FCT Abuja,Beverages,Key Distributors,61129995,43075611,6278,60592290
+2025-08,FCT Abuja,Beverages,Modern Retail,36187589,24212500,3864,34998013
+2025-08,FCT Abuja,Beverages,Open Market,93913757,67695543,10111,95835821
+2025-08,FCT Abuja,Home Care,E-commerce & B2B Apps,6697117,4285788,556,6933894
+2025-08,FCT Abuja,Home Care,Key Distributors,23769351,15896394,2010,24534981
+2025-08,FCT Abuja,Home Care,Modern Retail,15488376,10136259,1264,15964351
+2025-08,FCT Abuja,Home Care,Open Market,38389195,26271976,3156,37959795
+2025-08,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,15759721,11348720,1091,15547322
+2025-08,FCT Abuja,Packaged Foods,Key Distributors,54304751,40221333,3830,53429068
+2025-08,FCT Abuja,Packaged Foods,Modern Retail,32852774,23991527,2263,33046236
+2025-08,FCT Abuja,Packaged Foods,Open Market,86488118,65433302,5954,82180947
+2025-08,FCT Abuja,Personal Care,E-commerce & B2B Apps,8250048,4935530,438,8458295
+2025-08,FCT Abuja,Personal Care,Key Distributors,28223130,17958043,1504,27876664
+2025-08,FCT Abuja,Personal Care,Modern Retail,17761740,10779485,928,17823680
+2025-08,FCT Abuja,Personal Care,Open Market,44048419,28602162,2382,42311406
+2025-08,North Central,Beverages,E-commerce & B2B Apps,10680470,7137431,1104,11113692
+2025-08,North Central,Beverages,Key Distributors,39276839,27688824,4154,39254290
+2025-08,North Central,Beverages,Modern Retail,23273146,15562917,2403,23804036
+2025-08,North Central,Beverages,Open Market,61625052,43553716,6644,62245588
+2025-08,North Central,Home Care,E-commerce & B2B Apps,4477449,2899556,362,4573806
+2025-08,North Central,Home Care,Key Distributors,16306010,11201581,1331,16951777
+2025-08,North Central,Home Care,Modern Retail,10692615,7055479,889,10740874
+2025-08,North Central,Home Care,Open Market,27205086,18964177,2219,27880678
+2025-08,North Central,Packaged Foods,E-commerce & B2B Apps,9207229,6645925,665,8963191
+2025-08,North Central,Packaged Foods,Key Distributors,35753820,27129057,2462,34505746
+2025-08,North Central,Packaged Foods,Modern Retail,21336611,15339358,1545,20591189
+2025-08,North Central,Packaged Foods,Open Market,54708085,42034137,3749,55667379
+2025-08,North Central,Personal Care,E-commerce & B2B Apps,5304289,3099096,289,5195375
+2025-08,North Central,Personal Care,Key Distributors,18356013,11594872,963,18779465
+2025-08,North Central,Personal Care,Modern Retail,11642741,7044225,642,12074705
+2025-08,North Central,Personal Care,Open Market,29319021,18514149,1556,28256178
+2025-08,North East,Beverages,E-commerce & B2B Apps,5719720,3772643,585,5933342
+2025-08,North East,Beverages,Key Distributors,20085710,14281431,2071,20526015
+2025-08,North East,Beverages,Modern Retail,14188587,9717406,1518,14031222
+2025-08,North East,Beverages,Open Market,34599995,24223441,3651,33473731
+2025-08,North East,Home Care,E-commerce & B2B Apps,2376893,1522706,191,2453080
+2025-08,North East,Home Care,Key Distributors,8708401,5934037,706,8279822
+2025-08,North East,Home Care,Modern Retail,5464400,3619215,461,5377060
+2025-08,North East,Home Care,Open Market,14303317,9750885,1181,14337526
+2025-08,North East,Packaged Foods,E-commerce & B2B Apps,5508247,3994663,395,5631531
+2025-08,North East,Packaged Foods,Key Distributors,18456667,13956891,1325,17994341
+2025-08,North East,Packaged Foods,Modern Retail,12636474,9249186,865,12675279
+2025-08,North East,Packaged Foods,Open Market,31614532,24262276,2266,32470010
+2025-08,North East,Personal Care,E-commerce & B2B Apps,2674987,1575697,144,2618789
+2025-08,North East,Personal Care,Key Distributors,9572807,6049455,525,9534705
+2025-08,North East,Personal Care,Modern Retail,6334697,3851553,344,6510136
+2025-08,North East,Personal Care,Open Market,15967453,10181498,862,16489659
+2025-08,North West,Beverages,E-commerce & B2B Apps,15985386,10555577,1641,15317478
+2025-08,North West,Beverages,Key Distributors,55546475,38392860,5900,53230529
+2025-08,North West,Beverages,Modern Retail,36201774,24559957,3922,37625842
+2025-08,North West,Beverages,Open Market,87576615,61223351,9268,86148152
+2025-08,North West,Home Care,E-commerce & B2B Apps,6833038,4383055,581,7170486
+2025-08,North West,Home Care,Key Distributors,22767037,15315777,1893,21883191
+2025-08,North West,Home Care,Modern Retail,14703423,9846263,1242,14506017
+2025-08,North West,Home Care,Open Market,39391490,26853061,3171,39742468
+2025-08,North West,Packaged Foods,E-commerce & B2B Apps,14141752,10223397,1019,13722644
+2025-08,North West,Packaged Foods,Key Distributors,47138958,35679308,3303,48025885
+2025-08,North West,Packaged Foods,Modern Retail,32770662,23811923,2330,32542765
+2025-08,North West,Packaged Foods,Open Market,85343410,64406775,6178,85211660
+2025-08,North West,Personal Care,E-commerce & B2B Apps,7452923,4414496,408,7338978
+2025-08,North West,Personal Care,Key Distributors,27648806,17294695,1451,27593549
+2025-08,North West,Personal Care,Modern Retail,16622502,10140481,901,17209228
+2025-08,North West,Personal Care,Open Market,41027359,26617094,2203,39980978
+2025-08,South East,Beverages,E-commerce & B2B Apps,9940468,6500417,1038,9976271
+2025-08,South East,Beverages,Key Distributors,36248188,25576764,3918,35303177
+2025-08,South East,Beverages,Modern Retail,21940223,15020678,2289,21845253
+2025-08,South East,Beverages,Open Market,53858142,38311141,5812,53248731
+2025-08,South East,Home Care,E-commerce & B2B Apps,4237298,2777511,345,4374062
+2025-08,South East,Home Care,Key Distributors,14546350,10014720,1190,14860408
+2025-08,South East,Home Care,Modern Retail,9865542,6473225,815,10160283
+2025-08,South East,Home Care,Open Market,23057822,15863389,1955,22805204
+2025-08,South East,Packaged Foods,E-commerce & B2B Apps,9168413,6465886,628,8961408
+2025-08,South East,Packaged Foods,Key Distributors,31838626,23803251,2214,32472864
+2025-08,South East,Packaged Foods,Modern Retail,20842672,15248982,1508,21356156
+2025-08,South East,Packaged Foods,Open Market,47942610,36738279,3339,48084896
+2025-08,South East,Personal Care,E-commerce & B2B Apps,4527443,2707064,245,4585755
+2025-08,South East,Personal Care,Key Distributors,15874951,10099589,870,16155592
+2025-08,South East,Personal Care,Modern Retail,10561257,6411311,584,10285333
+2025-08,South East,Personal Care,Open Market,25640382,16629480,1380,24994955
+2025-08,South South,Beverages,E-commerce & B2B Apps,13030288,8698837,1403,13421524
+2025-08,South South,Beverages,Key Distributors,43861405,30883367,4729,43906252
+2025-08,South South,Beverages,Modern Retail,28365907,19584767,2983,28841668
+2025-08,South South,Beverages,Open Market,74429957,53287971,7714,76135444
+2025-08,South South,Home Care,E-commerce & B2B Apps,5197293,3385242,432,5023897
+2025-08,South South,Home Care,Key Distributors,18612852,12749225,1501,18562830
+2025-08,South South,Home Care,Modern Retail,12273829,7984359,1026,12151862
+2025-08,South South,Home Care,Open Market,31173389,21321911,2545,31730819
+2025-08,South South,Packaged Foods,E-commerce & B2B Apps,10978939,7769521,779,11247840
+2025-08,South South,Packaged Foods,Key Distributors,38727448,28864677,2785,38656343
+2025-08,South South,Packaged Foods,Modern Retail,24605205,18017528,1731,25308679
+2025-08,South South,Packaged Foods,Open Market,67095652,50595076,4705,68410024
+2025-08,South South,Personal Care,E-commerce & B2B Apps,6417793,3777863,354,6647905
+2025-08,South South,Personal Care,Key Distributors,20956812,13147941,1160,20655036
+2025-08,South South,Personal Care,Modern Retail,14197060,8651700,781,14008703
+2025-08,South South,Personal Care,Open Market,34826838,22352108,1888,35252358
+2025-08,South West,Beverages,E-commerce & B2B Apps,26720977,17817541,2823,27531775
+2025-08,South West,Beverages,Key Distributors,89061965,61539834,9254,88835217
+2025-08,South West,Beverages,Modern Retail,58387809,39477079,6064,57456710
+2025-08,South West,Beverages,Open Market,160075525,114012046,16602,165003271
+2025-08,South West,Home Care,E-commerce & B2B Apps,10625470,6930950,895,11123886
+2025-08,South West,Home Care,Key Distributors,40058312,27634396,3361,40720749
+2025-08,South West,Home Care,Modern Retail,25985283,17444031,2177,26077794
+2025-08,South West,Home Care,Open Market,65867012,45958396,5465,68584343
+2025-08,South West,Packaged Foods,E-commerce & B2B Apps,23475354,16536090,1606,24407112
+2025-08,South West,Packaged Foods,Key Distributors,85517135,63840258,6110,84652915
+2025-08,South West,Packaged Foods,Modern Retail,56629014,41855554,3924,57160774
+2025-08,South West,Packaged Foods,Open Market,144881528,109058799,10446,138564416
+2025-08,South West,Personal Care,E-commerce & B2B Apps,12081646,7243453,639,12501710
+2025-08,South West,Personal Care,Key Distributors,43156814,27401302,2369,41976439
+2025-08,South West,Personal Care,Modern Retail,28237308,17098804,1503,27359457
+2025-08,South West,Personal Care,Open Market,75881046,48522754,4074,73839096
+2025-09,FCT Abuja,Beverages,E-commerce & B2B Apps,18374184,12149216,1956,17476439
+2025-09,FCT Abuja,Beverages,Key Distributors,59454161,42258055,6116,58544618
+2025-09,FCT Abuja,Beverages,Modern Retail,40742836,27923393,4287,42117463
+2025-09,FCT Abuja,Beverages,Open Market,102300148,71685590,10946,103595989
+2025-09,FCT Abuja,Home Care,E-commerce & B2B Apps,6987733,4505124,594,7300483
+2025-09,FCT Abuja,Home Care,Key Distributors,26631983,17837485,2158,26075609
+2025-09,FCT Abuja,Home Care,Modern Retail,16249871,10851348,1378,16610278
+2025-09,FCT Abuja,Home Care,Open Market,44102916,29984063,3692,44353181
+2025-09,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,15826037,11204202,1139,15920435
+2025-09,FCT Abuja,Packaged Foods,Key Distributors,53929873,40823761,3911,53698712
+2025-09,FCT Abuja,Packaged Foods,Modern Retail,36152310,26693136,2540,36337803
+2025-09,FCT Abuja,Packaged Foods,Open Market,92332174,69097632,6651,92189657
+2025-09,FCT Abuja,Personal Care,E-commerce & B2B Apps,8236824,4828410,434,8080963
+2025-09,FCT Abuja,Personal Care,Key Distributors,29703285,18690792,1616,31106583
+2025-09,FCT Abuja,Personal Care,Modern Retail,19982368,12030179,1074,19684078
+2025-09,FCT Abuja,Personal Care,Open Market,47033601,30073599,2484,48972183
+2025-09,North Central,Beverages,E-commerce & B2B Apps,11352134,7509189,1206,11684562
+2025-09,North Central,Beverages,Key Distributors,40343350,28336841,4196,38971626
+2025-09,North Central,Beverages,Modern Retail,26368916,17842452,2723,26217767
+2025-09,North Central,Beverages,Open Market,68458766,48200607,7401,65858930
+2025-09,North Central,Home Care,E-commerce & B2B Apps,4941134,3242066,399,4784969
+2025-09,North Central,Home Care,Key Distributors,16251942,10981955,1324,15882053
+2025-09,North Central,Home Care,Modern Retail,10226780,6761201,840,10170678
+2025-09,North Central,Home Care,Open Market,29137317,19793303,2425,29570893
+2025-09,North Central,Packaged Foods,E-commerce & B2B Apps,10793582,7719242,771,10993829
+2025-09,North Central,Packaged Foods,Key Distributors,37902369,28481279,2707,39576822
+2025-09,North Central,Packaged Foods,Modern Retail,23796672,17494907,1716,24236614
+2025-09,North Central,Packaged Foods,Open Market,62373046,47711481,4419,63270185
+2025-09,North Central,Personal Care,E-commerce & B2B Apps,5454353,3250534,300,5484333
+2025-09,North Central,Personal Care,Key Distributors,18763616,11720467,1021,19192542
+2025-09,North Central,Personal Care,Modern Retail,12883281,7742715,701,12737275
+2025-09,North Central,Personal Care,Open Market,31813122,20589897,1697,31173890
+2025-09,North East,Beverages,E-commerce & B2B Apps,6251637,4168254,640,6499800
+2025-09,North East,Beverages,Key Distributors,21486603,15040406,2221,21942345
+2025-09,North East,Beverages,Modern Retail,14206988,9515845,1542,13746899
+2025-09,North East,Beverages,Open Market,37740076,27154982,3960,38296196
+2025-09,North East,Home Care,E-commerce & B2B Apps,2768186,1759286,227,2693609
+2025-09,North East,Home Care,Key Distributors,9286708,6303630,788,8982258
+2025-09,North East,Home Care,Modern Retail,6099162,4022065,493,6381361
+2025-09,North East,Home Care,Open Market,14994732,10441514,1270,14870946
+2025-09,North East,Packaged Foods,E-commerce & B2B Apps,5391408,3793762,390,5532315
+2025-09,North East,Packaged Foods,Key Distributors,19722464,14978917,1357,19635725
+2025-09,North East,Packaged Foods,Modern Retail,11977475,8731350,859,11807211
+2025-09,North East,Packaged Foods,Open Market,31683241,24454997,2184,30311248
+2025-09,North East,Personal Care,E-commerce & B2B Apps,2984567,1757989,165,2899214
+2025-09,North East,Personal Care,Key Distributors,10396618,6553391,556,10324187
+2025-09,North East,Personal Care,Modern Retail,6479025,3913526,341,6686399
+2025-09,North East,Personal Care,Open Market,17891009,11507694,939,18580695
+2025-09,North West,Beverages,E-commerce & B2B Apps,16058902,10745816,1688,16140265
+2025-09,North West,Beverages,Key Distributors,58169689,40256950,6222,56532777
+2025-09,North West,Beverages,Modern Retail,38913975,26057460,4147,40770734
+2025-09,North West,Beverages,Open Market,95026317,66535028,10046,97491942
+2025-09,North West,Home Care,E-commerce & B2B Apps,7384390,4847650,607,7137749
+2025-09,North West,Home Care,Key Distributors,24348443,16455465,2021,24895190
+2025-09,North West,Home Care,Modern Retail,15379547,9999635,1297,14774864
+2025-09,North West,Home Care,Open Market,39922102,27597718,3323,39372452
+2025-09,North West,Packaged Foods,E-commerce & B2B Apps,14986771,10811919,1029,14799061
+2025-09,North West,Packaged Foods,Key Distributors,54275074,40439323,3895,56604992
+2025-09,North West,Packaged Foods,Modern Retail,35425248,25756400,2517,34732738
+2025-09,North West,Packaged Foods,Open Market,84961174,65185625,6013,82983531
+2025-09,North West,Personal Care,E-commerce & B2B Apps,8182966,4881616,429,8022650
+2025-09,North West,Personal Care,Key Distributors,28244616,17551225,1485,27235481
+2025-09,North West,Personal Care,Modern Retail,17344949,10726354,956,18090970
+2025-09,North West,Personal Care,Open Market,46541091,29588960,2484,48076637
+2025-09,South East,Beverages,E-commerce & B2B Apps,10727593,7235164,1134,11019512
+2025-09,South East,Beverages,Key Distributors,37762904,26533815,4039,37984736
+2025-09,South East,Beverages,Modern Retail,22353525,15384543,2416,22152982
+2025-09,South East,Beverages,Open Market,58231571,41054053,6112,61030794
+2025-09,South East,Home Care,E-commerce & B2B Apps,4504916,2941169,377,4367105
+2025-09,South East,Home Care,Key Distributors,16108321,11043710,1346,16694569
+2025-09,South East,Home Care,Modern Retail,9799754,6463540,791,9752355
+2025-09,South East,Home Care,Open Market,24537036,16742810,2011,25055064
+2025-09,South East,Packaged Foods,E-commerce & B2B Apps,9335315,6749948,665,9521562
+2025-09,South East,Packaged Foods,Key Distributors,34582295,25662076,2468,33980643
+2025-09,South East,Packaged Foods,Modern Retail,22030435,16285497,1544,23115123
+2025-09,South East,Packaged Foods,Open Market,55579597,41875540,3820,53388889
+2025-09,South East,Personal Care,E-commerce & B2B Apps,4687334,2844462,249,4546199
+2025-09,South East,Personal Care,Key Distributors,18367882,11772728,996,18894463
+2025-09,South East,Personal Care,Modern Retail,10880255,6706028,597,11209458
+2025-09,South East,Personal Care,Open Market,29749910,18913852,1565,30109460
+2025-09,South South,Beverages,E-commerce & B2B Apps,13242580,8719639,1378,13603521
+2025-09,South South,Beverages,Key Distributors,49302224,34703072,5194,49073516
+2025-09,South South,Beverages,Modern Retail,30136456,20136504,3173,31541851
+2025-09,South South,Beverages,Open Market,75034379,52997188,7970,74686302
+2025-09,South South,Home Care,E-commerce & B2B Apps,5403587,3455083,439,5168957
+2025-09,South South,Home Care,Key Distributors,20346433,13615778,1710,19800498
+2025-09,South South,Home Care,Modern Retail,13181837,8649851,1064,12791284
+2025-09,South South,Home Care,Open Market,31618148,21854691,2606,31245586
+2025-09,South South,Packaged Foods,E-commerce & B2B Apps,12051991,8499763,862,11915287
+2025-09,South South,Packaged Foods,Key Distributors,40339188,30201310,2759,40112399
+2025-09,South South,Packaged Foods,Modern Retail,27735843,19958572,1916,26591557
+2025-09,South South,Packaged Foods,Open Market,67574834,51585962,4646,64355873
+2025-09,South South,Personal Care,E-commerce & B2B Apps,6075771,3669822,324,6229681
+2025-09,South South,Personal Care,Key Distributors,23740715,14770072,1297,24474425
+2025-09,South South,Personal Care,Modern Retail,14723228,8866907,785,14597012
+2025-09,South South,Personal Care,Open Market,39223535,24808588,2052,39317956
+2025-09,South West,Beverages,E-commerce & B2B Apps,28231107,18708532,2983,27058616
+2025-09,South West,Beverages,Key Distributors,95857928,68083576,10012,94312462
+2025-09,South West,Beverages,Modern Retail,63050051,43229711,6702,61284874
+2025-09,South West,Beverages,Open Market,165009576,119078169,16882,168817013
+2025-09,South West,Home Care,E-commerce & B2B Apps,11470683,7504357,941,11383073
+2025-09,South West,Home Care,Key Distributors,42083478,28946977,3407,40850924
+2025-09,South West,Home Care,Modern Retail,26986418,17529322,2218,25810279
+2025-09,South West,Home Care,Open Market,65285018,45124579,5402,63340273
+2025-09,South West,Packaged Foods,E-commerce & B2B Apps,25013141,17665555,1788,23796637
+2025-09,South West,Packaged Foods,Key Distributors,90221824,67344716,6487,91531399
+2025-09,South West,Packaged Foods,Modern Retail,56032610,41075816,4065,58636997
+2025-09,South West,Packaged Foods,Open Market,145676172,109328734,10058,145844194
+2025-09,South West,Personal Care,E-commerce & B2B Apps,13839156,8087397,739,14489222
+2025-09,South West,Personal Care,Key Distributors,45623045,28753692,2425,45190982
+2025-09,South West,Personal Care,Modern Retail,31634611,19292435,1740,32667364
+2025-09,South West,Personal Care,Open Market,77934761,49712924,4311,75371858
+2025-10,FCT Abuja,Beverages,E-commerce & B2B Apps,19975194,13088844,2050,19773593
+2025-10,FCT Abuja,Beverages,Key Distributors,65616914,46205789,6989,63132480
+2025-10,FCT Abuja,Beverages,Modern Retail,42615865,28695704,4381,42251620
+2025-10,FCT Abuja,Beverages,Open Market,110677073,78129813,11609,108547948
+2025-10,FCT Abuja,Home Care,E-commerce & B2B Apps,7504488,4894995,633,7461794
+2025-10,FCT Abuja,Home Care,Key Distributors,26280316,18058533,2111,26611715
+2025-10,FCT Abuja,Home Care,Modern Retail,16962511,11007512,1421,17616567
+2025-10,FCT Abuja,Home Care,Open Market,43935624,29804060,3601,42463733
+2025-10,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,17895851,12870158,1248,17457146
+2025-10,FCT Abuja,Packaged Foods,Key Distributors,59835570,45457428,4341,58818267
+2025-10,FCT Abuja,Packaged Foods,Modern Retail,39007959,28319800,2821,37192232
+2025-10,FCT Abuja,Packaged Foods,Open Market,99576211,74699287,7077,95801662
+2025-10,FCT Abuja,Personal Care,E-commerce & B2B Apps,8534466,5072407,456,8355359
+2025-10,FCT Abuja,Personal Care,Key Distributors,30662636,18992288,1651,30991656
+2025-10,FCT Abuja,Personal Care,Modern Retail,20639581,12414721,1083,21259484
+2025-10,FCT Abuja,Personal Care,Open Market,54113756,34551839,2857,56275014
+2025-10,North Central,Beverages,E-commerce & B2B Apps,11971806,8097441,1225,11748312
+2025-10,North Central,Beverages,Key Distributors,44126498,30385748,4572,44828734
+2025-10,North Central,Beverages,Modern Retail,29134416,19893149,3068,29904078
+2025-10,North Central,Beverages,Open Market,73490346,52881538,7854,73388000
+2025-10,North Central,Home Care,E-commerce & B2B Apps,4990332,3191188,422,4773670
+2025-10,North Central,Home Care,Key Distributors,17399113,11986877,1442,18185073
+2025-10,North Central,Home Care,Modern Retail,11546731,7514662,981,11809227
+2025-10,North Central,Home Care,Open Market,30619702,20847361,2592,29261528
+2025-10,North Central,Packaged Foods,E-commerce & B2B Apps,11217238,8039937,807,10925769
+2025-10,North Central,Packaged Foods,Key Distributors,39140298,29602513,2692,37342478
+2025-10,North Central,Packaged Foods,Modern Retail,23776572,17168490,1695,23714540
+2025-10,North Central,Packaged Foods,Open Market,66667704,50309326,4778,68820519
+2025-10,North Central,Personal Care,E-commerce & B2B Apps,5899390,3522947,322,6141666
+2025-10,North Central,Personal Care,Key Distributors,20722162,13211235,1143,20400269
+2025-10,North Central,Personal Care,Modern Retail,13622794,8280137,745,13097645
+2025-10,North Central,Personal Care,Open Market,32277981,20475372,1718,31210250
+2025-10,North East,Beverages,E-commerce & B2B Apps,6530919,4265642,673,6825752
+2025-10,North East,Beverages,Key Distributors,23305408,16309801,2433,23716108
+2025-10,North East,Beverages,Modern Retail,16027504,10851929,1642,16125764
+2025-10,North East,Beverages,Open Market,40463632,28845201,4184,39183067
+2025-10,North East,Home Care,E-commerce & B2B Apps,2648668,1726177,217,2700880
+2025-10,North East,Home Care,Key Distributors,10261755,7013896,840,9905392
+2025-10,North East,Home Care,Modern Retail,6313812,4192768,524,6124747
+2025-10,North East,Home Care,Open Market,15378262,10733609,1242,15671297
+2025-10,North East,Packaged Foods,E-commerce & B2B Apps,5933823,4259972,411,5698592
+2025-10,North East,Packaged Foods,Key Distributors,21617312,16245842,1511,22607244
+2025-10,North East,Packaged Foods,Modern Retail,13751981,9879056,949,13985791
+2025-10,North East,Packaged Foods,Open Market,32954806,24982130,2388,33447204
+2025-10,North East,Personal Care,E-commerce & B2B Apps,3033199,1771201,166,2967295
+2025-10,North East,Personal Care,Key Distributors,11274289,7081231,624,10859786
+2025-10,North East,Personal Care,Modern Retail,7290280,4409075,388,7296686
+2025-10,North East,Personal Care,Open Market,19381534,12234827,1019,19757375
+2025-10,North West,Beverages,E-commerce & B2B Apps,17814485,11895642,1862,17407272
+2025-10,North West,Beverages,Key Distributors,63673311,44383302,6633,64988491
+2025-10,North West,Beverages,Modern Retail,39986558,26887277,4235,40024994
+2025-10,North West,Beverages,Open Market,99180881,71396526,10548,98584533
+2025-10,North West,Home Care,E-commerce & B2B Apps,7616806,4866123,613,7372664
+2025-10,North West,Home Care,Key Distributors,26185795,17671686,2188,27465143
+2025-10,North West,Home Care,Modern Retail,15995606,10643785,1344,15254825
+2025-10,North West,Home Care,Open Market,41008104,28216566,3420,40496839
+2025-10,North West,Packaged Foods,E-commerce & B2B Apps,15444120,11118426,1109,15014860
+2025-10,North West,Packaged Foods,Key Distributors,58933970,44483020,4153,61674877
+2025-10,North West,Packaged Foods,Modern Retail,36202751,26475325,2559,35140146
+2025-10,North West,Packaged Foods,Open Market,88883929,66745227,6194,84666593
+2025-10,North West,Personal Care,E-commerce & B2B Apps,8498445,5101579,460,8696443
+2025-10,North West,Personal Care,Key Distributors,30196243,19327716,1618,29590341
+2025-10,North West,Personal Care,Modern Retail,18114670,10874994,976,17744604
+2025-10,North West,Personal Care,Open Market,48179367,30830143,2617,46611655
+2025-10,South East,Beverages,E-commerce & B2B Apps,11824411,7727811,1252,11852064
+2025-10,South East,Beverages,Key Distributors,41235785,28796662,4398,40244301
+2025-10,South East,Beverages,Modern Retail,25877090,17791449,2749,25772773
+2025-10,South East,Beverages,Open Market,64979747,45939135,6933,66646185
+2025-10,South East,Home Care,E-commerce & B2B Apps,4943136,3198177,406,4836528
+2025-10,South East,Home Care,Key Distributors,16555822,11191464,1403,16650069
+2025-10,South East,Home Care,Modern Retail,10322231,6831791,859,10779544
+2025-10,South East,Home Care,Open Market,25889255,18158647,2150,25126186
+2025-10,South East,Packaged Foods,E-commerce & B2B Apps,9427943,6755869,646,9093226
+2025-10,South East,Packaged Foods,Key Distributors,35496128,27020176,2435,36115830
+2025-10,South East,Packaged Foods,Modern Retail,22643709,16665569,1595,23002631
+2025-10,South East,Packaged Foods,Open Market,57189155,44081175,3931,57068399
+2025-10,South East,Personal Care,E-commerce & B2B Apps,5554515,3292672,306,5507965
+2025-10,South East,Personal Care,Key Distributors,18773566,11893622,1016,19143958
+2025-10,South East,Personal Care,Modern Retail,11810722,7135338,625,11608545
+2025-10,South East,Personal Care,Open Market,30757493,19383019,1635,30907566
+2025-10,South South,Beverages,E-commerce & B2B Apps,15009860,10119362,1597,15467989
+2025-10,South South,Beverages,Key Distributors,49880220,34906362,5260,51852286
+2025-10,South South,Beverages,Modern Retail,34334891,23350337,3711,34836698
+2025-10,South South,Beverages,Open Market,85916394,60525894,9130,83415005
+2025-10,South South,Home Care,E-commerce & B2B Apps,6039652,3895923,489,5779457
+2025-10,South South,Home Care,Key Distributors,21576516,14915593,1823,21434991
+2025-10,South South,Home Care,Modern Retail,14103605,9171232,1165,13815143
+2025-10,South South,Home Care,Open Market,33198557,22989466,2737,32435222
+2025-10,South South,Packaged Foods,E-commerce & B2B Apps,12809637,9305932,884,12869149
+2025-10,South South,Packaged Foods,Key Distributors,48104721,36142630,3481,46997828
+2025-10,South South,Packaged Foods,Modern Retail,28320158,20370947,1995,27927564
+2025-10,South South,Packaged Foods,Open Market,78727868,59558756,5678,78537517
+2025-10,South South,Personal Care,E-commerce & B2B Apps,7326887,4434968,383,7690117
+2025-10,South South,Personal Care,Key Distributors,24200310,15120685,1339,24513761
+2025-10,South South,Personal Care,Modern Retail,16357060,9887851,861,16876918
+2025-10,South South,Personal Care,Open Market,37539402,24111596,1963,39383110
+2025-10,South West,Beverages,E-commerce & B2B Apps,31351442,20892296,3342,32260512
+2025-10,South West,Beverages,Key Distributors,106993875,75345652,11081,103973677
+2025-10,South West,Beverages,Modern Retail,65673168,44682735,6895,63107120
+2025-10,South West,Beverages,Open Market,167581148,120446461,17382,161935973
+2025-10,South West,Home Care,E-commerce & B2B Apps,12505527,8151943,1006,12917786
+2025-10,South West,Home Care,Key Distributors,44552340,30322364,3650,43995459
+2025-10,South West,Home Care,Modern Retail,29599912,19705019,2449,30484520
+2025-10,South West,Home Care,Open Market,75683283,51802354,6079,78873931
+2025-10,South West,Packaged Foods,E-commerce & B2B Apps,27090539,19089384,1930,27977641
+2025-10,South West,Packaged Foods,Key Distributors,89760675,66435040,6279,93555577
+2025-10,South West,Packaged Foods,Modern Retail,62009170,44961801,4321,63250000
+2025-10,South West,Packaged Foods,Open Market,163407669,122546450,11562,155488922
+2025-10,South West,Personal Care,E-commerce & B2B Apps,14987806,8753575,816,14762909
+2025-10,South West,Personal Care,Key Distributors,47854101,29694661,2601,47356951
+2025-10,South West,Personal Care,Modern Retail,31570434,18952493,1680,30970242
+2025-10,South West,Personal Care,Open Market,80975475,51400982,4274,76950832
+2025-11,FCT Abuja,Beverages,E-commerce & B2B Apps,19889237,13293596,2132,20161742
+2025-11,FCT Abuja,Beverages,Key Distributors,71110015,50056185,7515,71808455
+2025-11,FCT Abuja,Beverages,Modern Retail,46623222,31215801,4885,45925304
+2025-11,FCT Abuja,Beverages,Open Market,115613158,82726202,12322,110215287
+2025-11,FCT Abuja,Home Care,E-commerce & B2B Apps,8119551,5156418,667,7779922
+2025-11,FCT Abuja,Home Care,Key Distributors,30208772,20458188,2491,28827422
+2025-11,FCT Abuja,Home Care,Modern Retail,19636191,12814054,1639,20148347
+2025-11,FCT Abuja,Home Care,Open Market,50434736,34635394,4183,51869221
+2025-11,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,18072191,13095842,1270,17667584
+2025-11,FCT Abuja,Packaged Foods,Key Distributors,61618525,45900632,4322,62734685
+2025-11,FCT Abuja,Packaged Foods,Modern Retail,40735019,29778315,2894,39458270
+2025-11,FCT Abuja,Packaged Foods,Open Market,104659992,78840674,7560,100346607
+2025-11,FCT Abuja,Personal Care,E-commerce & B2B Apps,9833361,5884404,531,9850284
+2025-11,FCT Abuja,Personal Care,Key Distributors,33955134,21466942,1846,33113227
+2025-11,FCT Abuja,Personal Care,Modern Retail,20319405,12553415,1110,20558714
+2025-11,FCT Abuja,Personal Care,Open Market,56317529,36022283,2967,58761589
+2025-11,North Central,Beverages,E-commerce & B2B Apps,13372706,9001684,1381,13614588
+2025-11,North Central,Beverages,Key Distributors,45879282,32177701,4936,44128259
+2025-11,North Central,Beverages,Modern Retail,30826216,20596400,3285,31978364
+2025-11,North Central,Beverages,Open Market,76002059,53607200,7846,78909648
+2025-11,North Central,Home Care,E-commerce & B2B Apps,5779455,3701876,486,5834010
+2025-11,North Central,Home Care,Key Distributors,18851614,12620366,1595,19370837
+2025-11,North Central,Home Care,Modern Retail,11905111,7886586,983,11860593
+2025-11,North Central,Home Care,Open Market,30252085,20728208,2461,29230213
+2025-11,North Central,Packaged Foods,E-commerce & B2B Apps,11295090,7940558,819,11204928
+2025-11,North Central,Packaged Foods,Key Distributors,38523316,29067870,2707,37925707
+2025-11,North Central,Packaged Foods,Modern Retail,25956322,19022364,1866,26332496
+2025-11,North Central,Packaged Foods,Open Market,63118878,48145105,4362,63676026
+2025-11,North Central,Personal Care,E-commerce & B2B Apps,6109063,3574329,322,6017150
+2025-11,North Central,Personal Care,Key Distributors,20821137,12907777,1154,21411551
+2025-11,North Central,Personal Care,Modern Retail,13129694,8053689,697,13045883
+2025-11,North Central,Personal Care,Open Market,33672141,21649112,1776,33962976
+2025-11,North East,Beverages,E-commerce & B2B Apps,7116012,4745569,736,7417657
+2025-11,North East,Beverages,Key Distributors,24035006,17035640,2543,24823206
+2025-11,North East,Beverages,Modern Retail,16149564,11169071,1670,16278111
+2025-11,North East,Beverages,Open Market,39657622,28464070,4056,39037189
+2025-11,North East,Home Care,E-commerce & B2B Apps,2988159,1917565,245,3089919
+2025-11,North East,Home Care,Key Distributors,10374873,7145323,840,9989755
+2025-11,North East,Home Care,Modern Retail,6418778,4249433,525,6416106
+2025-11,North East,Home Care,Open Market,17406332,11925807,1454,17247609
+2025-11,North East,Packaged Foods,E-commerce & B2B Apps,6314607,4498234,440,6569408
+2025-11,North East,Packaged Foods,Key Distributors,23352595,17430951,1630,23336957
+2025-11,North East,Packaged Foods,Modern Retail,14313226,10384966,986,15012057
+2025-11,North East,Packaged Foods,Open Market,37550832,28436708,2657,36013634
+2025-11,North East,Personal Care,E-commerce & B2B Apps,3334177,2001897,184,3471735
+2025-11,North East,Personal Care,Key Distributors,11492824,7362098,609,11377196
+2025-11,North East,Personal Care,Modern Retail,8053351,4969045,441,7901879
+2025-11,North East,Personal Care,Open Market,18993880,12202763,998,18104147
+2025-11,North West,Beverages,E-commerce & B2B Apps,18523671,12313010,1899,18972553
+2025-11,North West,Beverages,Key Distributors,70160344,49407762,7599,68623388
+2025-11,North West,Beverages,Modern Retail,43911005,30100686,4570,42713644
+2025-11,North West,Beverages,Open Market,111717829,79269599,11862,109610009
+2025-11,North West,Home Care,E-commerce & B2B Apps,7957486,5081533,659,7924754
+2025-11,North West,Home Care,Key Distributors,26829115,18099060,2229,26743771
+2025-11,North West,Home Care,Modern Retail,18514624,12191530,1513,18372781
+2025-11,North West,Home Care,Open Market,43425552,29752266,3486,43277104
+2025-11,North West,Packaged Foods,E-commerce & B2B Apps,17678951,12642433,1221,18548612
+2025-11,North West,Packaged Foods,Key Distributors,56786611,42881217,3914,57091429
+2025-11,North West,Packaged Foods,Modern Retail,36621458,26915338,2548,35720103
+2025-11,North West,Packaged Foods,Open Market,99893332,76712799,7095,104455923
+2025-11,North West,Personal Care,E-commerce & B2B Apps,8996279,5260370,485,8858757
+2025-11,North West,Personal Care,Key Distributors,29690224,18727643,1572,29691207
+2025-11,North West,Personal Care,Modern Retail,20300507,12381072,1112,19648649
+2025-11,North West,Personal Care,Open Market,53548433,34305978,2836,52918305
+2025-11,South East,Beverages,E-commerce & B2B Apps,11548953,7654529,1222,11176700
+2025-11,South East,Beverages,Key Distributors,39737307,28252106,4213,40930889
+2025-11,South East,Beverages,Modern Retail,27543280,18683497,2978,26529893
+2025-11,South East,Beverages,Open Market,68562290,48741693,7146,71948392
+2025-11,South East,Home Care,E-commerce & B2B Apps,4701485,3065727,395,4702622
+2025-11,South East,Home Care,Key Distributors,18429888,12471103,1487,17847535
+2025-11,South East,Home Care,Modern Retail,10555792,6870532,852,10078748
+2025-11,South East,Home Care,Open Market,28947511,20025991,2344,28236141
+2025-11,South East,Packaged Foods,E-commerce & B2B Apps,10226641,7214173,727,10348179
+2025-11,South East,Packaged Foods,Key Distributors,37244808,27961782,2580,36220442
+2025-11,South East,Packaged Foods,Modern Retail,23758744,17385473,1664,22837999
+2025-11,South East,Packaged Foods,Open Market,59350740,45237821,4107,62253881
+2025-11,South East,Personal Care,E-commerce & B2B Apps,5836361,3437483,312,5766511
+2025-11,South East,Personal Care,Key Distributors,18790251,11824543,1027,18402017
+2025-11,South East,Personal Care,Modern Retail,12567895,7614046,690,12196172
+2025-11,South East,Personal Care,Open Market,31429123,20237711,1691,30302258
+2025-11,South South,Beverages,E-commerce & B2B Apps,15949434,10747931,1659,15775305
+2025-11,South South,Beverages,Key Distributors,51797856,36071457,5524,50794904
+2025-11,South South,Beverages,Modern Retail,35803368,24458177,3811,35228912
+2025-11,South South,Beverages,Open Market,90937047,64076367,9441,92130774
+2025-11,South South,Home Care,E-commerce & B2B Apps,6483830,4225044,545,6804602
+2025-11,South South,Home Care,Key Distributors,23403535,16061876,1973,23328966
+2025-11,South South,Home Care,Modern Retail,14952941,9771285,1211,15667564
+2025-11,South South,Home Care,Open Market,39339868,27351346,3248,39646494
+2025-11,South South,Packaged Foods,E-commerce & B2B Apps,14436141,10349861,1005,15115628
+2025-11,South South,Packaged Foods,Key Distributors,48444546,36276800,3514,47661651
+2025-11,South South,Packaged Foods,Modern Retail,32257788,23677869,2238,33450820
+2025-11,South South,Packaged Foods,Open Market,75355137,58139503,5445,74729609
+2025-11,South South,Personal Care,E-commerce & B2B Apps,7037830,4111571,372,7197545
+2025-11,South South,Personal Care,Key Distributors,24305139,15511855,1271,25162953
+2025-11,South South,Personal Care,Modern Retail,16732318,10063068,908,15976418
+2025-11,South South,Personal Care,Open Market,43497861,28046720,2335,42400708
+2025-11,South West,Beverages,E-commerce & B2B Apps,30926578,20498175,3249,29489690
+2025-11,South West,Beverages,Key Distributors,107869998,76398302,11457,106300359
+2025-11,South West,Beverages,Modern Retail,71560061,48134176,7489,68302863
+2025-11,South West,Beverages,Open Market,189166051,133403443,19801,180543447
+2025-11,South West,Home Care,E-commerce & B2B Apps,13729371,8798790,1140,13711585
+2025-11,South West,Home Care,Key Distributors,47156053,31539467,3991,45598054
+2025-11,South West,Home Care,Modern Retail,31145771,20393071,2608,29783872
+2025-11,South West,Home Care,Open Market,72835427,50248189,6177,69515491
+2025-11,South West,Packaged Foods,E-commerce & B2B Apps,28878183,20639708,1988,29638743
+2025-11,South West,Packaged Foods,Key Distributors,98783323,73418041,6885,98973068
+2025-11,South West,Packaged Foods,Modern Retail,63140522,45497552,4564,61633522
+2025-11,South West,Packaged Foods,Open Market,168730018,126457935,11573,165500445
+2025-11,South West,Personal Care,E-commerce & B2B Apps,15265803,9187392,825,14671671
+2025-11,South West,Personal Care,Key Distributors,54235273,33571822,2863,51637736
+2025-11,South West,Personal Care,Modern Retail,34127819,20648044,1838,33402124
+2025-11,South West,Personal Care,Open Market,86044818,55420840,4701,86555555
+2025-12,FCT Abuja,Beverages,E-commerce & B2B Apps,25107601,16522632,2647,25309917
+2025-12,FCT Abuja,Beverages,Key Distributors,89236381,62681440,9642,86519079
+2025-12,FCT Abuja,Beverages,Modern Retail,58048686,39257559,6071,58717086
+2025-12,FCT Abuja,Beverages,Open Market,146208976,103954953,15301,146543631
+2025-12,FCT Abuja,Home Care,E-commerce & B2B Apps,11022499,7230604,915,11247832
+2025-12,FCT Abuja,Home Care,Key Distributors,37895871,25776191,3118,38597640
+2025-12,FCT Abuja,Home Care,Modern Retail,24493107,16021583,2023,24294524
+2025-12,FCT Abuja,Home Care,Open Market,58277957,39797422,4737,57868565
+2025-12,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,20955797,15199533,1468,21841309
+2025-12,FCT Abuja,Packaged Foods,Key Distributors,78209098,59086896,5640,77579794
+2025-12,FCT Abuja,Packaged Foods,Modern Retail,47248867,34884143,3391,47916140
+2025-12,FCT Abuja,Packaged Foods,Open Market,127501279,96125890,9081,124008355
+2025-12,FCT Abuja,Personal Care,E-commerce & B2B Apps,12427644,7283426,676,12112968
+2025-12,FCT Abuja,Personal Care,Key Distributors,40980010,26161083,2231,41527190
+2025-12,FCT Abuja,Personal Care,Modern Retail,26435228,16166444,1395,25614441
+2025-12,FCT Abuja,Personal Care,Open Market,71493909,44954094,3753,72569411
+2025-12,North Central,Beverages,E-commerce & B2B Apps,16828020,11328338,1776,17146912
+2025-12,North Central,Beverages,Key Distributors,53166493,37110586,5693,54515398
+2025-12,North Central,Beverages,Modern Retail,35692138,24521555,3661,35489577
+2025-12,North Central,Beverages,Open Market,96643402,68011193,9888,94382431
+2025-12,North Central,Home Care,E-commerce & B2B Apps,6726488,4328469,550,6683432
+2025-12,North Central,Home Care,Key Distributors,22720873,15208399,1868,22910292
+2025-12,North Central,Home Care,Modern Retail,14253846,9455076,1208,14294222
+2025-12,North Central,Home Care,Open Market,40137708,27936860,3275,38957663
+2025-12,North Central,Packaged Foods,E-commerce & B2B Apps,14341888,10346794,1006,13768825
+2025-12,North Central,Packaged Foods,Key Distributors,50873904,37670951,3555,49787515
+2025-12,North Central,Packaged Foods,Modern Retail,33732646,24329206,2426,34997759
+2025-12,North Central,Packaged Foods,Open Market,80615472,61402325,5798,77927498
+2025-12,North Central,Personal Care,E-commerce & B2B Apps,7877310,4681957,430,8002734
+2025-12,North Central,Personal Care,Key Distributors,28069848,17508968,1478,27080870
+2025-12,North Central,Personal Care,Modern Retail,16555564,9922565,914,17340508
+2025-12,North Central,Personal Care,Open Market,45626702,29360347,2508,46664447
+2025-12,North East,Beverages,E-commerce & B2B Apps,8878323,5923450,933,8775161
+2025-12,North East,Beverages,Key Distributors,32115511,22491198,3329,32041103
+2025-12,North East,Beverages,Modern Retail,20691796,14101451,2145,21409472
+2025-12,North East,Beverages,Open Market,50177114,35383485,5159,48423082
+2025-12,North East,Home Care,E-commerce & B2B Apps,3555909,2292503,291,3598380
+2025-12,North East,Home Care,Key Distributors,12960272,8896364,1092,13154990
+2025-12,North East,Home Care,Modern Retail,8058967,5252297,658,8265483
+2025-12,North East,Home Care,Open Market,21936295,15376806,1772,22718423
+2025-12,North East,Packaged Foods,E-commerce & B2B Apps,8090613,5763045,564,8053904
+2025-12,North East,Packaged Foods,Key Distributors,27991240,20739602,1935,28171400
+2025-12,North East,Packaged Foods,Modern Retail,17070799,12335869,1188,16825198
+2025-12,North East,Packaged Foods,Open Market,45874619,34930293,3299,43660352
+2025-12,North East,Personal Care,E-commerce & B2B Apps,4284816,2550482,233,4230594
+2025-12,North East,Personal Care,Key Distributors,13867785,8693275,757,13682493
+2025-12,North East,Personal Care,Modern Retail,9724874,5894986,516,10052641
+2025-12,North East,Personal Care,Open Market,24343029,15429686,1327,25094723
+2025-12,North West,Beverages,E-commerce & B2B Apps,24853101,16371034,2667,25487190
+2025-12,North West,Beverages,Key Distributors,83124170,58182534,8567,81186734
+2025-12,North West,Beverages,Modern Retail,49734643,34058909,5286,50373401
+2025-12,North West,Beverages,Open Market,129166452,91942623,13617,126978937
+2025-12,North West,Home Care,E-commerce & B2B Apps,9471199,6216302,804,9708998
+2025-12,North West,Home Care,Key Distributors,33561784,22688395,2778,33324440
+2025-12,North West,Home Care,Modern Retail,22015511,14405631,1830,21107632
+2025-12,North West,Home Care,Open Market,56886052,39469811,4820,54591660
+2025-12,North West,Packaged Foods,E-commerce & B2B Apps,20516195,14595820,1446,19818841
+2025-12,North West,Packaged Foods,Key Distributors,72716067,55377648,5073,75459812
+2025-12,North West,Packaged Foods,Modern Retail,46051728,33634374,3149,45276469
+2025-12,North West,Packaged Foods,Open Market,117114749,89936819,8394,120548174
+2025-12,North West,Personal Care,E-commerce & B2B Apps,10894557,6434415,583,11107305
+2025-12,North West,Personal Care,Key Distributors,39232085,24630735,2113,37832757
+2025-12,North West,Personal Care,Modern Retail,24537628,15125796,1357,23815157
+2025-12,North West,Personal Care,Open Market,65115910,42197695,3493,65716310
+2025-12,South East,Beverages,E-commerce & B2B Apps,14921720,9814159,1527,15436760
+2025-12,South East,Beverages,Key Distributors,53910294,37413328,5703,53536776
+2025-12,South East,Beverages,Modern Retail,31312640,20934122,3203,31532152
+2025-12,South East,Beverages,Open Market,81532312,57085432,8704,83540589
+2025-12,South East,Home Care,E-commerce & B2B Apps,5994609,3852044,485,5967689
+2025-12,South East,Home Care,Key Distributors,20987544,14250442,1773,20137041
+2025-12,South East,Home Care,Modern Retail,14382978,9371599,1180,14558830
+2025-12,South East,Home Care,Open Market,37261954,25536800,3146,38156893
+2025-12,South East,Packaged Foods,E-commerce & B2B Apps,13371581,9496433,943,13241567
+2025-12,South East,Packaged Foods,Key Distributors,44185827,33036993,3042,41979427
+2025-12,South East,Packaged Foods,Modern Retail,30757310,22650627,2185,31411746
+2025-12,South East,Packaged Foods,Open Market,78493134,60124521,5684,80633189
+2025-12,South East,Personal Care,E-commerce & B2B Apps,6743749,4014021,356,6771857
+2025-12,South East,Personal Care,Key Distributors,23183422,14576824,1255,23333158
+2025-12,South East,Personal Care,Modern Retail,15909095,9809490,868,16418081
+2025-12,South East,Personal Care,Open Market,38101010,24248203,2050,37242298
+2025-12,South South,Beverages,E-commerce & B2B Apps,18160838,11996859,1964,17407265
+2025-12,South South,Beverages,Key Distributors,69272402,48156967,7405,68746500
+2025-12,South South,Beverages,Modern Retail,41850127,28303375,4436,43893244
+2025-12,South South,Beverages,Open Market,109946223,78541469,11295,110019910
+2025-12,South South,Home Care,E-commerce & B2B Apps,7684759,4924700,637,8065142
+2025-12,South South,Home Care,Key Distributors,27635600,18899137,2333,26501779
+2025-12,South South,Home Care,Modern Retail,18424192,12184183,1500,18645270
+2025-12,South South,Home Care,Open Market,48462145,33275145,3916,48079840
+2025-12,South South,Packaged Foods,E-commerce & B2B Apps,17421955,12249696,1240,17408829
+2025-12,South South,Packaged Foods,Key Distributors,56722548,42976895,3931,57726286
+2025-12,South South,Packaged Foods,Modern Retail,37062760,27175534,2573,37502794
+2025-12,South South,Packaged Foods,Open Market,92734072,71201020,6554,89987376
+2025-12,South South,Personal Care,E-commerce & B2B Apps,9136945,5487630,487,9332324
+2025-12,South South,Personal Care,Key Distributors,31056365,19196184,1681,32123165
+2025-12,South South,Personal Care,Modern Retail,21396707,13126860,1118,21646245
+2025-12,South South,Personal Care,Open Market,50865743,32363566,2794,49975469
+2025-12,South West,Beverages,E-commerce & B2B Apps,38265087,25788612,4110,38005282
+2025-12,South West,Beverages,Key Distributors,133067587,92451240,14119,127533869
+2025-12,South West,Beverages,Modern Retail,86460837,59180621,9280,86801439
+2025-12,South West,Beverages,Open Market,215926537,155276648,22068,226414998
+2025-12,South West,Home Care,E-commerce & B2B Apps,16682709,10776706,1368,16306578
+2025-12,South West,Home Care,Key Distributors,56387264,37669480,4630,55266137
+2025-12,South West,Home Care,Modern Retail,37272678,24258791,3109,36669861
+2025-12,South West,Home Care,Open Market,100389157,68999329,8483,102637441
+2025-12,South West,Packaged Foods,E-commerce & B2B Apps,37011521,26649808,2670,37442901
+2025-12,South West,Packaged Foods,Key Distributors,121920626,91330433,8552,119583627
+2025-12,South West,Packaged Foods,Modern Retail,77425059,57323922,5446,77059197
+2025-12,South West,Packaged Foods,Open Market,192040906,146620284,13855,191811679
+2025-12,South West,Personal Care,E-commerce & B2B Apps,18933021,11278260,1046,18986284
+2025-12,South West,Personal Care,Key Distributors,66012004,42240575,3463,68884654
+2025-12,South West,Personal Care,Modern Retail,43105637,25791614,2295,43733286
+2025-12,South West,Personal Care,Open Market,104266441,66735084,5686,102265750
+2026-01,FCT Abuja,Beverages,E-commerce & B2B Apps,28389634,19092735,2605,20844584
+2026-01,FCT Abuja,Beverages,Key Distributors,71655799,50489319,6589,68912779
+2026-01,FCT Abuja,Beverages,Modern Retail,50397149,35251561,4647,46742734
+2026-01,FCT Abuja,Beverages,Open Market,103906271,74768382,9788,108172652
+2026-01,FCT Abuja,Home Care,E-commerce & B2B Apps,9954718,6581906,742,7842356
+2026-01,FCT Abuja,Home Care,Key Distributors,26328694,18099571,1923,27661231
+2026-01,FCT Abuja,Home Care,Modern Retail,18486504,12398600,1341,18890852
+2026-01,FCT Abuja,Home Care,Open Market,46608249,32538888,3420,49448251
+2026-01,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,23150973,16849849,1391,17568321
+2026-01,FCT Abuja,Packaged Foods,Key Distributors,63966659,48891402,3796,59587849
+2026-01,FCT Abuja,Packaged Foods,Modern Retail,42908430,32001519,2566,37779676
+2026-01,FCT Abuja,Packaged Foods,Open Market,100293495,76620074,5962,97267588
+2026-01,FCT Abuja,Personal Care,E-commerce & B2B Apps,10653623,6431996,514,8862084
+2026-01,FCT Abuja,Personal Care,Key Distributors,32954651,21063758,1628,34071180
+2026-01,FCT Abuja,Personal Care,Modern Retail,20015298,12504659,986,19590282
+2026-01,FCT Abuja,Personal Care,Open Market,49916054,33117945,2420,54309716
+2026-01,North Central,Beverages,E-commerce & B2B Apps,17385978,11649587,1643,12787854
+2026-01,North Central,Beverages,Key Distributors,45580912,32254334,4258,45464672
+2026-01,North Central,Beverages,Modern Retail,30496776,21072931,2877,27766197
+2026-01,North Central,Beverages,Open Market,76970439,56205973,7076,77575690
+2026-01,North Central,Home Care,E-commerce & B2B Apps,6138797,4005891,457,5179435
+2026-01,North Central,Home Care,Key Distributors,18842092,12845420,1370,19814312
+2026-01,North Central,Home Care,Modern Retail,12851941,8661295,945,12677324
+2026-01,North Central,Home Care,Open Market,26791797,18949242,1947,29991335
+2026-01,North Central,Packaged Foods,E-commerce & B2B Apps,14551767,10748524,890,11340470
+2026-01,North Central,Packaged Foods,Key Distributors,37192985,27962423,2253,37625671
+2026-01,North Central,Packaged Foods,Modern Retail,28325486,21254068,1729,25991436
+2026-01,North Central,Packaged Foods,Open Market,65840636,50361922,3909,66352962
+2026-01,North Central,Personal Care,E-commerce & B2B Apps,7385491,4398112,351,6052751
+2026-01,North Central,Personal Care,Key Distributors,20368945,13308494,985,21004205
+2026-01,North Central,Personal Care,Modern Retail,14358078,8898670,683,14241119
+2026-01,North Central,Personal Care,Open Market,30902916,20233920,1494,33465984
+2026-01,North East,Beverages,E-commerce & B2B Apps,8168931,5589172,755,6783855
+2026-01,North East,Beverages,Key Distributors,21468751,15332275,1972,23665758
+2026-01,North East,Beverages,Modern Retail,15954546,10907079,1513,15817737
+2026-01,North East,Beverages,Open Market,36929866,26930661,3373,40973837
+2026-01,North East,Home Care,E-commerce & B2B Apps,3307450,2142524,242,2987700
+2026-01,North East,Home Care,Key Distributors,8501648,5954891,622,9703506
+2026-01,North East,Home Care,Modern Retail,5735505,3792165,425,6249006
+2026-01,North East,Home Care,Open Market,13216895,9286851,965,16245369
+2026-01,North East,Packaged Foods,E-commerce & B2B Apps,8218112,6013462,499,6393176
+2026-01,North East,Packaged Foods,Key Distributors,20101927,15258875,1229,20748349
+2026-01,North East,Packaged Foods,Modern Retail,13961393,10336431,844,13893767
+2026-01,North East,Packaged Foods,Open Market,34184592,26460413,2056,36654015
+2026-01,North East,Personal Care,E-commerce & B2B Apps,3747850,2232433,181,3279088
+2026-01,North East,Personal Care,Key Distributors,10644099,6800966,506,11768992
+2026-01,North East,Personal Care,Modern Retail,7083892,4427983,341,7513331
+2026-01,North East,Personal Care,Open Market,15873302,10410295,776,18493885
+2026-01,North West,Beverages,E-commerce & B2B Apps,22532818,15237697,2118,17488619
+2026-01,North West,Beverages,Key Distributors,65973277,47190051,6075,64612991
+2026-01,North West,Beverages,Modern Retail,41969454,29212823,3861,39975679
+2026-01,North West,Beverages,Open Market,102866559,75187324,9406,104631644
+2026-01,North West,Home Care,E-commerce & B2B Apps,9292297,6040609,673,7538712
+2026-01,North West,Home Care,Key Distributors,24030934,16497756,1783,25753045
+2026-01,North West,Home Care,Modern Retail,15711511,10482622,1160,16599220
+2026-01,North West,Home Care,Open Market,39974417,27618682,2942,43936334
+2026-01,North West,Packaged Foods,E-commerce & B2B Apps,21100563,15215893,1285,15380170
+2026-01,North West,Packaged Foods,Key Distributors,58305978,44441837,3568,57540410
+2026-01,North West,Packaged Foods,Modern Retail,39797514,29278016,2389,38116958
+2026-01,North West,Packaged Foods,Open Market,93743985,72163045,5596,92644244
+2026-01,North West,Personal Care,E-commerce & B2B Apps,10842833,6555318,535,9207340
+2026-01,North West,Personal Care,Key Distributors,28957167,18507925,1427,29718444
+2026-01,North West,Personal Care,Modern Retail,21033590,13003364,1012,20406900
+2026-01,North West,Personal Care,Open Market,47321754,30866649,2255,53317678
+2026-01,South East,Beverages,E-commerce & B2B Apps,14347969,9666166,1321,11153189
+2026-01,South East,Beverages,Key Distributors,40837650,29298784,3874,39444767
+2026-01,South East,Beverages,Modern Retail,27707779,19101032,2571,26604180
+2026-01,South East,Beverages,Open Market,60542682,44054152,5711,64398472
+2026-01,South East,Home Care,E-commerce & B2B Apps,5900133,3896240,443,4994375
+2026-01,South East,Home Care,Key Distributors,14721034,10116456,1093,16039896
+2026-01,South East,Home Care,Modern Retail,9605751,6439452,704,10226839
+2026-01,South East,Home Care,Open Market,24721117,17184752,1799,29114164
+2026-01,South East,Packaged Foods,E-commerce & B2B Apps,12155633,8735133,734,9688354
+2026-01,South East,Packaged Foods,Key Distributors,36326023,27460147,2151,37037059
+2026-01,South East,Packaged Foods,Modern Retail,24361869,18236828,1448,22916123
+2026-01,South East,Packaged Foods,Open Market,57925754,45015053,3555,62011511
+2026-01,South East,Personal Care,E-commerce & B2B Apps,6760532,4182939,332,5640036
+2026-01,South East,Personal Care,Key Distributors,17371706,11137916,853,18396650
+2026-01,South East,Personal Care,Modern Retail,11330327,7070185,543,11508644
+2026-01,South East,Personal Care,Open Market,27501677,18079786,1312,30375233
+2026-01,South South,Beverages,E-commerce & B2B Apps,19481539,13251362,1842,15557566
+2026-01,South South,Beverages,Key Distributors,51172876,35930851,4794,52750871
+2026-01,South South,Beverages,Modern Retail,36060132,24794575,3312,34193226
+2026-01,South South,Beverages,Open Market,76896094,55295715,7053,84687931
+2026-01,South South,Home Care,E-commerce & B2B Apps,7147056,4664438,531,6103579
+2026-01,South South,Home Care,Key Distributors,19620752,13355866,1470,21280198
+2026-01,South South,Home Care,Modern Retail,14192511,9628986,1046,14538720
+2026-01,South South,Home Care,Open Market,28552951,20170853,2084,35078442
+2026-01,South South,Packaged Foods,E-commerce & B2B Apps,15935118,11511039,972,13114982
+2026-01,South South,Packaged Foods,Key Distributors,46155997,34665328,2796,47113883
+2026-01,South South,Packaged Foods,Modern Retail,33288075,24438105,2040,31842683
+2026-01,South South,Packaged Foods,Open Market,69900507,53928898,4134,72616087
+2026-01,South South,Personal Care,E-commerce & B2B Apps,7850692,4747990,384,6670455
+2026-01,South South,Personal Care,Key Distributors,21482695,13936932,1056,23703436
+2026-01,South South,Personal Care,Modern Retail,15293786,9379382,755,16148481
+2026-01,South South,Personal Care,Open Market,37731550,24927662,1808,42005523
+2026-01,South West,Beverages,E-commerce & B2B Apps,41970467,28576151,3989,32475866
+2026-01,South West,Beverages,Key Distributors,106530506,76988609,9764,109742931
+2026-01,South West,Beverages,Modern Retail,75275132,52471783,6878,70731340
+2026-01,South West,Beverages,Open Market,169199192,122166357,15863,186748038
+2026-01,South West,Home Care,E-commerce & B2B Apps,15809122,10560389,1183,13456526
+2026-01,South West,Home Care,Key Distributors,40496514,28386670,2988,42971648
+2026-01,South West,Home Care,Modern Retail,29265182,19685845,2162,30801706
+2026-01,South West,Home Care,Open Market,67656937,46750699,5085,78608110
+2026-01,South West,Packaged Foods,E-commerce & B2B Apps,36882631,27192966,2253,27638186
+2026-01,South West,Packaged Foods,Key Distributors,96606738,73959576,5776,100272120
+2026-01,South West,Packaged Foods,Modern Retail,65514666,48374047,3892,64963764
+2026-01,South West,Packaged Foods,Open Market,146077369,113753258,8676,156871854
+2026-01,South West,Personal Care,E-commerce & B2B Apps,17323719,10328798,826,14083560
+2026-01,South West,Personal Care,Key Distributors,48832190,31513632,2344,50896066
+2026-01,South West,Personal Care,Modern Retail,32606618,20206068,1601,33866712
+2026-01,South West,Personal Care,Open Market,71028660,45556270,3402,83030895
+2026-02,FCT Abuja,Beverages,E-commerce & B2B Apps,29900764,20288213,2759,20855259
+2026-02,FCT Abuja,Beverages,Key Distributors,82806059,58391354,7656,75673291
+2026-02,FCT Abuja,Beverages,Modern Retail,57360644,40161091,5247,48802329
+2026-02,FCT Abuja,Beverages,Open Market,134978009,98296599,12530,122800906
+2026-02,FCT Abuja,Home Care,E-commerce & B2B Apps,11441754,7499179,831,8360408
+2026-02,FCT Abuja,Home Care,Key Distributors,28756466,19991234,2081,28718098
+2026-02,FCT Abuja,Home Care,Modern Retail,22498068,15154671,1641,20182678
+2026-02,FCT Abuja,Home Care,Open Market,47922889,33721706,3491,49099059
+2026-02,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,24555509,17801166,1502,17631127
+2026-02,FCT Abuja,Packaged Foods,Key Distributors,77468241,58467004,4680,66311207
+2026-02,FCT Abuja,Packaged Foods,Modern Retail,47914400,36102419,2885,41999699
+2026-02,FCT Abuja,Packaged Foods,Open Market,120689916,92478832,7371,110147187
+2026-02,FCT Abuja,Personal Care,E-commerce & B2B Apps,13012154,7947796,641,9809622
+2026-02,FCT Abuja,Personal Care,Key Distributors,38118386,24435212,1845,35792011
+2026-02,FCT Abuja,Personal Care,Modern Retail,25591091,16042680,1244,22518382
+2026-02,FCT Abuja,Personal Care,Open Market,53018201,34251118,2520,53040191
+2026-02,North Central,Beverages,E-commerce & B2B Apps,19823163,13643186,1862,13743775
+2026-02,North Central,Beverages,Key Distributors,53094629,38103825,5031,46466795
+2026-02,North Central,Beverages,Modern Retail,34123605,23759805,3215,29356951
+2026-02,North Central,Beverages,Open Market,74662405,54512728,6960,72251017
+2026-02,North Central,Home Care,E-commerce & B2B Apps,7757143,5166306,579,5772408
+2026-02,North Central,Home Care,Key Distributors,19707638,13538841,1448,20206957
+2026-02,North Central,Home Care,Modern Retail,12692767,8448847,928,12202658
+2026-02,North Central,Home Care,Open Market,30319670,20972420,2222,32086864
+2026-02,North Central,Packaged Foods,E-commerce & B2B Apps,16508180,11823628,987,11623445
+2026-02,North Central,Packaged Foods,Key Distributors,43686464,33447463,2677,39550106
+2026-02,North Central,Packaged Foods,Modern Retail,30148923,22340704,1790,25350827
+2026-02,North Central,Packaged Foods,Open Market,70974909,55366457,4343,69430337
+2026-02,North Central,Personal Care,E-commerce & B2B Apps,8201794,5057467,395,5944464
+2026-02,North Central,Personal Care,Key Distributors,23861989,15069603,1166,23120609
+2026-02,North Central,Personal Care,Modern Retail,14798186,9378443,717,13910803
+2026-02,North Central,Personal Care,Open Market,37705270,24889200,1841,37519258
+2026-02,North East,Beverages,E-commerce & B2B Apps,10168254,6816791,966,7303014
+2026-02,North East,Beverages,Key Distributors,26679331,19150646,2449,25835296
+2026-02,North East,Beverages,Modern Retail,18784335,12895826,1770,17290079
+2026-02,North East,Beverages,Open Market,41844846,30199795,3944,41539429
+2026-02,North East,Home Care,E-commerce & B2B Apps,3760836,2441834,275,3005698
+2026-02,North East,Home Care,Key Distributors,10296107,7226163,750,10856231
+2026-02,North East,Home Care,Modern Retail,6596604,4483620,490,6839938
+2026-02,North East,Home Care,Open Market,16645452,11694396,1226,18248845
+2026-02,North East,Packaged Foods,E-commerce & B2B Apps,9063729,6672391,549,6878376
+2026-02,North East,Packaged Foods,Key Distributors,25508201,19550371,1516,23969266
+2026-02,North East,Packaged Foods,Modern Retail,16636837,12538115,1022,15132907
+2026-02,North East,Packaged Foods,Open Market,35125851,27490471,2101,35323621
+2026-02,North East,Personal Care,E-commerce & B2B Apps,4441514,2701136,212,3508313
+2026-02,North East,Personal Care,Key Distributors,12233242,7792938,594,12712389
+2026-02,North East,Personal Care,Modern Retail,7903821,4955918,389,7988331
+2026-02,North East,Personal Care,Open Market,18753421,12396084,906,19968055
+2026-02,North West,Beverages,E-commerce & B2B Apps,25635750,17654036,2379,18340593
+2026-02,North West,Beverages,Key Distributors,78626162,55154604,7463,69000185
+2026-02,North West,Beverages,Modern Retail,52700931,35950143,4826,45052881
+2026-02,North West,Beverages,Open Market,122491790,87682272,11628,115222184
+2026-02,North West,Home Care,E-commerce & B2B Apps,10184723,6627544,754,7649403
+2026-02,North West,Home Care,Key Distributors,26361440,18359707,1919,26523538
+2026-02,North West,Home Care,Modern Retail,20359998,13703810,1510,18969076
+2026-02,North West,Home Care,Open Market,47131333,33257366,3441,48394573
+2026-02,North West,Packaged Foods,E-commerce & B2B Apps,22549450,16181420,1344,16404054
+2026-02,North West,Packaged Foods,Key Distributors,67176362,51010201,4011,62486683
+2026-02,North West,Packaged Foods,Modern Retail,45461734,33690759,2765,39423198
+2026-02,North West,Packaged Foods,Open Market,106681884,83547037,6522,103550953
+2026-02,North West,Personal Care,E-commerce & B2B Apps,12721076,7846386,622,9468331
+2026-02,North West,Personal Care,Key Distributors,32794928,20957544,1591,32924582
+2026-02,North West,Personal Care,Modern Retail,21672064,13268825,1041,20263317
+2026-02,North West,Personal Care,Open Market,54575391,35210299,2618,54437437
+2026-02,South East,Beverages,E-commerce & B2B Apps,17350877,11750970,1627,12219575
+2026-02,South East,Beverages,Key Distributors,45779956,33009715,4308,40949477
+2026-02,South East,Beverages,Modern Retail,28902567,20045029,2674,26167761
+2026-02,South East,Beverages,Open Market,71061826,51485400,6749,65799755
+2026-02,South East,Home Care,E-commerce & B2B Apps,6469955,4177631,474,4928571
+2026-02,South East,Home Care,Key Distributors,18882291,12947363,1396,18132269
+2026-02,South East,Home Care,Modern Retail,10842471,7253625,796,10662740
+2026-02,South East,Home Care,Open Market,28977488,20077538,2162,29914078
+2026-02,South East,Packaged Foods,E-commerce & B2B Apps,14397227,10320727,882,10625258
+2026-02,South East,Packaged Foods,Key Distributors,40636611,31246305,2493,37984852
+2026-02,South East,Packaged Foods,Modern Retail,30001940,22534934,1776,25324500
+2026-02,South East,Packaged Foods,Open Market,60427661,46111169,3662,58528003
+2026-02,South East,Personal Care,E-commerce & B2B Apps,7117327,4279807,346,5493225
+2026-02,South East,Personal Care,Key Distributors,20276248,13137796,979,19123212
+2026-02,South East,Personal Care,Modern Retail,14072381,8817481,693,13362480
+2026-02,South East,Personal Care,Open Market,29361644,19409850,1451,31118197
+2026-02,South South,Beverages,E-commerce & B2B Apps,21222111,14501448,1940,15658587
+2026-02,South South,Beverages,Key Distributors,56593822,39691764,5234,55178503
+2026-02,South South,Beverages,Modern Retail,37918724,26249555,3560,34475318
+2026-02,South South,Beverages,Open Market,92574233,67216262,8744,92230392
+2026-02,South South,Home Care,E-commerce & B2B Apps,8525848,5618818,618,6560927
+2026-02,South South,Home Care,Key Distributors,22866705,15914230,1722,23780325
+2026-02,South South,Home Care,Modern Retail,14085829,9570795,1052,14172472
+2026-02,South South,Home Care,Open Market,35509360,25229457,2634,38943914
+2026-02,South South,Packaged Foods,E-commerce & B2B Apps,18794944,13541748,1119,13789962
+2026-02,South South,Packaged Foods,Key Distributors,50979894,39431347,3044,46990694
+2026-02,South South,Packaged Foods,Modern Retail,33439271,24559230,2044,29512408
+2026-02,South South,Packaged Foods,Open Market,80598646,63112091,4782,76660293
+2026-02,South South,Personal Care,E-commerce & B2B Apps,9573961,5768955,455,7193801
+2026-02,South South,Personal Care,Key Distributors,24595675,15559721,1197,24713174
+2026-02,South South,Personal Care,Modern Retail,18134034,11414517,880,17733293
+2026-02,South South,Personal Care,Open Market,41668731,27590423,2044,43482696
+2026-02,South West,Beverages,E-commerce & B2B Apps,46075231,31552381,4281,34581786
+2026-02,South West,Beverages,Key Distributors,120597733,86047683,11062,111843039
+2026-02,South West,Beverages,Modern Retail,88540047,61849615,8394,77291115
+2026-02,South West,Beverages,Open Market,188855581,137757566,17331,190069580
+2026-02,South West,Home Care,E-commerce & B2B Apps,16764054,11100166,1239,13436387
+2026-02,South West,Home Care,Key Distributors,48784098,33423420,3579,48880689
+2026-02,South West,Home Care,Modern Retail,34383160,22896032,2542,32480896
+2026-02,South West,Home Care,Open Market,77011580,54266473,5767,78613474
+2026-02,South West,Packaged Foods,E-commerce & B2B Apps,39068869,28373983,2396,27929684
+2026-02,South West,Packaged Foods,Key Distributors,117981455,89760045,7006,104837854
+2026-02,South West,Packaged Foods,Modern Retail,70080372,51200682,4265,61505597
+2026-02,South West,Packaged Foods,Open Market,178377960,139730614,10792,174293557
+2026-02,South West,Personal Care,E-commerce & B2B Apps,19678106,11825328,955,15108600
+2026-02,South West,Personal Care,Key Distributors,56407395,35863703,2736,55284089
+2026-02,South West,Personal Care,Modern Retail,37572065,23794877,1831,36982857
+2026-02,South West,Personal Care,Open Market,83262121,53674816,4090,85699863
+2026-03,FCT Abuja,Beverages,E-commerce & B2B Apps,30272759,20626248,2790,25276001
+2026-03,FCT Abuja,Beverages,Key Distributors,83426108,59866977,7909,85261981
+2026-03,FCT Abuja,Beverages,Modern Retail,54844509,38263772,5141,54393991
+2026-03,FCT Abuja,Beverages,Open Market,127550210,92978313,11797,133625714
+2026-03,FCT Abuja,Home Care,E-commerce & B2B Apps,12083851,8046726,882,10246956
+2026-03,FCT Abuja,Home Care,Key Distributors,31439500,21723298,2357,34902255
+2026-03,FCT Abuja,Home Care,Modern Retail,20498089,13570366,1536,21891990
+2026-03,FCT Abuja,Home Care,Open Market,50387860,35673288,3740,59267504
+2026-03,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,27804026,20265015,1653,22566490
+2026-03,FCT Abuja,Packaged Foods,Key Distributors,70794181,54250938,4205,73558718
+2026-03,FCT Abuja,Packaged Foods,Modern Retail,50468705,37788995,3050,47128177
+2026-03,FCT Abuja,Packaged Foods,Open Market,111742101,86585158,6605,119076312
+2026-03,FCT Abuja,Personal Care,E-commerce & B2B Apps,14269940,8666747,690,11768301
+2026-03,FCT Abuja,Personal Care,Key Distributors,34505052,22246784,1704,38006979
+2026-03,FCT Abuja,Personal Care,Modern Retail,24445916,15052849,1174,24946079
+2026-03,FCT Abuja,Personal Care,Open Market,60012377,39170154,2929,67098148
+2026-03,North Central,Beverages,E-commerce & B2B Apps,18421103,12382998,1693,15493344
+2026-03,North Central,Beverages,Key Distributors,51991525,36530989,4770,54266535
+2026-03,North Central,Beverages,Modern Retail,35157096,24131785,3257,36195275
+2026-03,North Central,Beverages,Open Market,77736741,56369219,7286,86412173
+2026-03,North Central,Home Care,E-commerce & B2B Apps,7148395,4626622,533,6217128
+2026-03,North Central,Home Care,Key Distributors,20414754,14226561,1517,23920461
+2026-03,North Central,Home Care,Modern Retail,14149084,9352044,1039,14789414
+2026-03,North Central,Home Care,Open Market,29936250,20778163,2192,36114420
+2026-03,North Central,Packaged Foods,E-commerce & B2B Apps,17669074,12806813,1049,14820218
+2026-03,North Central,Packaged Foods,Key Distributors,50320146,38371703,3046,49616373
+2026-03,North Central,Packaged Foods,Modern Retail,32639003,24009202,1933,33007625
+2026-03,North Central,Packaged Foods,Open Market,73570686,56242643,4413,80012558
+2026-03,North Central,Personal Care,E-commerce & B2B Apps,8724770,5201382,417,7745234
+2026-03,North Central,Personal Care,Key Distributors,24216581,15721265,1152,26603215
+2026-03,North Central,Personal Care,Modern Retail,15920100,10076910,771,16363782
+2026-03,North Central,Personal Care,Open Market,39784013,25992817,1965,45330676
+2026-03,North East,Beverages,E-commerce & B2B Apps,10113610,6889821,941,8646154
+2026-03,North East,Beverages,Key Distributors,25193609,17766845,2330,29303606
+2026-03,North East,Beverages,Modern Retail,17470092,12190402,1605,19449668
+2026-03,North East,Beverages,Open Market,40988762,29956379,3856,47469130
+2026-03,North East,Home Care,E-commerce & B2B Apps,3797315,2485452,277,3664283
+2026-03,North East,Home Care,Key Distributors,10228071,7193664,766,12609026
+2026-03,North East,Home Care,Modern Retail,7052698,4684904,512,8195807
+2026-03,North East,Home Care,Open Market,15102711,10495158,1113,19939061
+2026-03,North East,Packaged Foods,E-commerce & B2B Apps,8708083,6371191,518,7644595
+2026-03,North East,Packaged Foods,Key Distributors,24410840,18457256,1450,26724702
+2026-03,North East,Packaged Foods,Modern Retail,16209641,11893900,961,17315260
+2026-03,North East,Packaged Foods,Open Market,35293173,27403772,2115,42295599
+2026-03,North East,Personal Care,E-commerce & B2B Apps,4510910,2726825,215,3999011
+2026-03,North East,Personal Care,Key Distributors,12028754,7849160,581,14875925
+2026-03,North East,Personal Care,Modern Retail,8386750,5270605,409,9496045
+2026-03,North East,Personal Care,Open Market,18365842,11840097,889,24044723
+2026-03,North West,Beverages,E-commerce & B2B Apps,27629572,18612199,2561,22201853
+2026-03,North West,Beverages,Key Distributors,81622080,58148223,7685,84069137
+2026-03,North West,Beverages,Modern Retail,48924551,33967709,4504,49944725
+2026-03,North West,Beverages,Open Market,123294375,89174725,11306,139030683
+2026-03,North West,Home Care,E-commerce & B2B Apps,10786710,7213243,794,9856274
+2026-03,North West,Home Care,Key Distributors,29190024,20317663,2176,32344846
+2026-03,North West,Home Care,Modern Retail,20399585,13826421,1523,21406982
+2026-03,North West,Home Care,Open Market,44822242,31799331,3280,55283672
+2026-03,North West,Packaged Foods,E-commerce & B2B Apps,25815395,18458672,1526,20725101
+2026-03,North West,Packaged Foods,Key Distributors,68155156,52329883,4170,71074845
+2026-03,North West,Packaged Foods,Modern Retail,46588614,34042604,2761,46397346
+2026-03,North West,Packaged Foods,Open Market,109160264,83531454,6481,123556766
+2026-03,North West,Personal Care,E-commerce & B2B Apps,13028471,7908574,644,11365766
+2026-03,North West,Personal Care,Key Distributors,32513389,21062025,1583,37117637
+2026-03,North West,Personal Care,Modern Retail,24034894,15163328,1181,25354572
+2026-03,North West,Personal Care,Open Market,53786690,34753563,2578,62312186
+2026-03,South East,Beverages,E-commerce & B2B Apps,16650095,11117113,1554,14068887
+2026-03,South East,Beverages,Key Distributors,47985763,34045640,4472,50067972
+2026-03,South East,Beverages,Modern Retail,33352215,23277321,3093,32650335
+2026-03,South East,Beverages,Open Market,76055219,54231049,7172,85420609
+2026-03,South East,Home Care,E-commerce & B2B Apps,6948987,4547944,516,6237453
+2026-03,South East,Home Care,Key Distributors,18701900,13056133,1376,21745435
+2026-03,South East,Home Care,Modern Retail,12173669,8308990,886,13033037
+2026-03,South East,Home Care,Open Market,27414698,19427419,2036,32351255
+2026-03,South East,Packaged Foods,E-commerce & B2B Apps,15319076,11123640,926,12593469
+2026-03,South East,Packaged Foods,Key Distributors,41945742,31812736,2525,44665820
+2026-03,South East,Packaged Foods,Modern Retail,27723196,20434405,1667,27421584
+2026-03,South East,Packaged Foods,Open Market,69776141,53492129,4232,77058551
+2026-03,South East,Personal Care,E-commerce & B2B Apps,7594577,4582466,363,6569965
+2026-03,South East,Personal Care,Key Distributors,21706029,13939561,1036,23901173
+2026-03,South East,Personal Care,Modern Retail,14176557,8812503,698,14865001
+2026-03,South East,Personal Care,Open Market,34864661,22586913,1691,40671570
+2026-03,South South,Beverages,E-commerce & B2B Apps,22134917,15208704,2091,18699964
+2026-03,South South,Beverages,Key Distributors,64881047,46073392,6093,68568967
+2026-03,South South,Beverages,Modern Retail,40386441,28277559,3729,43141144
+2026-03,South South,Beverages,Open Market,95056095,69173385,8803,112183905
+2026-03,South South,Home Care,E-commerce & B2B Apps,8762857,5741604,653,8029775
+2026-03,South South,Home Care,Key Distributors,23139994,16105181,1739,27913559
+2026-03,South South,Home Care,Modern Retail,15785734,10794039,1188,17434950
+2026-03,South South,Home Care,Open Market,36101860,25001521,2708,47094615
+2026-03,South South,Packaged Foods,E-commerce & B2B Apps,18984238,13825160,1125,16513442
+2026-03,South South,Packaged Foods,Key Distributors,51805733,39700441,3075,56681091
+2026-03,South South,Packaged Foods,Modern Retail,36039755,26863968,2138,35838789
+2026-03,South South,Packaged Foods,Open Market,83124807,64335913,5033,97490299
+2026-03,South South,Personal Care,E-commerce & B2B Apps,9857804,5905663,469,8590248
+2026-03,South South,Personal Care,Key Distributors,25842692,16636706,1276,30791528
+2026-03,South South,Personal Care,Modern Retail,17977334,11270377,881,20496322
+2026-03,South South,Personal Care,Open Market,42236850,27883635,2068,50580750
+2026-03,South West,Beverages,E-commerce & B2B Apps,49226348,33395330,4580,40791289
+2026-03,South West,Beverages,Key Distributors,139400304,100815926,13040,144186836
+2026-03,South West,Beverages,Modern Retail,86192584,59599488,7931,90285439
+2026-03,South West,Beverages,Open Market,206323693,147111714,19322,231163676
+2026-03,South West,Home Care,E-commerce & B2B Apps,17342385,11541340,1288,15879272
+2026-03,South West,Home Care,Key Distributors,45671683,31546388,3423,54900345
+2026-03,South West,Home Care,Modern Retail,33778189,22619131,2523,36762663
+2026-03,South West,Home Care,Open Market,76188662,53066731,5536,93592609
+2026-03,South West,Packaged Foods,E-commerce & B2B Apps,41347471,30469049,2491,34284465
+2026-03,South West,Packaged Foods,Key Distributors,116072141,89007373,7107,125085295
+2026-03,South West,Packaged Foods,Modern Retail,77004780,57116921,4587,78961915
+2026-03,South West,Packaged Foods,Open Market,165862818,129355374,9987,189543543
+2026-03,South West,Personal Care,E-commerce & B2B Apps,20924041,12756311,1027,18073693
+2026-03,South West,Personal Care,Key Distributors,53528308,34539474,2619,64052016
+2026-03,South West,Personal Care,Modern Retail,38915070,24421700,1900,40749971
+2026-03,South West,Personal Care,Open Market,90672092,58653238,4342,106680796
+2026-04,FCT Abuja,Beverages,E-commerce & B2B Apps,29996565,20582480,2781,23525725
+2026-04,FCT Abuja,Beverages,Key Distributors,77617149,55113193,7378,79227331
+2026-04,FCT Abuja,Beverages,Modern Retail,58845760,40302375,5566,55173707
+2026-04,FCT Abuja,Beverages,Open Market,140960139,102313172,13357,143581584
+2026-04,FCT Abuja,Home Care,E-commerce & B2B Apps,11759627,7865041,866,9717394
+2026-04,FCT Abuja,Home Care,Key Distributors,31473178,21641116,2318,34169393
+2026-04,FCT Abuja,Home Care,Modern Retail,22583802,15197909,1635,23409835
+2026-04,FCT Abuja,Home Care,Open Market,49157361,34162528,3560,55128424
+2026-04,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,28189781,20161199,1720,21767380
+2026-04,FCT Abuja,Packaged Foods,Key Distributors,78339518,60403085,4704,72581880
+2026-04,FCT Abuja,Packaged Foods,Modern Retail,51304863,38316189,3056,46646945
+2026-04,FCT Abuja,Packaged Foods,Open Market,115348938,89510010,6879,120203575
+2026-04,FCT Abuja,Personal Care,E-commerce & B2B Apps,13533239,8052915,666,10698043
+2026-04,FCT Abuja,Personal Care,Key Distributors,38395996,24853948,1872,39913154
+2026-04,FCT Abuja,Personal Care,Modern Retail,26180044,16193170,1263,26108153
+2026-04,FCT Abuja,Personal Care,Open Market,63364911,41330720,3079,67213175
+2026-04,North Central,Beverages,E-commerce & B2B Apps,18280602,12202178,1736,14727165
+2026-04,North Central,Beverages,Key Distributors,54639101,38357862,5110,52944333
+2026-04,North Central,Beverages,Modern Retail,36687473,25683857,3481,35985505
+2026-04,North Central,Beverages,Open Market,82702132,59865521,7795,86705981
+2026-04,North Central,Home Care,E-commerce & B2B Apps,7750093,5031659,562,6642781
+2026-04,North Central,Home Care,Key Distributors,21437959,14711740,1562,23015858
+2026-04,North Central,Home Care,Modern Retail,13511428,9112277,1006,13673383
+2026-04,North Central,Home Care,Open Market,30752287,21292055,2235,34280652
+2026-04,North Central,Packaged Foods,E-commerce & B2B Apps,16901573,12310743,1013,13218501
+2026-04,North Central,Packaged Foods,Key Distributors,52593086,39982855,3196,49745209
+2026-04,North Central,Packaged Foods,Modern Retail,34067395,25526124,2089,30993665
+2026-04,North Central,Packaged Foods,Open Market,75120345,57115868,4575,80049450
+2026-04,North Central,Personal Care,E-commerce & B2B Apps,8509448,5130296,415,6789601
+2026-04,North Central,Personal Care,Key Distributors,23945545,15119982,1176,25264327
+2026-04,North Central,Personal Care,Modern Retail,16292618,9970497,782,16734249
+2026-04,North Central,Personal Care,Open Market,37542161,24460254,1821,40078713
+2026-04,North East,Beverages,E-commerce & B2B Apps,10336504,7051826,953,8265579
+2026-04,North East,Beverages,Key Distributors,26993484,18913498,2490,29437397
+2026-04,North East,Beverages,Modern Retail,18512015,12909189,1704,18192644
+2026-04,North East,Beverages,Open Market,40199125,28640016,3797,46043412
+2026-04,North East,Home Care,E-commerce & B2B Apps,3686200,2440613,276,3294620
+2026-04,North East,Home Care,Key Distributors,10184890,7037291,765,11657675
+2026-04,North East,Home Care,Modern Retail,7289309,4833770,542,7910056
+2026-04,North East,Home Care,Open Market,15590159,10942745,1167,19759457
+2026-04,North East,Packaged Foods,E-commerce & B2B Apps,9319364,6667750,554,7553986
+2026-04,North East,Packaged Foods,Key Distributors,22986276,17706823,1403,25015810
+2026-04,North East,Packaged Foods,Modern Retail,17092298,12664174,1009,17108677
+2026-04,North East,Packaged Foods,Open Market,37255733,29099739,2238,41536112
+2026-04,North East,Personal Care,E-commerce & B2B Apps,4962019,3011951,244,4183744
+2026-04,North East,Personal Care,Key Distributors,12017844,7711863,584,14216749
+2026-04,North East,Personal Care,Modern Retail,8631551,5443978,419,9165035
+2026-04,North East,Personal Care,Open Market,18009885,11908727,871,21267979
+2026-04,North West,Beverages,E-commerce & B2B Apps,29680807,20053726,2768,22765137
+2026-04,North West,Beverages,Key Distributors,78344169,56217299,7284,77601447
+2026-04,North West,Beverages,Modern Retail,53450602,37322075,5056,51832187
+2026-04,North West,Beverages,Open Market,124517606,90505859,11665,126764065
+2026-04,North West,Home Care,E-commerce & B2B Apps,10750542,7148485,808,9156634
+2026-04,North West,Home Care,Key Distributors,29711829,20523409,2236,32741842
+2026-04,North West,Home Care,Modern Retail,19417838,13154475,1437,20900498
+2026-04,North West,Home Care,Open Market,46417732,32379130,3445,52471862
+2026-04,North West,Packaged Foods,E-commerce & B2B Apps,26746497,19265311,1588,20395499
+2026-04,North West,Packaged Foods,Key Distributors,70389949,53757431,4205,71610185
+2026-04,North West,Packaged Foods,Modern Retail,48574933,36166801,2937,45349541
+2026-04,North West,Packaged Foods,Open Market,105541207,81124550,6272,109030335
+2026-04,North West,Personal Care,E-commerce & B2B Apps,12141654,7278535,583,9932095
+2026-04,North West,Personal Care,Key Distributors,37141015,23401008,1774,38248686
+2026-04,North West,Personal Care,Modern Retail,23350539,14617354,1129,24188405
+2026-04,North West,Personal Care,Open Market,54232693,35331310,2648,62924642
+2026-04,South East,Beverages,E-commerce & B2B Apps,17672850,11841875,1640,14243559
+2026-04,South East,Beverages,Key Distributors,50001769,35919006,4591,49128491
+2026-04,South East,Beverages,Modern Retail,30167967,21060694,2791,30173226
+2026-04,South East,Beverages,Open Market,75999619,55684942,7053,83746452
+2026-04,South East,Home Care,E-commerce & B2B Apps,7044549,4626552,510,5756960
+2026-04,South East,Home Care,Key Distributors,18260082,12786509,1353,20048853
+2026-04,South East,Home Care,Modern Retail,12334044,8176444,912,12534643
+2026-04,South East,Home Care,Open Market,28382086,20073623,2055,32420973
+2026-04,South East,Packaged Foods,E-commerce & B2B Apps,16059782,11840669,977,12278845
+2026-04,South East,Packaged Foods,Key Distributors,39603442,30567939,2427,40750816
+2026-04,South East,Packaged Foods,Modern Retail,29279555,21387464,1758,28077326
+2026-04,South East,Packaged Foods,Open Market,63499937,48868997,3749,69124592
+2026-04,South East,Personal Care,E-commerce & B2B Apps,7890477,4840692,378,6758895
+2026-04,South East,Personal Care,Key Distributors,20430438,13068171,984,22576068
+2026-04,South East,Personal Care,Modern Retail,14731996,9288849,708,15348282
+2026-04,South East,Personal Care,Open Market,33272655,21701173,1639,37120119
+2026-04,South South,Beverages,E-commerce & B2B Apps,22603291,15289132,2100,18425995
+2026-04,South South,Beverages,Key Distributors,58142641,41214197,5368,62082453
+2026-04,South South,Beverages,Modern Retail,41476057,28431960,3884,41318328
+2026-04,South South,Beverages,Open Market,103972613,74456685,9811,108607019
+2026-04,South South,Home Care,E-commerce & B2B Apps,9049885,5845077,678,7816692
+2026-04,South South,Home Care,Key Distributors,24442477,16777604,1793,26593879
+2026-04,South South,Home Care,Modern Retail,15746379,10405226,1148,16631513
+2026-04,South South,Home Care,Open Market,35746312,24904984,2666,42817359
+2026-04,South South,Packaged Foods,E-commerce & B2B Apps,21020821,15295586,1265,16483478
+2026-04,South South,Packaged Foods,Key Distributors,49831197,38405904,2982,52794155
+2026-04,South South,Packaged Foods,Modern Retail,35959280,26728717,2154,36398336
+2026-04,South South,Packaged Foods,Open Market,81403328,63236574,4975,90756947
+2026-04,South South,Personal Care,E-commerce & B2B Apps,9465376,5852107,458,8273833
+2026-04,South South,Personal Care,Key Distributors,28393844,18021590,1365,30567087
+2026-04,South South,Personal Care,Modern Retail,17463855,10870096,837,19087789
+2026-04,South South,Personal Care,Open Market,40910801,26742867,2006,46842592
+2026-04,South West,Beverages,E-commerce & B2B Apps,44339091,29944426,4210,36396873
+2026-04,South West,Beverages,Key Distributors,118485869,84801371,11025,123639667
+2026-04,South West,Beverages,Modern Retail,85127937,59339387,7963,82228356
+2026-04,South West,Beverages,Open Market,211410637,151800307,19364,217418669
+2026-04,South West,Home Care,E-commerce & B2B Apps,19333188,12829254,1437,15996681
+2026-04,South West,Home Care,Key Distributors,52136707,36590295,3921,55967382
+2026-04,South West,Home Care,Modern Retail,32492393,21845540,2406,33370937
+2026-04,South West,Home Care,Open Market,80371144,55627147,5859,91892037
+2026-04,South West,Packaged Foods,E-commerce & B2B Apps,45107272,32252866,2689,34835896
+2026-04,South West,Packaged Foods,Key Distributors,116334645,87266360,7053,118101677
+2026-04,South West,Packaged Foods,Modern Retail,81523457,60922139,4818,78559393
+2026-04,South West,Packaged Foods,Open Market,178847278,138815889,10888,187074772
+2026-04,South West,Personal Care,E-commerce & B2B Apps,22011422,13586750,1061,17849882
+2026-04,South West,Personal Care,Key Distributors,54279819,35351071,2605,61485663
+2026-04,South West,Personal Care,Modern Retail,38671955,24085309,1842,39537425
+2026-04,South West,Personal Care,Open Market,92094749,59797870,4385,105705852
+2026-05,FCT Abuja,Beverages,E-commerce & B2B Apps,28676037,19493438,2687,21483481
+2026-05,FCT Abuja,Beverages,Key Distributors,77451791,54832503,7086,73282550
+2026-05,FCT Abuja,Beverages,Modern Retail,57416875,39859251,5318,51624635
+2026-05,FCT Abuja,Beverages,Open Market,123013421,88193156,11681,122902006
+2026-05,FCT Abuja,Home Care,E-commerce & B2B Apps,10555623,7056383,791,8607719
+2026-05,FCT Abuja,Home Care,Key Distributors,32034806,21853274,2366,32455895
+2026-05,FCT Abuja,Home Care,Modern Retail,19538668,13063092,1425,19794428
+2026-05,FCT Abuja,Home Care,Open Market,47687906,33799338,3590,51158557
+2026-05,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,26154765,18733342,1578,19399893
+2026-05,FCT Abuja,Packaged Foods,Key Distributors,72199059,54705212,4374,68616935
+2026-05,FCT Abuja,Packaged Foods,Modern Retail,45106641,33814290,2733,42211727
+2026-05,FCT Abuja,Packaged Foods,Open Market,104207851,80805543,6262,107171395
+2026-05,FCT Abuja,Personal Care,E-commerce & B2B Apps,12779540,7775033,607,10194542
+2026-05,FCT Abuja,Personal Care,Key Distributors,32990400,20892682,1570,35081094
+2026-05,FCT Abuja,Personal Care,Modern Retail,24539453,15014895,1196,23559246
+2026-05,FCT Abuja,Personal Care,Open Market,54933321,35229260,2713,59107840
+2026-05,North Central,Beverages,E-commerce & B2B Apps,18484877,12441987,1696,14297295
+2026-05,North Central,Beverages,Key Distributors,46491903,33624892,4304,47382047
+2026-05,North Central,Beverages,Modern Retail,34765319,24270237,3239,31405501
+2026-05,North Central,Beverages,Open Market,78819278,56032992,7409,79313463
+2026-05,North Central,Home Care,E-commerce & B2B Apps,7550200,4970460,552,6291934
+2026-05,North Central,Home Care,Key Distributors,19804701,13810347,1476,20832295
+2026-05,North Central,Home Care,Modern Retail,12433056,8286246,916,12632383
+2026-05,North Central,Home Care,Open Market,32198568,22512293,2408,34951803
+2026-05,North Central,Packaged Foods,E-commerce & B2B Apps,15911846,11511558,977,12445882
+2026-05,North Central,Packaged Foods,Key Distributors,45259581,34568412,2707,43453636
+2026-05,North Central,Packaged Foods,Modern Retail,29759789,22300088,1764,27207810
+2026-05,North Central,Packaged Foods,Open Market,76788076,59356349,4715,76472864
+2026-05,North Central,Personal Care,E-commerce & B2B Apps,8168446,4896812,402,6729249
+2026-05,North Central,Personal Care,Key Distributors,23331343,14766195,1150,24287733
+2026-05,North Central,Personal Care,Modern Retail,14765454,9043342,728,15140431
+2026-05,North Central,Personal Care,Open Market,34616678,22425776,1677,37899818
+2026-05,North East,Beverages,E-commerce & B2B Apps,9526489,6407655,898,7902447
+2026-05,North East,Beverages,Key Distributors,26352899,18657786,2416,28504641
+2026-05,North East,Beverages,Modern Retail,16730966,11600557,1578,17554579
+2026-05,North East,Beverages,Open Market,39739958,29141555,3765,45149286
+2026-05,North East,Home Care,E-commerce & B2B Apps,3437171,2277795,256,3124324
+2026-05,North East,Home Care,Key Distributors,9085877,6330975,660,10725737
+2026-05,North East,Home Care,Modern Retail,6658438,4512188,494,7227479
+2026-05,North East,Home Care,Open Market,14554835,10134780,1069,18349032
+2026-05,North East,Packaged Foods,E-commerce & B2B Apps,8543906,6169065,522,6904804
+2026-05,North East,Packaged Foods,Key Distributors,22011228,16594989,1326,23608344
+2026-05,North East,Packaged Foods,Modern Retail,15870067,11692770,955,15827006
+2026-05,North East,Packaged Foods,Open Market,35575042,27628104,2155,38420477
+2026-05,North East,Personal Care,E-commerce & B2B Apps,4319163,2646583,210,3586440
+2026-05,North East,Personal Care,Key Distributors,10546124,6870637,510,12264156
+2026-05,North East,Personal Care,Modern Retail,7746469,4750643,377,8658679
+2026-05,North East,Personal Care,Open Market,16725429,10835284,805,20015761
+2026-05,North West,Beverages,E-commerce & B2B Apps,27259513,18537390,2494,20450954
+2026-05,North West,Beverages,Key Distributors,72758703,51750251,6878,71595236
+2026-05,North West,Beverages,Modern Retail,50446125,34899403,4771,47133021
+2026-05,North West,Beverages,Open Market,105493681,76742647,9951,113805160
+2026-05,North West,Home Care,E-commerce & B2B Apps,9780829,6460437,734,8353904
+2026-05,North West,Home Care,Key Distributors,26811199,18559380,2002,28861337
+2026-05,North West,Home Care,Modern Retail,17765252,11937498,1319,18690797
+2026-05,North West,Home Care,Open Market,41293287,28907901,2999,46754927
+2026-05,North West,Packaged Foods,E-commerce & B2B Apps,24699393,17957524,1507,18302487
+2026-05,North West,Packaged Foods,Key Distributors,62964132,47628945,3747,60904669
+2026-05,North West,Packaged Foods,Modern Retail,45401644,33368404,2759,41273661
+2026-05,North West,Packaged Foods,Open Market,103906253,80241824,6372,104954619
+2026-05,North West,Personal Care,E-commerce & B2B Apps,12203252,7322436,593,9778236
+2026-05,North West,Personal Care,Key Distributors,31963305,20783577,1565,33346523
+2026-05,North West,Personal Care,Modern Retail,19853135,12170364,979,20578352
+2026-05,North West,Personal Care,Open Market,48495893,32086700,2351,54225781
+2026-05,South East,Beverages,E-commerce & B2B Apps,16632395,11356686,1541,12566209
+2026-05,South East,Beverages,Key Distributors,45791102,32382240,4293,44509494
+2026-05,South East,Beverages,Modern Retail,29732939,20906770,2745,28222503
+2026-05,South East,Beverages,Open Market,69436814,50706300,6543,72987608
+2026-05,South East,Home Care,E-commerce & B2B Apps,6305991,4138481,458,5327298
+2026-05,South East,Home Care,Key Distributors,16902264,11525466,1272,18593060
+2026-05,South East,Home Care,Modern Retail,11585168,7797834,870,12568352
+2026-05,South East,Home Care,Open Market,25954930,18339197,1951,28918184
+2026-05,South East,Packaged Foods,E-commerce & B2B Apps,13871467,10249244,852,11012916
+2026-05,South East,Packaged Foods,Key Distributors,39499448,30306812,2339,38385623
+2026-05,South East,Packaged Foods,Modern Retail,26058673,19396186,1573,25850026
+2026-05,South East,Packaged Foods,Open Market,62554163,48884899,3816,64525184
+2026-05,South East,Personal Care,E-commerce & B2B Apps,7143541,4372592,343,5980719
+2026-05,South East,Personal Care,Key Distributors,18545702,11845306,909,20230885
+2026-05,South East,Personal Care,Modern Retail,12901293,8159883,613,13390940
+2026-05,South East,Personal Care,Open Market,30515667,19816053,1461,35780678
+2026-05,South South,Beverages,E-commerce & B2B Apps,21888527,14684440,2002,17247113
+2026-05,South South,Beverages,Key Distributors,60174668,42551697,5567,62075637
+2026-05,South South,Beverages,Modern Retail,39055176,26766036,3670,37526849
+2026-05,South South,Beverages,Open Market,83981368,61116858,7901,90547762
+2026-05,South South,Home Care,E-commerce & B2B Apps,8394117,5560911,608,7308227
+2026-05,South South,Home Care,Key Distributors,21846227,15331244,1612,24557170
+2026-05,South South,Home Care,Modern Retail,14968896,9958204,1104,15888151
+2026-05,South South,Home Care,Open Market,31655099,22353284,2358,38585860
+2026-05,South South,Packaged Foods,E-commerce & B2B Apps,17395850,12767872,1028,14224978
+2026-05,South South,Packaged Foods,Key Distributors,48815487,36721772,2970,51848726
+2026-05,South South,Packaged Foods,Modern Retail,33154006,24849195,2023,32013463
+2026-05,South South,Packaged Foods,Open Market,75684892,58957089,4505,81000455
+2026-05,South South,Personal Care,E-commerce & B2B Apps,8752612,5318736,427,7626099
+2026-05,South South,Personal Care,Key Distributors,25451369,16352411,1232,28477521
+2026-05,South South,Personal Care,Modern Retail,17323745,10677283,837,18714993
+2026-05,South South,Personal Care,Open Market,41475743,27100868,1988,47194337
+2026-05,South West,Beverages,E-commerce & B2B Apps,45543415,31365793,4300,34905489
+2026-05,South West,Beverages,Key Distributors,116950987,82984452,10860,115088928
+2026-05,South West,Beverages,Modern Retail,78574027,54833431,7267,77104512
+2026-05,South West,Beverages,Open Market,184561707,131854764,16877,195314894
+2026-05,South West,Home Care,E-commerce & B2B Apps,15756982,10353424,1154,13794299
+2026-05,South West,Home Care,Key Distributors,44265357,31151940,3313,48805152
+2026-05,South West,Home Care,Modern Retail,31541940,20913361,2357,33493168
+2026-05,South West,Home Care,Open Market,67935063,48127292,5062,81575962
+2026-05,South West,Packaged Foods,E-commerce & B2B Apps,40584856,29724415,2396,30719492
+2026-05,South West,Packaged Foods,Key Distributors,104154992,80587059,6215,106525582
+2026-05,South West,Packaged Foods,Modern Retail,73768233,54141988,4497,68178840
+2026-05,South West,Packaged Foods,Open Market,168514847,131801612,10000,184326216
+2026-05,South West,Personal Care,E-commerce & B2B Apps,20336447,12338318,1001,16721450
+2026-05,South West,Personal Care,Key Distributors,54101635,35072853,2658,59068951
+2026-05,South West,Personal Care,Modern Retail,34965459,21575691,1706,36730296
+2026-05,South West,Personal Care,Open Market,83642989,54828428,4007,94631325
+2026-06,FCT Abuja,Beverages,E-commerce & B2B Apps,29702330,19977489,2720,22180411
+2026-06,FCT Abuja,Beverages,Key Distributors,81003666,57245992,7548,74733136
+2026-06,FCT Abuja,Beverages,Modern Retail,55529316,38329889,5160,52645594
+2026-06,FCT Abuja,Beverages,Open Market,122884739,87985040,11444,128076132
+2026-06,FCT Abuja,Home Care,E-commerce & B2B Apps,11083879,7284037,815,8891350
+2026-06,FCT Abuja,Home Care,Key Distributors,32961548,22464869,2447,33352711
+2026-06,FCT Abuja,Home Care,Modern Retail,21445144,14445868,1586,21367507
+2026-06,FCT Abuja,Home Care,Open Market,47112732,32945903,3533,51690181
+2026-06,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,24505631,17743733,1462,18838964
+2026-06,FCT Abuja,Packaged Foods,Key Distributors,76908382,58877070,4683,72984398
+2026-06,FCT Abuja,Packaged Foods,Modern Retail,52797103,39323922,3175,46466896
+2026-06,FCT Abuja,Packaged Foods,Open Market,109992265,84090068,6641,111291921
+2026-06,FCT Abuja,Personal Care,E-commerce & B2B Apps,13130557,7903164,647,10570212
+2026-06,FCT Abuja,Personal Care,Key Distributors,36998579,24094626,1792,38139084
+2026-06,FCT Abuja,Personal Care,Modern Retail,23705786,14699219,1151,23839931
+2026-06,FCT Abuja,Personal Care,Open Market,53488946,34962460,2615,57792031
+2026-06,North Central,Beverages,E-commerce & B2B Apps,17812894,12030379,1689,14077033
+2026-06,North Central,Beverages,Key Distributors,54037034,38468665,4956,51585576
+2026-06,North Central,Beverages,Modern Retail,35545551,24272918,3318,32082812
+2026-06,North Central,Beverages,Open Market,87050725,62413919,7980,86520567
+2026-06,North Central,Home Care,E-commerce & B2B Apps,7698556,5126352,560,6299490
+2026-06,North Central,Home Care,Key Distributors,19259629,13291515,1404,21014100
+2026-06,North Central,Home Care,Modern Retail,12524805,8345200,939,12847246
+2026-06,North Central,Home Care,Open Market,30221989,21134362,2272,35296504
+2026-06,North Central,Packaged Foods,E-commerce & B2B Apps,16978299,12276621,1030,13352146
+2026-06,North Central,Packaged Foods,Key Distributors,45532387,34719101,2701,44891595
+2026-06,North Central,Packaged Foods,Modern Retail,32428389,24102555,1952,29589048
+2026-06,North Central,Packaged Foods,Open Market,71374546,55898778,4238,71808545
+2026-06,North Central,Personal Care,E-commerce & B2B Apps,7919457,4741634,379,6693544
+2026-06,North Central,Personal Care,Key Distributors,21614979,14041540,1046,22798197
+2026-06,North Central,Personal Care,Modern Retail,15827039,9686812,755,15481554
+2026-06,North Central,Personal Care,Open Market,35197194,22819455,1735,37321621
+2026-06,North East,Beverages,E-commerce & B2B Apps,9286203,6194449,860,7566827
+2026-06,North East,Beverages,Key Distributors,25890577,18616337,2372,26542154
+2026-06,North East,Beverages,Modern Retail,16461477,11528331,1512,17060896
+2026-06,North East,Beverages,Open Market,40129045,28592848,3807,45634124
+2026-06,North East,Home Care,E-commerce & B2B Apps,3680086,2379031,272,3283697
+2026-06,North East,Home Care,Key Distributors,9781653,6879587,721,11275347
+2026-06,North East,Home Care,Modern Retail,6635284,4431669,486,7511866
+2026-06,North East,Home Care,Open Market,15162358,10752863,1140,19397163
+2026-06,North East,Packaged Foods,E-commerce & B2B Apps,8837012,6514059,541,6932289
+2026-06,North East,Packaged Foods,Key Distributors,22916140,17192222,1360,24041581
+2026-06,North East,Packaged Foods,Modern Retail,16763902,12620748,1026,16488351
+2026-06,North East,Packaged Foods,Open Market,35557736,27184130,2141,38909529
+2026-06,North East,Personal Care,E-commerce & B2B Apps,4216086,2594140,207,3630637
+2026-06,North East,Personal Care,Key Distributors,11498147,7292567,562,12648770
+2026-06,North East,Personal Care,Modern Retail,7315509,4595129,351,7904058
+2026-06,North East,Personal Care,Open Market,17191846,11039137,849,20604449
+2026-06,North West,Beverages,E-commerce & B2B Apps,28089329,18949004,2604,21766200
+2026-06,North West,Beverages,Key Distributors,78198736,54970323,7379,75031172
+2026-06,North West,Beverages,Modern Retail,47971587,33651560,4420,45007310
+2026-06,North West,Beverages,Open Market,118002972,85650911,10980,121880288
+2026-06,North West,Home Care,E-commerce & B2B Apps,10891598,7237670,810,9079904
+2026-06,North West,Home Care,Key Distributors,26860034,18294770,1999,29496513
+2026-06,North West,Home Care,Modern Retail,19556101,13309000,1418,20968586
+2026-06,North West,Home Care,Open Market,44784070,31137075,3350,49958705
+2026-06,North West,Packaged Foods,E-commerce & B2B Apps,24766968,18225638,1502,19067092
+2026-06,North West,Packaged Foods,Key Distributors,63496135,48750690,3899,63608765
+2026-06,North West,Packaged Foods,Modern Retail,42292247,31378999,2583,40269890
+2026-06,North West,Packaged Foods,Open Market,105598180,81532142,6250,105275682
+2026-06,North West,Personal Care,E-commerce & B2B Apps,12288474,7314156,593,10011103
+2026-06,North West,Personal Care,Key Distributors,31126628,19869778,1485,33652110
+2026-06,North West,Personal Care,Modern Retail,22556537,13884941,1087,23254604
+2026-06,North West,Personal Care,Open Market,51053905,33857675,2429,58759328
+2026-06,South East,Beverages,E-commerce & B2B Apps,15903739,10850807,1475,12415771
+2026-06,South East,Beverages,Key Distributors,47529453,33323853,4514,47357808
+2026-06,South East,Beverages,Modern Retail,30567510,20824264,2893,29127184
+2026-06,South East,Beverages,Open Market,69991678,50775745,6491,75262552
+2026-06,South East,Home Care,E-commerce & B2B Apps,6908680,4515470,518,5653528
+2026-06,South East,Home Care,Key Distributors,17763513,12107033,1314,19897785
+2026-06,South East,Home Care,Modern Retail,11146482,7527544,810,11770527
+2026-06,South East,Home Care,Open Market,27880531,19688093,2026,32479096
+2026-06,South East,Packaged Foods,E-commerce & B2B Apps,15041380,11015208,911,11942856
+2026-06,South East,Packaged Foods,Key Distributors,41944633,31880234,2506,41272175
+2026-06,South East,Packaged Foods,Modern Retail,25721020,18984626,1531,25051982
+2026-06,South East,Packaged Foods,Open Market,69522793,54393535,4207,71150133
+2026-06,South East,Personal Care,E-commerce & B2B Apps,8046375,4817118,387,6376111
+2026-06,South East,Personal Care,Key Distributors,21673068,13803999,1045,22585782
+2026-06,South East,Personal Care,Modern Retail,13530165,8470000,668,13722007
+2026-06,South East,Personal Care,Open Market,33830273,22137795,1634,37608016
+2026-06,South South,Beverages,E-commerce & B2B Apps,20153292,13434830,1911,16577930
+2026-06,South South,Beverages,Key Distributors,58454305,42021545,5530,58961843
+2026-06,South South,Beverages,Modern Retail,41410184,28573030,3820,39726438
+2026-06,South South,Beverages,Open Market,89794949,65882145,8353,98147320
+2026-06,South South,Home Care,E-commerce & B2B Apps,8151615,5380350,601,6784533
+2026-06,South South,Home Care,Key Distributors,21469674,14855690,1566,23833694
+2026-06,South South,Home Care,Modern Retail,15490793,10371692,1144,16673791
+2026-06,South South,Home Care,Open Market,35191107,24443754,2617,41312025
+2026-06,South South,Packaged Foods,E-commerce & B2B Apps,19815854,14209342,1206,15364365
+2026-06,South South,Packaged Foods,Key Distributors,56670323,43137690,3428,56157946
+2026-06,South South,Packaged Foods,Modern Retail,34353438,25541075,2045,32886249
+2026-06,South South,Packaged Foods,Open Market,85128468,64785280,5198,88601556
+2026-06,South South,Personal Care,E-commerce & B2B Apps,8985323,5480622,435,7688947
+2026-06,South South,Personal Care,Key Distributors,25362921,16011532,1229,29005050
+2026-06,South South,Personal Care,Modern Retail,17077056,10716627,823,17924828
+2026-06,South South,Personal Care,Open Market,38467608,25350030,1850,45763111
+2026-06,South West,Beverages,E-commerce & B2B Apps,46400535,31679157,4302,37294375
+2026-06,South West,Beverages,Key Distributors,118409109,85541407,11110,122038617
+2026-06,South West,Beverages,Modern Retail,83341357,57416064,7642,79501776
+2026-06,South West,Beverages,Open Market,198476058,144748037,18428,205080339
+2026-06,South West,Home Care,E-commerce & B2B Apps,17889027,11911262,1322,15610425
+2026-06,South West,Home Care,Key Distributors,45012249,30624799,3371,50457446
+2026-06,South West,Home Care,Modern Retail,30972744,20533392,2250,31881286
+2026-06,South West,Home Care,Open Market,75412672,53683694,5631,89511517
+2026-06,South West,Packaged Foods,E-commerce & B2B Apps,38807299,28231014,2345,30413953
+2026-06,South West,Packaged Foods,Key Distributors,117274756,89539723,7100,118041893
+2026-06,South West,Packaged Foods,Modern Retail,69296853,51209914,4193,68456320
+2026-06,South West,Packaged Foods,Open Market,181273399,139360363,10972,191174278
+2026-06,South West,Personal Care,E-commerce & B2B Apps,22045229,13280640,1069,17842415
+2026-06,South West,Personal Care,Key Distributors,57575498,36649311,2794,61052081
+2026-06,South West,Personal Care,Modern Retail,39111912,24097311,1907,38615413
+2026-06,South West,Personal Care,Open Market,84736041,54274876,4179,96195145
+2026-07,FCT Abuja,Beverages,E-commerce & B2B Apps,26366967,17967667,2480,20627473
+2026-07,FCT Abuja,Beverages,Key Distributors,72511624,51334944,6869,71897034
+2026-07,FCT Abuja,Beverages,Modern Retail,46914705,32726083,4406,45227156
+2026-07,FCT Abuja,Beverages,Open Market,121508266,87676514,11328,119846012
+2026-07,FCT Abuja,Home Care,E-commerce & B2B Apps,10402467,6786019,768,8323635
+2026-07,FCT Abuja,Home Care,Key Distributors,28537095,19440317,2073,30754196
+2026-07,FCT Abuja,Home Care,Modern Retail,19226751,12709238,1404,19361858
+2026-07,FCT Abuja,Home Care,Open Market,44147395,30559357,3194,51480959
+2026-07,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,24457125,17503870,1500,18041211
+2026-07,FCT Abuja,Packaged Foods,Key Distributors,69148981,52451936,4190,68744361
+2026-07,FCT Abuja,Packaged Foods,Modern Retail,45781998,33955210,2753,42932265
+2026-07,FCT Abuja,Packaged Foods,Open Market,108391425,84552410,6514,114737246
+2026-07,FCT Abuja,Personal Care,E-commerce & B2B Apps,12163760,7454012,582,9916912
+2026-07,FCT Abuja,Personal Care,Key Distributors,32907309,21240250,1593,34479313
+2026-07,FCT Abuja,Personal Care,Modern Retail,21205896,13272801,1023,21957373
+2026-07,FCT Abuja,Personal Care,Open Market,47552314,31327310,2315,53489019
+2026-07,North Central,Beverages,E-commerce & B2B Apps,17867293,12248700,1688,14030898
+2026-07,North Central,Beverages,Key Distributors,45815358,32546869,4245,46776259
+2026-07,North Central,Beverages,Modern Retail,32360701,22586942,3042,29626024
+2026-07,North Central,Beverages,Open Market,71089757,52067404,6627,74694479
+2026-07,North Central,Home Care,E-commerce & B2B Apps,6253469,4100949,467,5381103
+2026-07,North Central,Home Care,Key Distributors,18378618,12506826,1382,20106306
+2026-07,North Central,Home Care,Modern Retail,12483827,8243844,933,13548478
+2026-07,North Central,Home Care,Open Market,29237392,20587682,2176,33218948
+2026-07,North Central,Packaged Foods,E-commerce & B2B Apps,15347206,11191479,932,11927749
+2026-07,North Central,Packaged Foods,Key Distributors,40381318,30787136,2395,41441577
+2026-07,North Central,Packaged Foods,Modern Retail,29118969,21437734,1748,27826408
+2026-07,North Central,Packaged Foods,Open Market,63804265,50020433,3852,66352953
+2026-07,North Central,Personal Care,E-commerce & B2B Apps,7326974,4408459,348,6211354
+2026-07,North Central,Personal Care,Key Distributors,22631649,14787292,1076,23688912
+2026-07,North Central,Personal Care,Modern Retail,14990864,9176733,720,14999308
+2026-07,North Central,Personal Care,Open Market,32592339,20862802,1550,36376165
+2026-07,North East,Beverages,E-commerce & B2B Apps,9028201,6104689,826,7719027
+2026-07,North East,Beverages,Key Distributors,23813921,17180679,2223,25036123
+2026-07,North East,Beverages,Modern Retail,15117940,10295932,1427,16262665
+2026-07,North East,Beverages,Open Market,39705396,28214106,3658,45177970
+2026-07,North East,Home Care,E-commerce & B2B Apps,3462493,2288934,255,3102022
+2026-07,North East,Home Care,Key Distributors,8529159,5825064,639,10295731
+2026-07,North East,Home Care,Modern Retail,5904623,3986446,428,6729791
+2026-07,North East,Home Care,Open Market,15237413,10611996,1124,18688859
+2026-07,North East,Packaged Foods,E-commerce & B2B Apps,8271391,6058534,500,6734796
+2026-07,North East,Packaged Foods,Key Distributors,21152672,15893373,1266,23533305
+2026-07,North East,Packaged Foods,Modern Retail,14230813,10631311,863,14258861
+2026-07,North East,Packaged Foods,Open Market,34277299,26416284,2027,39353505
+2026-07,North East,Personal Care,E-commerce & B2B Apps,4286117,2644924,206,3656005
+2026-07,North East,Personal Care,Key Distributors,11032828,7063718,539,12293774
+2026-07,North East,Personal Care,Modern Retail,7004240,4395189,344,7687158
+2026-07,North East,Personal Care,Open Market,16987998,11094211,809,20715716
+2026-07,North West,Beverages,E-commerce & B2B Apps,24032204,16325183,2234,18793186
+2026-07,North West,Beverages,Key Distributors,66009976,47773284,6034,66530967
+2026-07,North West,Beverages,Modern Retail,47126178,32881079,4344,46002566
+2026-07,North West,Beverages,Open Market,112397815,81509353,10560,115602344
+2026-07,North West,Home Care,E-commerce & B2B Apps,9579161,6394086,717,8334320
+2026-07,North West,Home Care,Key Distributors,25830136,17884288,1896,28460034
+2026-07,North West,Home Care,Modern Retail,16113843,10815158,1186,17569641
+2026-07,North West,Home Care,Open Market,40779098,28224402,3068,47599487
+2026-07,North West,Packaged Foods,E-commerce & B2B Apps,21858906,16007664,1302,17295575
+2026-07,North West,Packaged Foods,Key Distributors,57642655,43642745,3405,60421840
+2026-07,North West,Packaged Foods,Modern Retail,40653529,30090361,2409,37903866
+2026-07,North West,Packaged Foods,Open Market,89529490,69116961,5304,96477614
+2026-07,North West,Personal Care,E-commerce & B2B Apps,10956442,6597417,534,9447648
+2026-07,North West,Personal Care,Key Distributors,30060869,19435971,1452,31902502
+2026-07,North West,Personal Care,Modern Retail,21138555,13289529,1012,21380148
+2026-07,North West,Personal Care,Open Market,50163200,32673805,2386,55980317
+2026-07,South East,Beverages,E-commerce & B2B Apps,15686146,10655167,1487,12599088
+2026-07,South East,Beverages,Key Distributors,42987249,30398060,4010,44940052
+2026-07,South East,Beverages,Modern Retail,27984192,19390243,2631,27734162
+2026-07,South East,Beverages,Open Market,63006686,45909488,5801,67340794
+2026-07,South East,Home Care,E-commerce & B2B Apps,5944329,3870511,436,5184215
+2026-07,South East,Home Care,Key Distributors,16268458,11204701,1220,18866874
+2026-07,South East,Home Care,Modern Retail,10964604,7315357,809,11266958
+2026-07,South East,Home Care,Open Market,24348065,17324823,1827,29148926
+2026-07,South East,Packaged Foods,E-commerce & B2B Apps,14467660,10492306,882,11382581
+2026-07,South East,Packaged Foods,Key Distributors,38706445,29282480,2290,38201868
+2026-07,South East,Packaged Foods,Modern Retail,25564923,18938348,1535,24423891
+2026-07,South East,Packaged Foods,Open Market,59353547,45912055,3557,61167743
+2026-07,South East,Personal Care,E-commerce & B2B Apps,7106274,4332722,350,6193837
+2026-07,South East,Personal Care,Key Distributors,17456936,11206679,854,19569350
+2026-07,South East,Personal Care,Modern Retail,13339690,8398093,655,13966028
+2026-07,South East,Personal Care,Open Market,27722882,17753277,1339,32316491
+2026-07,South South,Beverages,E-commerce & B2B Apps,19288332,13116990,1788,16249628
+2026-07,South South,Beverages,Key Distributors,50691001,36387015,4744,53979526
+2026-07,South South,Beverages,Modern Retail,36275399,25063292,3426,37932885
+2026-07,South South,Beverages,Open Market,81157654,58602489,7553,87469855
+2026-07,South South,Home Care,E-commerce & B2B Apps,7610714,4934406,553,6703612
+2026-07,South South,Home Care,Key Distributors,20859863,14224398,1547,23138495
+2026-07,South South,Home Care,Modern Retail,12888533,8676564,940,14453821
+2026-07,South South,Home Care,Open Market,31631387,21990847,2358,38579714
+2026-07,South South,Packaged Foods,E-commerce & B2B Apps,18257964,13398259,1085,14299986
+2026-07,South South,Packaged Foods,Key Distributors,44750990,33616110,2748,47742863
+2026-07,South South,Packaged Foods,Modern Retail,31735889,23605043,1928,32106040
+2026-07,South South,Packaged Foods,Open Market,74378358,56875118,4558,80766740
+2026-07,South South,Personal Care,E-commerce & B2B Apps,8297532,5005512,402,7414539
+2026-07,South South,Personal Care,Key Distributors,22521781,14577979,1109,26063343
+2026-07,South South,Personal Care,Modern Retail,16307748,10129333,805,18024555
+2026-07,South South,Personal Care,Open Market,37157477,24545003,1798,42654789
+2026-07,South West,Beverages,E-commerce & B2B Apps,42714523,29157177,4015,33156978
+2026-07,South West,Beverages,Key Distributors,112887997,79343236,10646,120519467
+2026-07,South West,Beverages,Modern Retail,76264835,52835611,6987,72661539
+2026-07,South West,Beverages,Open Market,171761425,125409032,15885,182077777
+2026-07,South West,Home Care,E-commerce & B2B Apps,16244128,10645717,1205,14416309
+2026-07,South West,Home Care,Key Distributors,44124873,30048061,3314,49725572
+2026-07,South West,Home Care,Modern Retail,28015265,18940322,2104,30278869
+2026-07,South West,Home Care,Open Market,71684345,49585764,5314,82322878
+2026-07,South West,Packaged Foods,E-commerce & B2B Apps,37470105,27541740,2281,30597392
+2026-07,South West,Packaged Foods,Key Distributors,99397816,75691534,6086,100508645
+2026-07,South West,Packaged Foods,Modern Retail,71146310,53211190,4283,69456584
+2026-07,South West,Packaged Foods,Open Market,166307771,126773020,10081,176063659
+2026-07,South West,Personal Care,E-commerce & B2B Apps,18343992,11350314,883,15660946
+2026-07,South West,Personal Care,Key Distributors,46103714,30006116,2236,51918886
+2026-07,South West,Personal Care,Modern Retail,33568782,20667908,1629,34998892
+2026-07,South West,Personal Care,Open Market,80934518,53393636,3928,89735587
+2026-08,FCT Abuja,Beverages,E-commerce & B2B Apps,28219558,19263648,2627,20894284
+2026-08,FCT Abuja,Beverages,Key Distributors,78564603,56509890,7313,73853887
+2026-08,FCT Abuja,Beverages,Modern Retail,48135008,33052548,4438,43871159
+2026-08,FCT Abuja,Beverages,Open Market,115971008,83390642,10978,114506131
+2026-08,FCT Abuja,Home Care,E-commerce & B2B Apps,10293752,6827649,766,8102442
+2026-08,FCT Abuja,Home Care,Key Distributors,26481104,18452896,1969,29272004
+2026-08,FCT Abuja,Home Care,Modern Retail,19263944,13135451,1431,18780379
+2026-08,FCT Abuja,Home Care,Open Market,40912107,28659569,2963,46388928
+2026-08,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,24447202,17546205,1470,19357782
+2026-08,FCT Abuja,Packaged Foods,Key Distributors,66080538,50954692,4022,66718066
+2026-08,FCT Abuja,Packaged Foods,Modern Retail,44618105,32574224,2704,39993812
+2026-08,FCT Abuja,Packaged Foods,Open Market,103180872,80358440,6243,104785814
+2026-08,FCT Abuja,Personal Care,E-commerce & B2B Apps,12365091,7482503,596,10088775
+2026-08,FCT Abuja,Personal Care,Key Distributors,32529264,20746804,1588,34556279
+2026-08,FCT Abuja,Personal Care,Modern Retail,22460931,14086290,1069,21740759
+2026-08,FCT Abuja,Personal Care,Open Market,51318247,34068208,2496,53413029
+2026-08,North Central,Beverages,E-commerce & B2B Apps,16905129,11276235,1547,13090562
+2026-08,North Central,Beverages,Key Distributors,49196802,35520204,4653,48365998
+2026-08,North Central,Beverages,Modern Retail,29714211,20868068,2805,28278478
+2026-08,North Central,Beverages,Open Market,70520822,50580018,6613,75311248
+2026-08,North Central,Home Care,E-commerce & B2B Apps,6472827,4263999,486,5455756
+2026-08,North Central,Home Care,Key Distributors,18788972,13150790,1396,19987129
+2026-08,North Central,Home Care,Modern Retail,12332498,8423954,895,13037195
+2026-08,North Central,Home Care,Open Market,29511896,20750833,2210,32909877
+2026-08,North Central,Packaged Foods,E-commerce & B2B Apps,14287852,10270745,848,11160401
+2026-08,North Central,Packaged Foods,Key Distributors,44250939,33530757,2630,43406321
+2026-08,North Central,Packaged Foods,Modern Retail,27280360,20043616,1644,26144876
+2026-08,North Central,Packaged Foods,Open Market,65461380,51064380,3886,66407010
+2026-08,North Central,Personal Care,E-commerce & B2B Apps,7733742,4671196,381,6515394
+2026-08,North Central,Personal Care,Key Distributors,21551112,13709592,1032,22347985
+2026-08,North Central,Personal Care,Modern Retail,13602193,8613203,650,14226733
+2026-08,North Central,Personal Care,Open Market,31601993,20461413,1530,35684241
+2026-08,North East,Beverages,E-commerce & B2B Apps,8632985,5780779,801,6959474
+2026-08,North East,Beverages,Key Distributors,23020668,16477582,2105,24366924
+2026-08,North East,Beverages,Modern Retail,16929374,11770964,1598,17366745
+2026-08,North East,Beverages,Open Market,37857799,27262477,3587,42541420
+2026-08,North East,Home Care,E-commerce & B2B Apps,3351686,2166020,251,2891710
+2026-08,North East,Home Care,Key Distributors,8945299,6260912,672,10651629
+2026-08,North East,Home Care,Modern Retail,6035202,4037218,445,6645168
+2026-08,North East,Home Care,Open Market,14398680,10174567,1066,17317734
+2026-08,North East,Packaged Foods,E-commerce & B2B Apps,8344358,6084497,511,6729223
+2026-08,North East,Packaged Foods,Key Distributors,21709344,16297752,1286,22387666
+2026-08,North East,Packaged Foods,Modern Retail,14915907,10965613,896,15458367
+2026-08,North East,Packaged Foods,Open Market,33486163,25773447,2034,38371260
+2026-08,North East,Personal Care,E-commerce & B2B Apps,3795207,2320065,185,3231000
+2026-08,North East,Personal Care,Key Distributors,10456858,6782337,499,11727618
+2026-08,North East,Personal Care,Modern Retail,6926551,4346040,332,7804910
+2026-08,North East,Personal Care,Open Market,16185116,10540566,776,19499439
+2026-08,North West,Beverages,E-commerce & B2B Apps,24619280,16814897,2321,19348373
+2026-08,North West,Beverages,Key Distributors,67307618,48294308,6356,67445047
+2026-08,North West,Beverages,Modern Retail,44704392,31139517,4154,44011459
+2026-08,North West,Beverages,Open Market,105721946,77275369,9764,106221036
+2026-08,North West,Home Care,E-commerce & B2B Apps,9760216,6507422,734,8332409
+2026-08,North West,Home Care,Key Distributors,24571332,17115655,1847,27951034
+2026-08,North West,Home Care,Modern Retail,17923538,11912675,1299,18016805
+2026-08,North West,Home Care,Open Market,42934746,29625417,3140,47884422
+2026-08,North West,Packaged Foods,E-commerce & B2B Apps,22851557,16519036,1384,17106397
+2026-08,North West,Packaged Foods,Key Distributors,59151986,44671246,3592,57327095
+2026-08,North West,Packaged Foods,Modern Retail,41057785,30749140,2434,39631595
+2026-08,North West,Packaged Foods,Open Market,103520443,79954925,6148,103293916
+2026-08,North West,Personal Care,E-commerce & B2B Apps,11029648,6615610,527,9125171
+2026-08,North West,Personal Care,Key Distributors,32552837,20951240,1573,33509470
+2026-08,North West,Personal Care,Modern Retail,19885640,12457281,977,20333532
+2026-08,North West,Personal Care,Open Market,46181616,29597620,2211,50416351
+2026-08,South East,Beverages,E-commerce & B2B Apps,15181197,10253061,1428,12074505
+2026-08,South East,Beverages,Key Distributors,44529976,31552456,4193,44459305
+2026-08,South East,Beverages,Modern Retail,26880348,18293728,2539,26765022
+2026-08,South East,Beverages,Open Market,61596814,44835312,5647,66126902
+2026-08,South East,Home Care,E-commerce & B2B Apps,6328956,4160371,476,5175336
+2026-08,South East,Home Care,Key Distributors,15875473,10923296,1163,17869562
+2026-08,South East,Home Care,Modern Retail,11225025,7586271,819,11984297
+2026-08,South East,Home Care,Open Market,23525622,16440317,1754,28142903
+2026-08,South East,Packaged Foods,E-commerce & B2B Apps,14080422,10271133,833,11247304
+2026-08,South East,Packaged Foods,Key Distributors,39550432,30429788,2378,38716792
+2026-08,South East,Packaged Foods,Modern Retail,25910479,19193926,1577,25517306
+2026-08,South East,Packaged Foods,Open Market,54968316,42358045,3351,58652781
+2026-08,South East,Personal Care,E-commerce & B2B Apps,6747816,4167669,324,5506575
+2026-08,South East,Personal Care,Key Distributors,17619275,11290560,839,19462739
+2026-08,South East,Personal Care,Modern Retail,12993236,8004378,641,13000675
+2026-08,South East,Personal Care,Open Market,28512660,18891247,1356,31222811
+2026-08,South South,Beverages,E-commerce & B2B Apps,20419769,14048999,1920,15840390
+2026-08,South South,Beverages,Key Distributors,53083412,38027642,4924,53570407
+2026-08,South South,Beverages,Modern Retail,34964356,24285699,3278,34676507
+2026-08,South South,Beverages,Open Market,83371749,59747503,7620,91024503
+2026-08,South South,Home Care,E-commerce & B2B Apps,7282818,4831756,538,6377782
+2026-08,South South,Home Care,Key Distributors,19506499,13654024,1417,22816318
+2026-08,South South,Home Care,Modern Retail,13463419,9031671,978,15050314
+2026-08,South South,Home Care,Open Market,31565246,22372969,2294,37883670
+2026-08,South South,Packaged Foods,E-commerce & B2B Apps,17425299,12480318,1054,13477144
+2026-08,South South,Packaged Foods,Key Distributors,44054945,33627413,2645,47331359
+2026-08,South South,Packaged Foods,Modern Retail,30680666,23053153,1883,29991428
+2026-08,South South,Packaged Foods,Open Market,78094822,60240252,4685,81620851
+2026-08,South South,Personal Care,E-commerce & B2B Apps,9158175,5487216,449,7839565
+2026-08,South South,Personal Care,Key Distributors,22292236,14075463,1094,25385842
+2026-08,South South,Personal Care,Modern Retail,16410440,10098627,790,17484611
+2026-08,South South,Personal Care,Open Market,36377067,24152288,1735,42406415
+2026-08,South West,Beverages,E-commerce & B2B Apps,40313796,27575248,3806,32555181
+2026-08,South West,Beverages,Key Distributors,110596871,78048354,10460,109436568
+2026-08,South West,Beverages,Modern Retail,71974094,49031363,6733,70536105
+2026-08,South West,Beverages,Open Market,182941543,134169962,17270,195913843
+2026-08,South West,Home Care,E-commerce & B2B Apps,14629475,9732666,1073,12902872
+2026-08,South West,Home Care,Key Distributors,44152294,30322012,3308,49070739
+2026-08,South West,Home Care,Modern Retail,30569992,20202574,2248,31576425
+2026-08,South West,Home Care,Open Market,67298804,47670433,5044,80076731
+2026-08,South West,Packaged Foods,E-commerce & B2B Apps,37669174,27733605,2268,28452975
+2026-08,South West,Packaged Foods,Key Distributors,100719101,77082327,6064,104143502
+2026-08,South West,Packaged Foods,Modern Retail,71791176,53536131,4253,69073948
+2026-08,South West,Packaged Foods,Open Market,169868934,132126069,10254,177401007
+2026-08,South West,Personal Care,E-commerce & B2B Apps,18175166,10897400,897,14639539
+2026-08,South West,Personal Care,Key Distributors,48906116,31671525,2343,52250570
+2026-08,South West,Personal Care,Modern Retail,34450949,21629451,1650,34170349
+2026-08,South West,Personal Care,Open Market,83675139,54757065,4107,92284196
+2026-09,FCT Abuja,Beverages,E-commerce & B2B Apps,30715339,20447673,2865,22496820
+2026-09,FCT Abuja,Beverages,Key Distributors,74474551,53873478,6864,72549146
+2026-09,FCT Abuja,Beverages,Modern Retail,53065687,37026021,4980,49271706
+2026-09,FCT Abuja,Beverages,Open Market,123396985,87820752,11509,126022356
+2026-09,FCT Abuja,Home Care,E-commerce & B2B Apps,10139647,6630145,754,8440371
+2026-09,FCT Abuja,Home Care,Key Distributors,30884640,21257899,2245,32775082
+2026-09,FCT Abuja,Home Care,Modern Retail,19426556,13098354,1445,19960319
+2026-09,FCT Abuja,Home Care,Open Market,50226463,34739686,3715,53713715
+2026-09,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,26791913,19407928,1615,19343693
+2026-09,FCT Abuja,Packaged Foods,Key Distributors,67634095,52220575,4050,66047667
+2026-09,FCT Abuja,Packaged Foods,Modern Retail,50153854,37658013,2991,44384468
+2026-09,FCT Abuja,Packaged Foods,Open Market,115804785,89731480,6908,112908740
+2026-09,FCT Abuja,Personal Care,E-commerce & B2B Apps,12808097,7872487,618,10032659
+2026-09,FCT Abuja,Personal Care,Key Distributors,34871921,22208304,1673,36303170
+2026-09,FCT Abuja,Personal Care,Modern Retail,24659570,15384842,1208,24344000
+2026-09,FCT Abuja,Personal Care,Open Market,51513465,33078023,2529,57057998
+2026-09,North Central,Beverages,E-commerce & B2B Apps,17487519,11896655,1636,13953114
+2026-09,North Central,Beverages,Key Distributors,51855228,36693755,4897,49514390
+2026-09,North Central,Beverages,Modern Retail,33140651,22807166,3143,32092013
+2026-09,North Central,Beverages,Open Market,78971925,56827877,7476,82994516
+2026-09,North Central,Home Care,E-commerce & B2B Apps,7520387,4914222,562,6070211
+2026-09,North Central,Home Care,Key Distributors,18432835,12768189,1373,19809556
+2026-09,North Central,Home Care,Modern Retail,12236565,8226417,904,12442533
+2026-09,North Central,Home Care,Open Market,31502786,22247436,2284,35465920
+2026-09,North Central,Packaged Foods,E-commerce & B2B Apps,17896526,13193011,1064,13295704
+2026-09,North Central,Packaged Foods,Key Distributors,47412614,35951574,2896,45784190
+2026-09,North Central,Packaged Foods,Modern Retail,30084888,22428693,1778,28765352
+2026-09,North Central,Packaged Foods,Open Market,75891814,58192576,4538,76598396
+2026-09,North Central,Personal Care,E-commerce & B2B Apps,7912680,4864163,389,6648538
+2026-09,North Central,Personal Care,Key Distributors,22199298,14517762,1073,22678210
+2026-09,North Central,Personal Care,Modern Retail,15301631,9517808,733,15758437
+2026-09,North Central,Personal Care,Open Market,35965264,23428742,1773,38549123
+2026-09,North East,Beverages,E-commerce & B2B Apps,9413055,6419971,891,7692010
+2026-09,North East,Beverages,Key Distributors,23832795,17167409,2181,26239860
+2026-09,North East,Beverages,Modern Retail,17822874,12516957,1648,17203652
+2026-09,North East,Beverages,Open Market,41908085,30250885,3863,46032221
+2026-09,North East,Home Care,E-commerce & B2B Apps,3876959,2584674,283,3371156
+2026-09,North East,Home Care,Key Distributors,9466058,6576744,700,11350898
+2026-09,North East,Home Care,Modern Retail,6628082,4480764,491,7476751
+2026-09,North East,Home Care,Open Market,15259856,10585309,1126,18443356
+2026-09,North East,Packaged Foods,E-commerce & B2B Apps,8272599,6085327,491,6607341
+2026-09,North East,Packaged Foods,Key Distributors,23480372,17622951,1429,24219664
+2026-09,North East,Packaged Foods,Modern Retail,14699236,10754654,870,14655794
+2026-09,North East,Packaged Foods,Open Market,35585289,27319840,2104,38413565
+2026-09,North East,Personal Care,E-commerce & B2B Apps,4313088,2612063,209,3605033
+2026-09,North East,Personal Care,Key Distributors,11385041,7365093,557,12717894
+2026-09,North East,Personal Care,Modern Retail,7535369,4628429,370,7967319
+2026-09,North East,Personal Care,Open Market,18080393,11736616,863,21896835
+2026-09,North West,Beverages,E-commerce & B2B Apps,25985822,17340140,2410,19501827
+2026-09,North West,Beverages,Key Distributors,73474918,51760001,6753,71129703
+2026-09,North West,Beverages,Modern Retail,49756450,33957699,4638,47926541
+2026-09,North West,Beverages,Open Market,110934172,80522665,10384,115555500
+2026-09,North West,Home Care,E-commerce & B2B Apps,11036681,7310146,809,8922753
+2026-09,North West,Home Care,Key Distributors,27383898,19201599,2013,29613343
+2026-09,North West,Home Care,Modern Retail,18354595,12144494,1360,18677851
+2026-09,North West,Home Care,Open Market,44060110,30787546,3274,48243431
+2026-09,North West,Packaged Foods,E-commerce & B2B Apps,23545014,17241329,1422,18459627
+2026-09,North West,Packaged Foods,Key Distributors,65796846,50672023,3923,66803630
+2026-09,North West,Packaged Foods,Modern Retail,45427328,33597349,2726,43205530
+2026-09,North West,Packaged Foods,Open Market,101544999,79601956,6100,104521851
+2026-09,North West,Personal Care,E-commerce & B2B Apps,12439144,7506161,608,9957391
+2026-09,North West,Personal Care,Key Distributors,31767173,20748205,1525,34220014
+2026-09,North West,Personal Care,Modern Retail,21024335,12914820,1005,21076359
+2026-09,North West,Personal Care,Open Market,52253161,34552152,2552,56680520
+2026-09,South East,Beverages,E-commerce & B2B Apps,16299591,11057950,1504,13113448
+2026-09,South East,Beverages,Key Distributors,46197496,32962435,4315,45942819
+2026-09,South East,Beverages,Modern Retail,29070580,19924244,2722,27055627
+2026-09,South East,Beverages,Open Market,65323480,47303413,6140,71369992
+2026-09,South East,Home Care,E-commerce & B2B Apps,6822422,4529043,496,5480650
+2026-09,South East,Home Care,Key Distributors,17892816,12371024,1302,19635920
+2026-09,South East,Home Care,Modern Retail,11488268,7750312,838,11933951
+2026-09,South East,Home Care,Open Market,26236780,18558297,1906,30231382
+2026-09,South East,Packaged Foods,E-commerce & B2B Apps,15034641,10764523,901,11445393
+2026-09,South East,Packaged Foods,Key Distributors,42341033,32072444,2552,42163648
+2026-09,South East,Packaged Foods,Modern Retail,27825462,20467704,1703,26929885
+2026-09,South East,Packaged Foods,Open Market,64331600,49388657,3844,67428612
+2026-09,South East,Personal Care,E-commerce & B2B Apps,7206145,4335514,352,5696567
+2026-09,South East,Personal Care,Key Distributors,21515276,13864002,1044,22467264
+2026-09,South East,Personal Care,Modern Retail,12806901,7978047,631,13268183
+2026-09,South East,Personal Care,Open Market,31193546,20237830,1501,36652933
+2026-09,South South,Beverages,E-commerce & B2B Apps,19840145,13407484,1859,16253489
+2026-09,South South,Beverages,Key Distributors,57025915,40113542,5251,60379520
+2026-09,South South,Beverages,Modern Retail,38169514,26842946,3529,36933093
+2026-09,South South,Beverages,Open Market,84407609,60709220,7840,92090438
+2026-09,South South,Home Care,E-commerce & B2B Apps,7464608,4883607,549,6604592
+2026-09,South South,Home Care,Key Distributors,22747724,15921446,1664,24655736
+2026-09,South South,Home Care,Modern Retail,14976029,10019355,1111,16038256
+2026-09,South South,Home Care,Open Market,31340881,21747642,2338,38264495
+2026-09,South South,Packaged Foods,E-commerce & B2B Apps,18087753,13163858,1088,14689681
+2026-09,South South,Packaged Foods,Key Distributors,49811030,38138899,2969,49431507
+2026-09,South South,Packaged Foods,Modern Retail,35526845,26646621,2110,34074436
+2026-09,South South,Packaged Foods,Open Market,73633171,56488167,4382,82821813
+2026-09,South South,Personal Care,E-commerce & B2B Apps,8731764,5403208,420,7460442
+2026-09,South South,Personal Care,Key Distributors,27379229,17647079,1337,28815589
+2026-09,South South,Personal Care,Modern Retail,17358852,10698179,842,17843370
+2026-09,South South,Personal Care,Open Market,41707536,26831003,2043,47590329
+2026-09,South West,Beverages,E-commerce & B2B Apps,42410235,28248994,3971,34689140
+2026-09,South West,Beverages,Key Distributors,114794217,81578702,10653,116727781
+2026-09,South West,Beverages,Modern Retail,78019436,53450698,7278,77187349
+2026-09,South West,Beverages,Open Market,193581755,138739537,18301,199919982
+2026-09,South West,Home Care,E-commerce & B2B Apps,16391388,10951508,1224,13960772
+2026-09,South West,Home Care,Key Distributors,47758479,32884233,3547,51348776
+2026-09,South West,Home Care,Modern Retail,31792383,21743431,2384,32610399
+2026-09,South West,Home Care,Open Market,66149555,45853624,4972,79824380
+2026-09,South West,Packaged Foods,E-commerce & B2B Apps,38460435,27702932,2358,30381004
+2026-09,South West,Packaged Foods,Key Distributors,110229059,84505037,6737,109430145
+2026-09,South West,Packaged Foods,Modern Retail,70354815,51507779,4230,68669261
+2026-09,South West,Packaged Foods,Open Market,174239137,133137540,10442,178714282
+2026-09,South West,Personal Care,E-commerce & B2B Apps,20015948,11962498,966,17048874
+2026-09,South West,Personal Care,Key Distributors,50758367,32991203,2441,56161746
+2026-09,South West,Personal Care,Modern Retail,36743728,23133416,1781,38248635
+2026-09,South West,Personal Care,Open Market,82148184,54134472,3931,95637416
+2026-10,FCT Abuja,Beverages,E-commerce & B2B Apps,33362774,22800777,3053,24530115
+2026-10,FCT Abuja,Beverages,Key Distributors,86094061,60668889,7997,79498496
+2026-10,FCT Abuja,Beverages,Modern Retail,54221821,38142261,5134,51599362
+2026-10,FCT Abuja,Beverages,Open Market,137079422,99040783,12768,136064244
+2026-10,FCT Abuja,Home Care,E-commerce & B2B Apps,10914817,7276189,808,9230249
+2026-10,FCT Abuja,Home Care,Key Distributors,30169421,20530631,2248,32278894
+2026-10,FCT Abuja,Home Care,Modern Retail,20371213,13911292,1528,20832334
+2026-10,FCT Abuja,Home Care,Open Market,48296028,33957839,3629,53680936
+2026-10,FCT Abuja,Packaged Foods,E-commerce & B2B Apps,29602820,21630704,1785,21975268
+2026-10,FCT Abuja,Packaged Foods,Key Distributors,74635617,56682320,4499,72518735
+2026-10,FCT Abuja,Packaged Foods,Modern Retail,53284209,39947402,3152,47368474
+2026-10,FCT Abuja,Packaged Foods,Open Market,121359423,93154908,7210,121375912
+2026-10,FCT Abuja,Personal Care,E-commerce & B2B Apps,13258126,8140617,633,10502091
+2026-10,FCT Abuja,Personal Care,Key Distributors,36438973,23732148,1754,37129479
+2026-10,FCT Abuja,Personal Care,Modern Retail,25800987,15823069,1256,25364120
+2026-10,FCT Abuja,Personal Care,Open Market,61505280,39422545,3035,66651017
+2026-10,North Central,Beverages,E-commerce & B2B Apps,18274878,12530475,1705,14709106
+2026-10,North Central,Beverages,Key Distributors,52893896,38001635,4952,53959591
+2026-10,North Central,Beverages,Modern Retail,37834033,26550288,3525,35572966
+2026-10,North Central,Beverages,Open Market,86760192,63556939,8219,88887881
+2026-10,North Central,Home Care,E-commerce & B2B Apps,7367781,4816402,537,6134467
+2026-10,North Central,Home Care,Key Distributors,19740269,13497782,1486,21341581
+2026-10,North Central,Home Care,Modern Retail,13787177,9279293,1013,13958106
+2026-10,North Central,Home Care,Open Market,33493504,23345091,2462,37621248
+2026-10,North Central,Packaged Foods,E-commerce & B2B Apps,17928054,13076223,1093,13627796
+2026-10,North Central,Packaged Foods,Key Distributors,50358379,38211819,3028,47599415
+2026-10,North Central,Packaged Foods,Modern Retail,32250638,23776257,1921,29115837
+2026-10,North Central,Packaged Foods,Open Market,82466331,64069663,4891,81341206
+2026-10,North Central,Personal Care,E-commerce & B2B Apps,9075361,5569073,435,7221684
+2026-10,North Central,Personal Care,Key Distributors,25075173,16096541,1215,25368540
+2026-10,North Central,Personal Care,Modern Retail,17008132,10433123,819,16730892
+2026-10,North Central,Personal Care,Open Market,34684025,22771847,1677,39235008
+2026-10,North East,Beverages,E-commerce & B2B Apps,9425433,6392919,889,8024562
+2026-10,North East,Beverages,Key Distributors,25954246,18191935,2384,28273043
+2026-10,North East,Beverages,Modern Retail,19155130,13344770,1793,19581085
+2026-10,North East,Beverages,Open Market,43917689,31979609,4124,49700707
+2026-10,North East,Home Care,E-commerce & B2B Apps,3627229,2401360,267,3201530
+2026-10,North East,Home Care,Key Distributors,10758682,7455308,805,12452768
+2026-10,North East,Home Care,Modern Retail,7023008,4678384,525,7632477
+2026-10,North East,Home Care,Open Market,15386966,10759258,1152,18630273
+2026-10,North East,Packaged Foods,E-commerce & B2B Apps,9269390,6790877,553,7273608
+2026-10,North East,Packaged Foods,Key Distributors,25010477,18844719,1516,26287555
+2026-10,North East,Packaged Foods,Modern Retail,16437854,12327577,1002,16663759
+2026-10,North East,Packaged Foods,Open Market,37627505,28717112,2295,39803692
+2026-10,North East,Personal Care,E-commerce & B2B Apps,4422300,2729364,214,3681939
+2026-10,North East,Personal Care,Key Distributors,12564144,8140544,600,13684488
+2026-10,North East,Personal Care,Modern Retail,8007741,4970713,382,8874327
+2026-10,North East,Personal Care,Open Market,19958440,13067623,962,23557645
+2026-10,North West,Beverages,E-commerce & B2B Apps,28542401,19586423,2613,21928580
+2026-10,North West,Beverages,Key Distributors,77728341,54835936,7105,77555968
+2026-10,North West,Beverages,Modern Retail,50429938,35167443,4694,48536928
+2026-10,North West,Beverages,Open Market,113983214,82497574,10555,121396543
+2026-10,North West,Home Care,E-commerce & B2B Apps,11569061,7538016,846,9315462
+2026-10,North West,Home Care,Key Distributors,29480153,20179334,2209,32199423
+2026-10,North West,Home Care,Modern Retail,18379505,12365730,1361,19464780
+2026-10,North West,Home Care,Open Market,44897847,31275635,3305,49642570
+2026-10,North West,Packaged Foods,E-commerce & B2B Apps,23702041,17181397,1453,18987613
+2026-10,North West,Packaged Foods,Key Distributors,72378667,55717482,4299,71902596
+2026-10,North West,Packaged Foods,Modern Retail,45206834,33422334,2715,43949488
+2026-10,North West,Packaged Foods,Open Market,100970786,79001628,6121,108332659
+2026-10,North West,Personal Care,E-commerce & B2B Apps,12547003,7713070,599,10405573
+2026-10,North West,Personal Care,Key Distributors,34929944,22598439,1723,36537766
+2026-10,North West,Personal Care,Modern Retail,22473712,14062800,1097,21999717
+2026-10,North West,Personal Care,Open Market,54111523,35641074,2587,58845207
+2026-10,South East,Beverages,E-commerce & B2B Apps,18977670,12747576,1766,14511784
+2026-10,South East,Beverages,Key Distributors,49824581,35446249,4649,50027019
+2026-10,South East,Beverages,Modern Retail,32856882,22745892,3050,31316324
+2026-10,South East,Beverages,Open Market,78470803,56913795,7198,79543617
+2026-10,South East,Home Care,E-commerce & B2B Apps,7428121,4794214,554,6068645
+2026-10,South East,Home Care,Key Distributors,18055912,12695016,1336,20182506
+2026-10,South East,Home Care,Modern Retail,12060054,7990181,881,12599069
+2026-10,South East,Home Care,Open Market,26650737,18961673,1944,31344183
+2026-10,South East,Packaged Foods,E-commerce & B2B Apps,14796149,10706551,905,11456989
+2026-10,South East,Packaged Foods,Key Distributors,44088769,33098956,2642,42961089
+2026-10,South East,Packaged Foods,Modern Retail,28433222,21425446,1704,27461790
+2026-10,South East,Packaged Foods,Open Market,64858743,50452485,3886,69616971
+2026-10,South East,Personal Care,E-commerce & B2B Apps,8208858,4986893,401,6741665
+2026-10,South East,Personal Care,Key Distributors,21730790,13955488,1048,22929319
+2026-10,South East,Personal Care,Modern Retail,13758373,8599634,675,14318229
+2026-10,South East,Personal Care,Open Market,32690712,21330489,1569,37644309
+2026-10,South South,Beverages,E-commerce & B2B Apps,22670670,15363593,2127,18191729
+2026-10,South South,Beverages,Key Distributors,57367347,40453262,5440,60532775
+2026-10,South South,Beverages,Modern Retail,41927233,28642875,3871,42007188
+2026-10,South South,Beverages,Open Market,98670645,70839018,9062,105199408
+2026-10,South South,Home Care,E-commerce & B2B Apps,8665472,5706265,643,7431898
+2026-10,South South,Home Care,Key Distributors,23360894,16086726,1745,26359869
+2026-10,South South,Home Care,Modern Retail,16472883,11011900,1225,17331466
+2026-10,South South,Home Care,Open Market,34759231,24653184,2533,40874630
+2026-10,South South,Packaged Foods,E-commerce & B2B Apps,19542079,14038373,1196,15570771
+2026-10,South South,Packaged Foods,Key Distributors,57578439,44140238,3431,58891644
+2026-10,South South,Packaged Foods,Modern Retail,34384045,25505983,2085,34867304
+2026-10,South South,Packaged Foods,Open Market,88389673,67315687,5426,96385460
+2026-10,South South,Personal Care,E-commerce & B2B Apps,10261315,6318312,500,8947281
+2026-10,South South,Personal Care,Key Distributors,27514876,17879432,1326,29416812
+2026-10,South South,Personal Care,Modern Retail,18356227,11214972,896,20080482
+2026-10,South South,Personal Care,Open Market,39436681,25387929,1891,45390930
+2026-10,South West,Beverages,E-commerce & B2B Apps,50514439,34642858,4726,38134724
+2026-10,South West,Beverages,Key Distributors,128242886,90021750,12169,131662804
+2026-10,South West,Beverages,Modern Retail,84005622,58330926,7695,79728063
+2026-10,South West,Beverages,Open Market,188865994,134194484,17617,205611149
+2026-10,South West,Home Care,E-commerce & B2B Apps,18252713,12044751,1323,15213046
+2026-10,South West,Home Care,Key Distributors,50528773,35325211,3681,54439764
+2026-10,South West,Home Care,Modern Retail,34909752,23151229,2625,36363524
+2026-10,South West,Home Care,Open Market,78788929,55248245,5859,92412310
+2026-10,South West,Packaged Foods,E-commerce & B2B Apps,43692723,31418941,2583,32850078
+2026-10,South West,Packaged Foods,Key Distributors,106799630,81961072,6552,109400981
+2026-10,South West,Packaged Foods,Modern Retail,78559285,58203870,4813,75642007
+2026-10,South West,Packaged Foods,Open Market,182574633,138935347,10956,200679983
+2026-10,South West,Personal Care,E-commerce & B2B Apps,21302555,12941889,1035,18445334
+2026-10,South West,Personal Care,Key Distributors,54808850,35256836,2656,58724766
+2026-10,South West,Personal Care,Modern Retail,36345605,22953061,1781,38644642
+2026-10,South West,Personal Care,Open Market,86608570,57243747,4127,99402504
